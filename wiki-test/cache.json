@@ -1,0 +1,274 @@
+{
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Soccer": {
+    "type": "standard",
+    "title": "Association football",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Association football</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2736",
+    "titles": {
+      "canonical": "Association_football",
+      "normalized": "Association football",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Association football</span></span>"
+    },
+    "pageid": 10568,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/330px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "width": 330,
+      "height": 225
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "width": 3420,
+      "height": 2328
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353572059",
+    "tid": "8b13a5d6-4cdd-11f1-b3e4-8ba85d66cad7",
+    "timestamp": "2026-05-11T02:03:03Z",
+    "description": "Team sport played with a ball",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Association_football",
+        "revisions": "https://en.wikipedia.org/wiki/Association_football?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Association_football?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Association_football"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Association_football",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Association_football",
+        "edit": "https://en.wikipedia.org/wiki/Association_football?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Association_football"
+      }
+    },
+    "extract": "Association football, more commonly known as just football or soccer, is a team sport played between two teams of 11 players who almost exclusively use their feet to propel a ball around a pitch.",
+    "extract_html": "<p><b>Association football</b>, more commonly known as just <b>football</b> or <b>soccer</b>, is a team sport played between two teams of 11 players who almost exclusively use their feet to propel a ball around a pitch.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Arcane": {
+    "type": "disambiguation",
+    "title": "Arcane",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arcane</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2859933",
+    "titles": {
+      "canonical": "Arcane",
+      "normalized": "Arcane",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arcane</span></span>"
+    },
+    "pageid": 11685960,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1293555253",
+    "tid": "5e6bf010-3f9e-11f0-9122-810f2688f34b",
+    "timestamp": "2025-06-02T10:43:07Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Arcane",
+        "revisions": "https://en.wikipedia.org/wiki/Arcane?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Arcane?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Arcane",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Arcane",
+        "edit": "https://en.wikipedia.org/wiki/Arcane?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane"
+      }
+    },
+    "extract": "Arcane may refer to:",
+    "extract_html": "<p><b>Arcane</b> may refer to:</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Arcane_(TV_series)": {
+    "type": "standard",
+    "title": "Arcane (TV series)",
+    "displaytitle": "<i>Arcane</i> (TV series)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q85518571",
+    "titles": {
+      "canonical": "Arcane_(TV_series)",
+      "normalized": "Arcane (TV series)",
+      "display": "<i>Arcane</i> (TV series)"
+    },
+    "pageid": 63376140,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352079310",
+    "tid": "d0cbc33e-45a9-11f1-bb79-fd727136ca6c",
+    "timestamp": "2026-05-01T22:05:08Z",
+    "description": "2021 animated action-adventure series",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Arcane_(TV_series)",
+        "revisions": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane_(TV_series)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Arcane_(TV_series)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Arcane_(TV_series)",
+        "edit": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane_(TV_series)"
+      }
+    },
+    "extract": "Arcane is an animated steampunk action-adventure television series created by Christian Linke and Alex Yee. It was produced by the French animation studio Fortiche, under the supervision of Riot Games, and distributed by Netflix. Set in Riot's League of Legends universe, it primarily focuses on sisters Violet / \"Vi\" and Powder / Jinx as they become embroiled in a conflict between their native underbelly of Zaun and the city of Piltover. First announced at the League of Legends tenth anniversary celebration in 2019, the series' first season was released in November 2021, and a second and final season was released in November 2024.",
+    "extract_html": "<p><i><b>Arcane</b></i> is an animated steampunk action-adventure television series created by Christian Linke and Alex Yee. It was produced by the French animation studio Fortiche, under the supervision of Riot Games, and distributed by Netflix. Set in Riot's <i>League of Legends</i> universe, it primarily focuses on sisters Violet / \"Vi\" and Powder / Jinx as they become embroiled in a conflict between their native underbelly of Zaun and the city of Piltover. First announced at the <i>League of Legends</i> tenth anniversary celebration in 2019, the series' first season was released in November 2021, and a second and final season was released in November 2024.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Katie": {
+    "type": "standard",
+    "title": "Katie",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katie</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1158388",
+    "titles": {
+      "canonical": "Katie",
+      "normalized": "Katie",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katie</span></span>"
+    },
+    "pageid": 2052004,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352197188",
+    "tid": "42ad15df-4655-11f1-b844-a808f64b83f4",
+    "timestamp": "2026-05-02T18:32:23Z",
+    "description": "Name list",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Katie",
+        "revisions": "https://en.wikipedia.org/wiki/Katie?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Katie?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Katie"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Katie",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Katie",
+        "edit": "https://en.wikipedia.org/wiki/Katie?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Katie"
+      }
+    },
+    "extract": "Katie is an English feminine name. It is a form of Katherine, Kate, Caitlin, Kathleen, Katey and their related forms. It is frequently used on its own.",
+    "extract_html": "<p><b>Katie</b> is an English feminine name. It is a form of Katherine, Kate, Caitlin, Kathleen, Katey and their related forms. It is frequently used on its own.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Bergen_County_Academies": {
+    "type": "standard",
+    "title": "Bergen County Academies",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4891505",
+    "titles": {
+      "canonical": "Bergen_County_Academies",
+      "normalized": "Bergen County Academies",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>"
+    },
+    "pageid": 1851692,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1338224447",
+    "tid": "145b50bb-092a-11f1-88af-be13973da728",
+    "timestamp": "2026-02-13T22:19:36Z",
+    "description": "Magnet high school in New Jersey, US",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 40.902203,
+      "lon": -74.034742
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bergen_County_Academies",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      }
+    },
+    "extract": "Bergen County Academies (BCA) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.",
+    "extract_html": "<p><b>Bergen County Academies</b> (<b>BCA</b>) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Bergen County Academies": {
+    "type": "standard",
+    "title": "Bergen County Academies",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4891505",
+    "titles": {
+      "canonical": "Bergen_County_Academies",
+      "normalized": "Bergen County Academies",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>"
+    },
+    "pageid": 1851692,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1338224447",
+    "tid": "145b4d3f-092a-11f1-b905-b7b25123b407",
+    "timestamp": "2026-02-13T22:19:36Z",
+    "description": "Magnet high school in New Jersey, US",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 40.902203,
+      "lon": -74.034742
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bergen_County_Academies",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      }
+    },
+    "extract": "Bergen County Academies (BCA) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.",
+    "extract_html": "<p><b>Bergen County Academies</b> (<b>BCA</b>) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.</p>"
+  }
+}
