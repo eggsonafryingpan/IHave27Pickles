@@ -4,13 +4,13 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { CanvasProvider } from "./components/CanvasProvider";
 import TextString from "./components/TextString";
-import { MouseProvider } from "./components/MouseProvider";
 import {
   useEffect, useRef, useState, createContext,
   useContext,
 } from "react";
 import { useMouse } from "./components/MouseProvider";
-import BlockSelect from "./components/BlockSelect";
+import blockSelect from "./lib/blockSelect";
+import WikiScreen from "./components/WikiScreen";
 
 
 
@@ -50,25 +50,23 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <MouseProvider>
-        <CanvasProvider>
-          {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
-        </CanvasProvider>
+      <CanvasProvider>
+        {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+      </CanvasProvider>
 
 
-        <form onSubmit={(e) => {
-          e.preventDefault();
-          setTitle(newTitle);
-        }}>
-          <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
-          <button type="submit">Submit</button>
-        </form>
-        <img src={wikiData?.thumbnail?.source}></img>
-        <br></br>
-        {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
-        <p>{wikiData?.extract}</p>
-        <BlockSelect />
-      </MouseProvider>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        setTitle(newTitle);
+      }}>
+        <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
+        <button type="submit">Submit</button>
+      </form>
+      <img src={wikiData?.thumbnail?.source}></img>
+      <br></br>
+      {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
+      <p>{wikiData?.extract}</p>
+      <WikiScreen></WikiScreen>
     </div>
   );
 }

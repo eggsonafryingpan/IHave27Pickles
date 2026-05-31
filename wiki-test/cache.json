@@ -270,5 +270,103 @@
     },
     "extract": "Bergen County Academies (BCA) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.",
     "extract_html": "<p><b>Bergen County Academies</b> (<b>BCA</b>) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Girls_Band_Cry": {
+    "type": "standard",
+    "title": "Girls Band Cry",
+    "displaytitle": "<i>Girls Band Cry</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q123937666",
+    "titles": {
+      "canonical": "Girls_Band_Cry",
+      "normalized": "Girls Band Cry",
+      "display": "<i>Girls Band Cry</i>"
+    },
+    "pageid": 75610678,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/db/Girls_Band_Cry_key_visual.jpg",
+      "width": 266,
+      "height": 375
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/db/Girls_Band_Cry_key_visual.jpg",
+      "width": 266,
+      "height": 375
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355970069",
+    "tid": "d09d9e97-57d0-11f1-8de5-303c7d4bab53",
+    "timestamp": "2026-05-25T00:29:39Z",
+    "description": "Japanese anime television series",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Girls_Band_Cry",
+        "revisions": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Girls_Band_Cry"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Girls_Band_Cry",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Girls_Band_Cry",
+        "edit": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Girls_Band_Cry"
+      }
+    },
+    "extract": "Girls Band Cry , abbreviated as GaruKura (ガルクラ), is an original Japanese anime television series created and produced by Toei Animation. The series is part of a multimedia project that began in 2023 in collaboration with Agehasprings and Universal Music Japan, with music being the focus. It aired from April to June 2024. A mobile game developed by DONUTS GAMES Inc titled Girls Band Cry First Riff  is in development, and an action-platformer Windows game titled Momoka (wo) Wasshoi , inspired by the anime series, was released in September 2025.",
+    "extract_html": "<p><i><b>Girls Band Cry</b></i><span style=\"font-weight:normal\"> </span>, abbreviated as <i><b>GaruKura</b></i><span style=\"font-weight:normal\"> (ガルクラ)</span>, is an original Japanese anime television series created and produced by Toei Animation. The series is part of a multimedia project that began in 2023 in collaboration with Agehasprings and Universal Music Japan, with music being the focus. It aired from April to June 2024. A mobile game developed by DONUTS GAMES Inc titled <i><b>Girls Band Cry First Riff</b></i><span style=\"font-weight:normal\"> </span> is in development, and an action-platformer Windows game titled <i><b>Momoka (wo) Wasshoi</b></i><span style=\"font-weight:normal\"> </span>, inspired by the anime series, was released in September 2025.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Dog": {
+    "type": "standard",
+    "title": "Dog",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dog</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q144",
+    "titles": {
+      "canonical": "Dog",
+      "normalized": "Dog",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dog</span></span>"
+    },
+    "pageid": 4269567,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/330px-Huskiesatrest.jpg",
+      "width": 330,
+      "height": 219
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/3840px-Huskiesatrest.jpg",
+      "width": 4288,
+      "height": 2848
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356554198",
+    "tid": "6c156323-5a9a-11f1-802f-970f33c4c970",
+    "timestamp": "2026-05-28T13:37:51Z",
+    "description": "Domesticated species of canid",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Dog",
+        "revisions": "https://en.wikipedia.org/wiki/Dog?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Dog?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dog"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Dog",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Dog",
+        "edit": "https://en.wikipedia.org/wiki/Dog?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dog"
+      }
+    },
+    "extract": "The dog is a domesticated descendant of wolves. Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago. Due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.",
+    "extract_html": "<p>The <b>dog</b> is a domesticated descendant of wolves. Also called the <b>domestic dog</b>, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago. Due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.</p>"
   }
 }
