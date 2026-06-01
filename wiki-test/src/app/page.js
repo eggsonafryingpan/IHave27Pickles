@@ -17,11 +17,6 @@ import axios from "axios";
 
 export default function Home() {
 
-  const [wikiData, setWikiData] = useState(null);
-
-  //temp for testing
-  const [title, setTitle] = useState("");
-  const [newTitle, setNewTitle] = useState("");
 
   const [textStrings, setTextStrings] = useState([]);
 
@@ -29,15 +24,6 @@ export default function Home() {
     setTextStrings(prev => [...prev, { x: x, y: y, text: text, fontSize: fontSize, id: crypto.randomUUID() }]);
   }
 
-  useEffect(() => {
-    if (title) {
-      axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
-        .then(res => {
-          setWikiData(res.data);
-          console.log("Data: ", res.data);
-        });
-    }
-  }, [title]);
 
   useEffect(() => {
     addTextString(100, 100, ".selkcip 72 evah I", 30);
@@ -52,17 +38,6 @@ export default function Home() {
     <div className={styles.page}>
       <CanvasProvider>
         {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
-        <form onSubmit={(e) => {
-          e.preventDefault();
-          setTitle(newTitle);
-        }}>
-          <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
-          <button type="submit">Submit</button>
-        </form>
-        <img src={wikiData?.thumbnail?.source}></img>
-        <br></br>
-        {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
-        <p>{wikiData?.extract}</p>
         <WikiScreen></WikiScreen>
       </CanvasProvider>
     </div>

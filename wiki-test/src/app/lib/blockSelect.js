@@ -4,6 +4,7 @@ import React from 'react'
 import { useMouse } from "../components/MouseProvider";
 import { useEffect, useRef, useState } from "react";
 import { useCanvas } from "../components/CanvasProvider";
+import axios from 'axios';
 
 function blockSelect(mouseRef, currRef, startRef) {
     const FONT_SIZE = 15;
