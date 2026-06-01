@@ -11,6 +11,7 @@ import {
 import { useMouse } from "./components/MouseProvider";
 import blockSelect from "./lib/blockSelect";
 import WikiScreen from "./components/WikiScreen";
+import axios from "axios";
 
 
 
@@ -30,11 +31,10 @@ export default function Home() {
 
   useEffect(() => {
     if (title) {
-      fetch("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
-        .then(r => r.json())
-        .then(data => {
-          setWikiData(data);
-          console.log("Data: ", data);
+      axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
+        .then(res => {
+          setWikiData(res.data);
+          console.log("Data: ", res.data);
         });
     }
   }, [title]);
@@ -52,21 +52,19 @@ export default function Home() {
     <div className={styles.page}>
       <CanvasProvider>
         {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+        <form onSubmit={(e) => {
+          e.preventDefault();
+          setTitle(newTitle);
+        }}>
+          <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
+          <button type="submit">Submit</button>
+        </form>
+        <img src={wikiData?.thumbnail?.source}></img>
+        <br></br>
+        {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
+        <p>{wikiData?.extract}</p>
+        <WikiScreen></WikiScreen>
       </CanvasProvider>
-
-
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        setTitle(newTitle);
-      }}>
-        <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
-        <button type="submit">Submit</button>
-      </form>
-      <img src={wikiData?.thumbnail?.source}></img>
-      <br></br>
-      {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
-      <p>{wikiData?.extract}</p>
-      <WikiScreen></WikiScreen>
     </div>
   );
 }

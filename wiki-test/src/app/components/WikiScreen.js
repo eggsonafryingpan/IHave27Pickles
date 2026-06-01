@@ -2,12 +2,25 @@ import React from 'react'
 import blockSelect from '../lib/blockSelect'
 import { useMouse } from './MouseProvider'
 import { useRef } from 'react'
+import { useCanvas } from './CanvasProvider'
 
 const WikiScreen = () => {
     const mouseRef = useMouse();
     const startRef = useRef(null);
     const currRef = useRef(null);
 
+    useCanvas((ctx) => {
+        if (!startRef.current || !currRef.current) return;
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.strokeRect(
+            Math.min(startRef.current.x, currRef.current.x),
+            Math.min(startRef.current.y, currRef.current.y),
+            Math.abs(currRef.current.x - startRef.current.x),
+            Math.abs(currRef.current.y - startRef.current.y)
+        );
+    })
     const handleMouseMove = () => {
         blockSelect(mouseRef, startRef, currRef);
     }
@@ -28,14 +41,16 @@ const WikiScreen = () => {
                 Begin, and cease, and then again begin,
                 With tremulous cadence slow, and bring
                 The eternal note of sadness in.
-
+            </p>
+            <p>
                 Sophocles long ago
                 Heard it on the Ægean, and it brought
                 Into his mind the turbid ebb and flow
                 Of human misery; we
                 Find also in the sound a thought,
                 Hearing it by this distant northern sea.
-
+            </p>
+            <p>
                 The Sea of Faith
                 Was once, too, at the full, and round earth’s shore
                 Lay like the folds of a bright girdle furled.
@@ -44,7 +59,8 @@ const WikiScreen = () => {
                 Retreating, to the breath
                 Of the night-wind, down the vast edges drear
                 And naked shingles of the world.
-
+            </p>
+            <p>
                 Ah, love, let us be true
                 To one another! for the world, which seems
                 To lie before us like a land of dreams,
@@ -55,7 +71,7 @@ const WikiScreen = () => {
                 Swept with confused alarms of struggle and flight,
                 Where ignorant armies clash by night.
             </p>
-        </div>
+        </div >
     )
 }
 

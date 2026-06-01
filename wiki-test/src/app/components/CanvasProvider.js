@@ -42,7 +42,7 @@ export function CanvasProvider({ children }) {
     }
     return (
         <CanvasContext.Provider value={addRender}>
-            <canvas ref={canvasRef} id="canvas" width="1400" height="300"></canvas>
+            <canvas ref={canvasRef} id="canvas" width="900" height="1000"></canvas>
             {children}
         </CanvasContext.Provider>
     )

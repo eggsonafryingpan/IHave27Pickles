@@ -1,12 +1,17 @@
-/* canvas {
+canvas {
     position: absolute;
     top: 0;
     left: 0;
-} */
+    z-index: -1;
+}
 
 p {
     font-family: "Courier New", monospace;
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
     white-space: pre-line;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
