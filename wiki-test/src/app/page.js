@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import { CanvasProvider } from "./components/CanvasProvider";
+
 import TextString from "./components/TextString";
 import {
   useEffect, useRef, useState, createContext,
@@ -36,10 +36,16 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <CanvasProvider>
-        {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+      {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+      <div className="container">
+        <div className="fax">
+
+        </div>
+        <div className="draw">
+
+        </div>
         <WikiScreen textStrings={textStrings} addTextString={addTextString}></WikiScreen>
-      </CanvasProvider>
+      </div>
     </div>
   );
 }
