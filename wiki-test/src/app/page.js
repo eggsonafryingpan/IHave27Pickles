@@ -20,14 +20,14 @@ export default function Home() {
 
   const [textStrings, setTextStrings] = useState([]);
 
-  const addTextString = (x = 100, y = 100, text = "", fontSize = 20) => {
+  const addTextString = (x = 100, y = 100, text = [], fontSize = 20) => {
     setTextStrings(prev => [...prev, { x: x, y: y, text: text, fontSize: fontSize, id: crypto.randomUUID() }]);
   }
 
 
   useEffect(() => {
-    addTextString(100, 100, ".selkcip 72 evah I", 30);
-    addTextString(300, 300, "RAHAHHAHAH", 20);
+    addTextString(100, 100, [".selkcip", "72      "]);
+    // addTextString(300, 300, "RAHAHHAHAH", 20);
   }, []);
 
 
@@ -38,7 +38,7 @@ export default function Home() {
     <div className={styles.page}>
       <CanvasProvider>
         {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
-        <WikiScreen></WikiScreen>
+        <WikiScreen textStrings={textStrings} addTextString={addTextString}></WikiScreen>
       </CanvasProvider>
     </div>
   );

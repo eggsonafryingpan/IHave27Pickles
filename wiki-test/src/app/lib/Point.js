@@ -1,14 +1,19 @@
 import { Vector } from "./Vector";
 
 export class Point {
-    constructor(x, y) {
+    constructor(x, y, letter) {
         this.prev = new Vector(x, y);
         this.curr = new Vector(x, y);
         this.isLocked = false;
         this.isDragging = false;
         this.friction = 0.4;
+        this.letter = letter;
         this.WIND = 0;
         this.GRAVITY = 0;
+    }
+
+    getLetter() {
+        return this.letter;
     }
 
     getX() {

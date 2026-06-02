@@ -6,7 +6,7 @@ import { useCanvas } from './CanvasProvider'
 import { useState, useEffect } from 'react'
 import axios from 'axios';
 
-const WikiScreen = () => {
+const WikiScreen = ({ textStrings, addTextString }) => {
     const [wikiData, setWikiData] = useState(null);
 
     const [title, setTitle] = useState("");
@@ -15,7 +15,7 @@ const WikiScreen = () => {
     const mouseRef = useMouse();
     const startRef = useRef(null);
     const currRef = useRef(null);
-
+    const selectedRef = useRef(null);
 
     useEffect(() => {
         if (title) {
@@ -30,6 +30,9 @@ const WikiScreen = () => {
 
     useCanvas((ctx) => {
         if (!startRef.current || !currRef.current) return;
+        const el = document.elementFromPoint(startRef.current.x, startRef.current.y);
+        const rect = el.getBoundingClientRect();
+
         ctx.strokeStyle = "black";
         ctx.lineWidth = 1;
         ctx.beginPath();
@@ -40,14 +43,25 @@ const WikiScreen = () => {
             Math.abs(currRef.current.y - startRef.current.y)
         );
         //get rect
-        getAligned(startRef.current.x, startRef.current.y, rect);
+        // getAligned(startRef.current.x, startRef.current.y, rect);
 
-        const getAligned = (x, y, rect) => {
-            return { x: Math.floor((x - rect.left) / WIDTH) * WIDTH, y: Math.floor((y - rect.top) / HEIGHT) * HEIGHT };
-        }
+        // const getAligned = (x, y, rect) => {
+        //     return { x: Math.floor((x - rect.left) / WIDTH) * WIDTH, y: Math.floor((y - rect.top) / HEIGHT) * HEIGHT };
+        // }
     })
+
     const handleMouseMove = () => {
-        blockSelect(mouseRef, startRef, currRef);
+        const select = blockSelect(mouseRef, startRef, currRef);
+        if (!startRef.current || !currRef.current) return;
+        if (select) {
+            selectedRef.current = select;
+            const minCorner = { x: Math.min(startRef.current.x, currRef.current.x), y: Math.min(startRef.current.y, currRef.current.y) };
+            const maxCorner = { x: Math.max(startRef.current.x, currRef.current.x), y: Math.max(startRef.current.y, currRef.current.y) };
+            addTextString(minCorner.x, minCorner.y, selectedRef.current);
+            console.log(selectedRef.current);
+            selectedRef.current = null;
+            startRef.current = null;
+        }
     }
 
     return (
@@ -64,7 +78,7 @@ const WikiScreen = () => {
             {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
             <div onMouseMove={handleMouseMove}>
                 <p>{wikiData?.extract}</p>
-                <p>The sea is calm tonight.
+                {/* <p>The sea is calm tonight.
                     The tide is full, the moon lies fair
                     Upon the straits; on the French coast the light
                     Gleams and is gone; the cliffs of England stand,
@@ -107,7 +121,7 @@ const WikiScreen = () => {
                     And we are here as on a darkling plain
                     Swept with confused alarms of struggle and flight,
                     Where ignorant armies clash by night.
-                </p>
+                </p> */}
             </div >
         </div>
     )

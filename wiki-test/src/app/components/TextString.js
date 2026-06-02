@@ -6,29 +6,61 @@ import { Vector } from "../lib/Vector";
 import { Point } from "../lib/Point";
 import { useCanvas } from "./CanvasProvider";
 
-const TextString = ({ x, y, text = "", pointsLength, spread = 20, fontSize = 20, direction = "down" }) => {
-    const numPoints = pointsLength ?? text.length;
-    let sentence = text;
+const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) => {
+    // const numPoints = pointsLength ?? text.length;
+    // let sentence = text;//CHANGE
 
     const mouseRef = useMouse();
     let mouse = mouseRef.current;
 
 
     const makePoints = () => {
+        // for (let i = 0; i < numPoints; i++) {
+        //     arr.push(new Point(x + i * spread, y, ' '));
+        // }
+        const height = text.length;
+        const width = text[0].length;
         let arr = [];
-        switch (direction) {
-            case "down":
-                for (let i = 0; i < numPoints; i++) {
-                    arr = [...arr, new Point(x + i * spread, y)];
-                }
-                break;
-            //add direction TODO
-            default:
-                for (let i = 0; i < numPoints; i++) {
-                    arr = [...arr, new Point(x + i * spread, y)];
-                }
-        }
+        if (height === 1) { //one line horizontal
+            for (let i = 0; i < width; i++) {
+                arr.push(new Point(x + i * spread, y, text[0][i]));
+            }
+        } else if (width === 1) { // one line vertical
+            for (let i = 0; i < height; i++) {
+                arr.push(new Point(x, y + i * fontSize, text[i][0]));
+            }
+        } else if (height > width) {
+            for (let i = 0; i < width; i++) {
+                if (i % 2 === 0) {
+                    for (let j = 0; j < height; j++) {
+                        arr.push(new Point(x + i * spread, y + j * fontSize, text[j][i]));
 
+                    }
+                } else {
+                    for (let j = height - 1; j >= 0; j--) {
+                        arr.push(new Point(x + i * spread, y + j * fontSize, text[j][i]));
+
+                    }
+                }
+            }
+            //  1  6
+            //  2  5
+            //  3  4
+        } else if (width >= height) {
+            // 1 2 3
+            // 6 5 4
+            for (let j = 0; j < height; j++) {
+                if (j % 2 === 0) {
+                    for (let i = 0; i < width; i++) {
+                        arr.push(new Point(x + i * spread, y + j * fontSize, text[j][i]));
+                    }
+                } else {
+                    for (let i = width - 1; i >= 0; i--) {
+                        arr.push(new Point(x + i * spread, y + j * fontSize, text[j][i]));
+                    }
+                }
+            }
+        }
         return arr;
     }
 
@@ -50,6 +82,7 @@ const TextString = ({ x, y, text = "", pointsLength, spread = 20, fontSize = 20,
     const connectionsRef = useRef(makeConnections());
     let connections = connectionsRef.current;
 
+    //TODO
     const getClosest = () => {
         let minP = points[0];
         points.forEach(p => {
@@ -97,14 +130,14 @@ const TextString = ({ x, y, text = "", pointsLength, spread = 20, fontSize = 20,
     useCanvas((ctx) => {
         let mouseV = new Vector(mouse.x, mouse.y);
 
-        ctx.font = `${fontSize}px Arial`;
+        ctx.font = `${fontSize}px Courier New`;
         ctx.strokeStyle = "black";
         ctx.lineWidth = 2;
         ctx.textAlign = "center";
 
-        if (isInline()) {
-            makeInline();
-        }
+        // if (isInline()) {
+        //     makeInline();
+        // }
 
         //Dragging logic
         // console.log(points[0].curr.getDist(mouseV) < 100);
@@ -154,9 +187,9 @@ const TextString = ({ x, y, text = "", pointsLength, spread = 20, fontSize = 20,
 
 
 
-        points.forEach((p, index) => {
+        points.forEach((p) => {
             //   circle(p.getX(), p.getY(), 4);
-            ctx.fillText(sentence[index % sentence.length], p.curr.x, p.curr.y);
+            ctx.fillText(p.getLetter(), p.curr.x, p.curr.y);
         });
 
         //text styling
