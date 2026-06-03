@@ -1,3 +1,47 @@
 #canvas-test {
   border: 5px solid black;
 }
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  white-space: pre-wrap;
+  user-select: none;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  pointer-events: none;
+}
+
+.wiki-text {
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  color: black;
+}
+
+.wiki-screen {
+  width: 400px;
+}
+
+.wiki-text {
+  padding: 10px;
+}
+
+.draw {
+  width: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}

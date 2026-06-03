@@ -14,6 +14,31 @@ export function CanvasProvider({ children }) {
 
     useEffect(() => {
         const canvas = canvasRef.current;
+        if (!canvas) return;
+
+        const ctx = canvas.getContext("2d");
+
+        const resize = () => {
+            const dpr = window.devicePixelRatio || 1;
+
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            canvas.width = width * dpr;
+            canvas.height = height * dpr;
+
+            ctx.setTransform(1, 0, 0, 1, 0, 0);
+            ctx.scale(dpr, dpr);
+        };
+
+        resize();
+        window.addEventListener("resize", resize);
+
+        return () => window.removeEventListener("resize", resize);
+    }, []);
+
+    useEffect(() => {
+        const canvas = canvasRef.current;
         const ctx = canvas.getContext("2d");
 
         let animationFrame;
@@ -40,9 +65,10 @@ export function CanvasProvider({ children }) {
             renderList.current = renderList.current.filter(d => d !== draw);
         }
     }
+
     return (
         <CanvasContext.Provider value={addRender}>
-            <canvas ref={canvasRef} id="canvas" width="900" height="1000"></canvas>
+            <canvas ref={canvasRef} id="canvas"></canvas>
             {children}
         </CanvasContext.Provider>
     )

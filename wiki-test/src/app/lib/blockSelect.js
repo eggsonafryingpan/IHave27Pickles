@@ -55,7 +55,15 @@ function blockSelect(mouseRef, currRef, startRef) {
     }
 
     const isBetween = (num, bound1, bound2) => {
-        return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2);
+        // if (Math.abs(bound1 - bound2) < 1) {
+        //     console.log(bound1, bound2)
+        //     return num >= Math.min(bound1, bound2) && num < Math.max(bound1, bound2);
+
+        // }
+        return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2)
+    };
+    const isBetweenExclude = (num, bound1, bound2) => {
+        return num >= Math.min(bound1, bound2) && num < Math.max(bound1, bound2)
     };
 
     const getSelection = (lines, start, end, el) => {
@@ -76,7 +84,7 @@ function blockSelect(mouseRef, currRef, startRef) {
             let currLine = "";
             for (let j = 0; j < maxWidth; j++) {
                 //j = x    i = y
-                if (isBetween(j, start.x, end.x) && isBetween(i, start.y, end.y)) {
+                if (isBetweenExclude(j, start.x, end.x) && isBetween(i, start.y, end.y)) {
                     if (j >= lines[i].length) {
                         currLine += " ";
                     } else {
@@ -113,17 +121,28 @@ function blockSelect(mouseRef, currRef, startRef) {
             if (startRef.current && currRef.current && !mouse.isDown) {
                 const el = document.elementFromPoint(startRef.current.x, startRef.current.y);
                 const rect = el.getBoundingClientRect();
-                //let selectionStart = getAligned(startRef.current.x, startRef.current.y, rect);
-                //let selectionEnd = getAligned(currRef.current.x, currRef.current.y, rect);
+                let selectionEnd;
+                //edge correction for 1 line
+                if (Math.abs(startRef.current.y - currRef.current.y) < (2 * HEIGHT)) {
+                    selectionEnd = getCell(currRef.current.x, currRef.current.y, rect);
+                    selectionEnd = { ...selectionEnd, y: selectionEnd.y - 1 };
+                    console.log(selectionEnd)
+                } else {
+                    selectionEnd = getCell(currRef.current.x, currRef.current.y, rect);
+                }
+                let selectionStart = getCell(startRef.current.x, startRef.current.y, rect);
+
+
                 selected = getSelection(
                     getTextLines(el),
-                    getCell(startRef.current.x, startRef.current.y, rect),
-                    getCell(currRef.current.x, currRef.current.y, rect), //+1 for inclusive end
+                    selectionStart,
+                    selectionEnd,
                     el
                 );
+                selected = selected.filter(s => s.length !== 0);
+                if (selected.length === 0) return null;
+                console.log(selected);
                 return selected;
-
-                // drawSelect(selectionStart, selectionEnd);
             }
 
             startRef.current = null;
@@ -132,6 +151,7 @@ function blockSelect(mouseRef, currRef, startRef) {
 
 
     if (mouseHandle()) {
+        if (selected.length === 0) return;
         return selected;
     }
 }

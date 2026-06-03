@@ -131,9 +131,9 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
         let mouseV = new Vector(mouse.x, mouse.y);
 
         ctx.font = `${fontSize}px Courier New`;
-        ctx.strokeStyle = "black";
+        ctx.fillStyle = "black";
         ctx.lineWidth = 1;
-        ctx.textAlign = "left";
+        ctx.textAlign = "center";
 
         // if (isInline()) {
         //     makeInline();
@@ -191,6 +191,10 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
 
         points.forEach((p) => {
             //   circle(p.getX(), p.getY(), 4);
+            ctx.lineWidth = 4;
+            ctx.strokeStyle = "white";
+            ctx.fillStyle = "black";
+            ctx.strokeText(p.getLetter(), p.curr.x, p.curr.y);
             ctx.fillText(p.getLetter(), p.curr.x, p.curr.y);
         });
 

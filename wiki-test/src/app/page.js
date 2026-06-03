@@ -12,6 +12,8 @@ import { useMouse } from "./components/MouseProvider";
 import blockSelect from "./lib/blockSelect";
 import WikiScreen from "./components/WikiScreen";
 import axios from "axios";
+import { initalizeUser } from "./lib/db/initializeUser";
+import { insertWork } from "./lib/db/works";
 
 
 
@@ -30,21 +32,40 @@ export default function Home() {
     // addTextString(300, 300, "RAHAHHAHAH", 20);
   }, []);
 
+  useEffect(() => {
+    initalizeUser();
+    insertWork([
+      [
+        {
+          x: 100,
+          y: 100,
+          letter: '2',
+        },
+        {
+          x: 120,
+          y: 100,
+          letter: '7',
+        }
+      ]
+    ])
+  }, []);
+
 
 
 
 
   return (
-    <div className={styles.page}>
+    <div className="screen">
       {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+
       <div className="container">
         <div className="fax">
-
+          Fax
         </div>
         <div className="draw">
-
+          Draw
         </div>
-        <WikiScreen textStrings={textStrings} addTextString={addTextString}></WikiScreen>
+        <WikiScreen textStrings={textStrings} addTextString={addTextString} />
       </div>
     </div>
   );

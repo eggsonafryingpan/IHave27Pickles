@@ -62,7 +62,10 @@ const WikiScreen = ({ textStrings, addTextString }) => {
     })
 
     const handleMouseMove = () => {
-        if (mouseRef.current.isDragging) return;
+        if (mouseRef.current.isDragging) {
+            startRef.current = null;
+            return;
+        }
         const select = blockSelect(mouseRef, startRef, currRef);
         if (!startRef.current || !currRef.current) return;
         if (select) {
@@ -70,14 +73,13 @@ const WikiScreen = ({ textStrings, addTextString }) => {
             const minCorner = { x: Math.min(startRef.current.x, currRef.current.x), y: Math.min(startRef.current.y, currRef.current.y) };
             const maxCorner = { x: Math.max(startRef.current.x, currRef.current.x), y: Math.max(startRef.current.y, currRef.current.y) };
             addTextString(minCorner.x, minCorner.y, selectedRef.current);
-            console.log(selectedRef.current);
             selectedRef.current = null;
             startRef.current = null;
         }
     }
 
     return (
-        <div>
+        <div className='wiki-screen'>
             <form onSubmit={(e) => {
                 e.preventDefault();
                 setTitle(newTitle);
@@ -88,8 +90,8 @@ const WikiScreen = ({ textStrings, addTextString }) => {
             <img src={wikiData?.thumbnail?.source}></img>
             <br></br>
             {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
-            <div onMouseMove={handleMouseMove}>
-                <p>{wikiData?.extract}</p>
+            <div className='wiki-text' onMouseMove={handleMouseMove}>
+                <p className='wiki-text'>{wikiData?.extract}</p>
                 {/* <p>The sea is calm tonight.
                     The tide is full, the moon lies fair
                     Upon the straits; on the French coast the light
