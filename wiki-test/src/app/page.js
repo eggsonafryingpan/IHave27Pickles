@@ -14,6 +14,7 @@ import WikiScreen from "./components/WikiScreen";
 import axios from "axios";
 import { initalizeUser } from "./lib/db/initializeUser";
 import { insertWork } from "./lib/db/works";
+import { getRandomWork } from "./lib/db/getRandomWork";
 
 
 
@@ -34,20 +35,21 @@ export default function Home() {
 
   useEffect(() => {
     initalizeUser();
-    insertWork([
-      [
-        {
-          x: 100,
-          y: 100,
-          letter: '2',
-        },
-        {
-          x: 120,
-          y: 100,
-          letter: '7',
-        }
-      ]
-    ])
+    // insertWork([
+    //   [
+    //     {
+    //       x: 100,
+    //       y: 100,
+    //       letter: '2',
+    //     },
+    //     {
+    //       x: 120,
+    //       y: 100,
+    //       letter: '7',
+    //     }
+    //   ]
+    // ])
+    getRandomWork().then(res => { console.log(res) });
   }, []);
 
 

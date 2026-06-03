@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import { useCanvas } from './CanvasProvider'
 import { useState, useEffect } from 'react'
 import axios from 'axios';
+import { getRandomWikiTitle } from '../lib/getRandomWiki'
 
 const WikiScreen = ({ textStrings, addTextString }) => {
     const [wikiData, setWikiData] = useState(null);
@@ -80,6 +81,14 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     return (
         <div className='wiki-screen'>
+            <button onClick={() => {
+                getRandomWikiTitle().then((res) => {
+                    const { data, title } = res.data
+
+                    setWikiData(data)
+                    setTitle(title);
+                })
+            }}>PLEEK</button>
             <form onSubmit={(e) => {
                 e.preventDefault();
                 setTitle(newTitle);
