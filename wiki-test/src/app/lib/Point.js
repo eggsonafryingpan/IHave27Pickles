@@ -6,7 +6,7 @@ export class Point {
         this.curr = new Vector(x, y);
         this.isLocked = false;
         this.isDragging = false;
-        this.friction = 0.4;
+        this.friction = 0.90;
         this.letter = letter;
         this.WIND = 0;
         this.GRAVITY = 0;

@@ -132,8 +132,8 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
 
         ctx.font = `${fontSize}px Courier New`;
         ctx.strokeStyle = "black";
-        ctx.lineWidth = 2;
-        ctx.textAlign = "center";
+        ctx.lineWidth = 1;
+        ctx.textAlign = "left";
 
         // if (isInline()) {
         //     makeInline();
@@ -143,8 +143,10 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
         // console.log(points[0].curr.getDist(mouseV) < 100);
         if (mouse.isDown && points[0].curr.getDist(mouseV) < 100) {
             points[0].isDragging = true;
+            mouse.isDragging = true;
         } else if (!mouse.isDown) {
             points[0].isDragging = false;
+            mouse.isDragging = false;
         }
 
         //first point

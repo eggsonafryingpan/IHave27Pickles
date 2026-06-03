@@ -603,5 +603,83 @@
     },
     "extract": "Yuri may refer to:",
     "extract_html": "<p><b>Yuri</b> may refer to:</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ado_(singer)": {
+    "type": "standard",
+    "title": "Ado (singer)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ado (singer)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q104012678",
+    "titles": {
+      "canonical": "Ado_(singer)",
+      "normalized": "Ado (singer)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ado (singer)</span></span>"
+    },
+    "pageid": 67285318,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356916792",
+    "tid": "b5a3b15f-5c48-11f1-9c58-00c7168b87a9",
+    "timestamp": "2026-05-30T16:57:58Z",
+    "description": "Japanese singer (born 2002)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ado_(singer)",
+        "revisions": "https://en.wikipedia.org/wiki/Ado_(singer)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ado_(singer)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ado_(singer)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ado_(singer)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ado_(singer)",
+        "edit": "https://en.wikipedia.org/wiki/Ado_(singer)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ado_(singer)"
+      }
+    },
+    "extract": "Ado is a Japanese singer. In 2020, at the age of 17, she made her debut with \"Usseewa\", which peaked at number 1 on Billboard Japan Hot 100, Oricon Digital Singles Chart, and the Oricon Streaming Chart. The song reached 100 million plays on Billboard Japan within 17 weeks of charting, which was the sixth fastest in history and made her the youngest to achieve the milestone as a solo singer. In 2022, her song \"New Genesis\" was used as the theme song for the animated film One Piece Film: Red and topped Apple Music's Global Top 100 charts. Her 2025 Hibana World Tour has been credited as the largest global tour by a Japanese artist.",
+    "extract_html": "<p><b>Ado</b> is a Japanese singer. In 2020, at the age of 17, she made her debut with \"Usseewa\", which peaked at number 1 on <span><i>Billboard Japan</i> Hot 100</span>, Oricon Digital Singles Chart, and the Oricon Streaming Chart. The song reached 100 million plays on <i>Billboard Japan</i> within 17 weeks of charting, which was the sixth fastest in history and made her the youngest to achieve the milestone as a solo singer. In 2022, her song \"New Genesis\" was used as the theme song for the animated film <i>One Piece Film: Red</i> and topped Apple Music's Global Top 100 charts. Her 2025 Hibana World Tour has been credited as the largest global tour by a Japanese artist.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Hello_World": {
+    "type": "disambiguation",
+    "title": "Hello World",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello World</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2524537",
+    "titles": {
+      "canonical": "Hello_World",
+      "normalized": "Hello World",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello World</span></span>"
+    },
+    "pageid": 37802793,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1349443600",
+    "tid": "2486ca97-3a4a-11f1-a5f5-85a427d554ca",
+    "timestamp": "2026-04-17T10:42:34Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Hello_World",
+        "revisions": "https://en.wikipedia.org/wiki/Hello_World?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Hello_World?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_World"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Hello_World",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Hello_World",
+        "edit": "https://en.wikipedia.org/wiki/Hello_World?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_World"
+      }
+    },
+    "extract": "Hello World may refer to:\"Hello, World!\" program, a computer program that outputs or displays the message \"Hello, World!\" ",
+    "extract_html": "<p><b>Hello World</b> may refer to:</p><ul><li>\"Hello, World!\" program, a computer program that outputs or displays the message \"Hello, World!\" </li></ul>"
   }
 }

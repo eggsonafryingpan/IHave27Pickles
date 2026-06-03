@@ -12,6 +12,8 @@ const WikiScreen = ({ textStrings, addTextString }) => {
     const [title, setTitle] = useState("");
     const [newTitle, setNewTitle] = useState("");
 
+    const FONT_WIDTH = 12;
+    const FONT_HEIGHT = 20;
     const mouseRef = useMouse();
     const startRef = useRef(null);
     const currRef = useRef(null);
@@ -29,28 +31,38 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
 
     useCanvas((ctx) => {
-        if (!startRef.current || !currRef.current) return;
+        if (!startRef.current || !currRef.current || mouseRef.current.isDragging) return;
         const el = document.elementFromPoint(startRef.current.x, startRef.current.y);
         const rect = el.getBoundingClientRect();
 
         ctx.strokeStyle = "black";
         ctx.lineWidth = 1;
         ctx.beginPath();
+        const left = Math.min(startRef.current.x, currRef.current.x);
+        const leftCell = Math.floor((left - rect.left) / FONT_WIDTH);
+        const top = Math.min(startRef.current.y, currRef.current.y);
+        const topCell = Math.floor((top - rect.top) / FONT_HEIGHT);
+        const right = Math.max(startRef.current.x, currRef.current.x);
+        const rightCell = Math.floor((right - rect.left) / FONT_WIDTH);
+        const bottom = Math.max(startRef.current.y, currRef.current.y);
+        const bottomCell = Math.floor((bottom - rect.top) / FONT_HEIGHT);
         ctx.strokeRect(
-            Math.min(startRef.current.x, currRef.current.x),
-            Math.min(startRef.current.y, currRef.current.y),
-            Math.abs(currRef.current.x - startRef.current.x),
-            Math.abs(currRef.current.y - startRef.current.y)
+            leftCell * FONT_WIDTH + rect.left,
+            topCell * FONT_HEIGHT + rect.top,
+            (rightCell - leftCell) * FONT_WIDTH,
+            (bottomCell - topCell) * FONT_HEIGHT
         );
-        //get rect
-        // getAligned(startRef.current.x, startRef.current.y, rect);
-
+        // //get rect
         // const getAligned = (x, y, rect) => {
         //     return { x: Math.floor((x - rect.left) / WIDTH) * WIDTH, y: Math.floor((y - rect.top) / HEIGHT) * HEIGHT };
         // }
+        // getAligned(startRef.current.x, startRef.current.y, rect);
+
+
     })
 
     const handleMouseMove = () => {
+        if (mouseRef.current.isDragging) return;
         const select = blockSelect(mouseRef, startRef, currRef);
         if (!startRef.current || !currRef.current) return;
         if (select) {

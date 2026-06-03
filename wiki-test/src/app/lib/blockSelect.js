@@ -54,12 +54,23 @@ function blockSelect(mouseRef, currRef, startRef) {
         return lines;
     }
 
-    const getSelection = (lines, start, end) => {
-        const isBetween = (num, bound1, bound2) => {
-            return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2);
-        };
-        let selectedText = [];
+    const isBetween = (num, bound1, bound2) => {
+        return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2);
+    };
 
+    const getSelection = (lines, start, end, el) => {
+        const textNode = Array.from(el.childNodes).find(n => n.nodeType === 3);
+        if (!textNode) return;
+        const text = textNode.textContent;
+        if (!text) return;
+
+        if (Math.abs(start.y - end.y) > 1) {
+            end = { ...end, y: end.y - 1 };
+        }
+
+        let clearedText = text.split("");
+        let offset = 0;
+        let selectedText = [];
         const maxWidth = Math.max(...lines.map(line => line.length));
         for (let i = 0; i < lines.length; i++) {
             let currLine = "";
@@ -70,13 +81,20 @@ function blockSelect(mouseRef, currRef, startRef) {
                         currLine += " ";
                     } else {
                         currLine += lines[i][j];
+                        if (offset + j < clearedText.length) {
+                            clearedText[offset + j] = " ";
+                        }
                     }
                 }
             }
+
+            offset += lines[i].length;
             if (currLine.length > 0) {
                 selectedText.push(currLine);
             }
         }
+
+        el.textContent = clearedText.join("");
         return selectedText;
     }
 
@@ -100,7 +118,8 @@ function blockSelect(mouseRef, currRef, startRef) {
                 selected = getSelection(
                     getTextLines(el),
                     getCell(startRef.current.x, startRef.current.y, rect),
-                    getCell(currRef.current.x, currRef.current.y, rect) //+1 for inclusive end
+                    getCell(currRef.current.x, currRef.current.y, rect), //+1 for inclusive end
+                    el
                 );
                 return selected;
 

@@ -9,7 +9,7 @@ p {
     font-family: "Courier New", monospace;
     font-size: 20px;
     line-height: 20px;
-    white-space: pre-line;
+    white-space: pre-wrap;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
