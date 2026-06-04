@@ -4,7 +4,7 @@ import { useMouse } from './MouseProvider';
 import { insertWork } from '../lib/db/works';
 import { useRef, useEffect, useState } from 'react';
 
-const Draw = ({ textListRef }) => {
+const Draw = ({ textListRef, clearTextString }) => {
     const ref = useRef(null);
     const [pos, setPos] = useState({ left: 0, top: 0, right: 0, bottom: 0 });
     const mouseRef = useMouse();
@@ -40,29 +40,36 @@ const Draw = ({ textListRef }) => {
 
 
     const confirmWork = () => {
-        console.log(pos.left, pos.right)
-        console.log("jlsfd", textListRef.current)
-        const filteredList = textListRef.current
-            .map(s =>
-                s.filter(p =>
-                    isBetween(p.x, pos.left, pos.right) &&
-                    isBetween(p.y, pos.top, pos.bottom)
-                )
-            )
-            .filter(s => s.length > 0);
 
-        const relTextList = filteredList.map((s) => (
-            s.map(p => (
+        const filteredList = textListRef.current
+            .map(ts =>
+            (
                 {
-                    ...p,
-                    x: p.x - pos.left,
-                    y: p.y - pos.top,
+                    id: ts.id,
+                    points: ts.points.filter(p =>
+                        isBetween(p.x, pos.left, pos.right) &&
+                        isBetween(p.y, pos.top, pos.bottom)
+                    )
                 }
-            ))
-        ))
+            )
+
+            )
+            .filter(ts => ts.points.length > 0);
         console.log(filteredList)
-        // insertWork(relTextList.current);
-    }
+
+        const relTextList = filteredList.map(ts =>
+            ts.points.map(p => ({
+                ...p,
+                x: p.x - pos.left,
+                y: p.y - pos.top,
+            }))
+        );
+
+        insertWork(relTextList);
+
+        const clearIdList = filteredList.map(ts => ts.id);
+        clearTextString(clearIdList);
+    };
 
 
     return (

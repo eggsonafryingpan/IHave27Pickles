@@ -32,15 +32,27 @@ export default function Home() {
   //saving for export
   const textListRef = useRef([]);
 
-  const updateList = (arr) => {
-    textListRef.current = [
-      ...textListRef.current,
-      arr.map(a => ({
-        x: a.curr.x,
-        y: a.curr.y,
-        letter: a.letter
-      }))
-    ];
+  const clearTextString = (clearIdList) => {
+    setTextStrings(textStrings.filter(ts => !clearIdList.includes(ts.id)))
+  }
+
+  const updateList = (arr, id) => {
+    const mapped = arr.map(a => ({
+      x: a.curr.x,
+      y: a.curr.y,
+      letter: a.letter
+    }));
+
+    const index = textListRef.current.findIndex(item => item.id === id);
+
+    if (index === -1) {
+      textListRef.current.push({
+        id,
+        points: mapped
+      });
+    } else {
+      textListRef.current[index].points = mapped;
+    }
   };
 
   useEffect(() => {
@@ -75,13 +87,13 @@ export default function Home() {
   return (
 
     <div className="screen">
-      {textStrings.map(ts => <TextString updateList={updateList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+      {textStrings.map(ts => <TextString updateList={updateList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
 
       <div className="container">
         <div className="fax">
           Fax
         </div>
-        <Draw textListRef={textListRef}>
+        <Draw textListRef={textListRef} clearTextString={clearTextString}>
           Draw
         </Draw>
         <WikiScreen textStrings={textStrings} addTextString={addTextString} />

@@ -6,9 +6,10 @@ import { Vector } from "../lib/Vector";
 import { Point } from "../lib/Point";
 import { useCanvas } from "./CanvasProvider";
 
-const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, updateList }) => {
+const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, updateList }) => {
     // const numPoints = pointsLength ?? text.length;
     // let sentence = text;//CHANGE
+    const stringId = id;
 
 
     //     export const getClosest = () => {
@@ -75,7 +76,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, upda
                 }
             }
         }
-        updateList(arr);
+        updateList(arr, stringId);
         return arr;
     }
 
@@ -99,7 +100,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, upda
 
     const connectionsRef = useRef(null);
     if (connectionsRef.current === null) {
-        connectionsRef.current = makeConnections();
+        connectionsRef.current = makeConnections()
     }
     let connections = connectionsRef.current;
 
@@ -154,7 +155,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, upda
         const circle = (x, y, radius) => {
             ctx.beginPath();
             ctx.arc(x, y, radius, 0, 2 * Math.PI);
-            ctx.fillStyle = "grey";
+            ctx.fillStyle = "blue";
             ctx.fill();
         }
 
@@ -222,7 +223,8 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, upda
                 circle(p.curr.x, p.curr.y - 15, 3);
             }
         });
-        updateList(points);
+
+        updateList(points, stringId);
 
         //text styling
 
