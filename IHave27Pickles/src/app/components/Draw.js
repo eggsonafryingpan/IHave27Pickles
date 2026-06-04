@@ -67,8 +67,12 @@ const Draw = ({ textListRef, clearTextString }) => {
 
     return (
         <div>
-            <button onClick={confirmWork}>Insert Work</button>
-            <Image src={bin} alt='bin' id='bin'></Image>
+            <div className='top-bar'>
+                <button onClick={confirmWork}>Insert Work</button>
+                <Image src={bin} alt='bin' id='bin'></Image>
+            </div>
+
+
             <div ref={ref} className="draw"></div>
         </div>
     )
