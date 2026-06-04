@@ -91,9 +91,6 @@ export default function Home() {
     // ])
     let data;
     getRandomWork().then(res => {
-
-      //ADD THE WORK TO A USEREF ARRAY WITH ID PLZPLZPZLPZL
-      //MAKE A NEW COMPONENT TOO
       createWork(res);
     })
   }, []);

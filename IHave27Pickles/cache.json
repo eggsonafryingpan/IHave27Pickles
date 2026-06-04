@@ -10424,5 +10424,152 @@
     },
     "extract": "Asuero is a Spanish surname. Notable people with the surname include:Fernando Asuero (1887–1942), Spanish footballer\nPablo Martín Asuero, Spanish scholar from the Basque Country\nVicente Asuero y Cortázar (1806–1873), Spanish physician and professor at the Central University",
     "extract_html": "<p><b>Asuero</b> is a Spanish surname. Notable people with the surname include:</p><ul><li>Fernando Asuero (1887–1942), Spanish footballer</li>\n<li>Pablo Martín Asuero, Spanish scholar from the Basque Country</li>\n<li>Vicente Asuero y Cortázar (1806–1873), Spanish physician and professor at the Central University</li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/2019 Iowa 300": {
+    "type": "standard",
+    "title": "2019 Iowa 300",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">2019 Iowa 300</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q105038363",
+    "titles": {
+      "canonical": "2019_Iowa_300",
+      "normalized": "2019 Iowa 300",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">2019 Iowa 300</span></span>"
+    },
+    "pageid": 65372218,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Iowa_Speedway_track_map.png/330px-Iowa_Speedway_track_map.png",
+      "width": 330,
+      "height": 201
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Iowa_Speedway_track_map.png",
+      "width": 740,
+      "height": 451
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345958330",
+    "tid": "88446476-2b2a-11f1-b65a-1346984c1337",
+    "timestamp": "2026-03-29T04:48:30Z",
+    "description": "Motor car race",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/2019_Iowa_300",
+        "revisions": "https://en.wikipedia.org/wiki/2019_Iowa_300?action=history",
+        "edit": "https://en.wikipedia.org/wiki/2019_Iowa_300?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:2019_Iowa_300"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/2019_Iowa_300",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/2019_Iowa_300",
+        "edit": "https://en.wikipedia.org/wiki/2019_Iowa_300?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:2019_Iowa_300"
+      }
+    },
+    "extract": "The 2019 Iowa 300 was the twelfth round of the 2019 IndyCar Series season, contested over 300 laps at the 0.875-mile (1.4 km) Iowa Speedway in Newton, Iowa. Simon Pagenaud claimed his third pole position of the season, while Josef Newgarden went on to win his 4th race of the season and 14th of his career.",
+    "extract_html": "<p>The <b>2019 Iowa 300</b> was the twelfth round of the 2019 IndyCar Series season, contested over 300 laps at the 0.875-mile (1.4 km) Iowa Speedway in Newton, Iowa. Simon Pagenaud claimed his third pole position of the season, while Josef Newgarden went on to win his 4th race of the season and 14th of his career.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Charles Harvey Brown": {
+    "type": "standard",
+    "title": "Charles Harvey Brown",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Charles Harvey Brown</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q23028042",
+    "titles": {
+      "canonical": "Charles_Harvey_Brown",
+      "normalized": "Charles Harvey Brown",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Charles Harvey Brown</span></span>"
+    },
+    "pageid": 49662584,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Charles_Harvey_Brown.jpg/330px-Charles_Harvey_Brown.jpg",
+      "width": 330,
+      "height": 444
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/51/Charles_Harvey_Brown.jpg",
+      "width": 429,
+      "height": 577
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352420974",
+    "tid": "411d4571-4762-11f1-a9a1-dfa2e417ae40",
+    "timestamp": "2026-05-04T02:37:55Z",
+    "description": "American librarian (1875–1960)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Charles_Harvey_Brown",
+        "revisions": "https://en.wikipedia.org/wiki/Charles_Harvey_Brown?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Charles_Harvey_Brown?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Charles_Harvey_Brown"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Charles_Harvey_Brown",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Charles_Harvey_Brown",
+        "edit": "https://en.wikipedia.org/wiki/Charles_Harvey_Brown?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Charles_Harvey_Brown"
+      }
+    },
+    "extract": "Charles Harvey Brown was an American librarian and leader in the American Library Association. He received a bachelor's degree from Wesleyan University in 1897 and a master's degree in 1899. He went on to receive a second bachelor's degree in Library Science at the New York State Library School in 1901. He later received a Literary Doctorate from Wesleyan University in 1937.\nHe worked at Wesleyan University from 1897 to 1899 and the Library of Congress from 1901 to 1903. Brown worked for the John Crerar Library from 1903 to 1909 and the Brooklyn Public Library from 1909 to 1919.",
+    "extract_html": "<p><b>Charles Harvey Brown</b> was an American librarian and leader in the American Library Association. He received a bachelor's degree from Wesleyan University in 1897 and a master's degree in 1899. He went on to receive a second bachelor's degree in Library Science at the New York State Library School in 1901. He later received a Literary Doctorate from Wesleyan University in 1937.\nHe worked at Wesleyan University from 1897 to 1899 and the Library of Congress from 1901 to 1903. Brown worked for the John Crerar Library from 1903 to 1909 and the Brooklyn Public Library from 1909 to 1919.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Lawrence H. Gipson": {
+    "type": "standard",
+    "title": "Lawrence H. Gipson",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lawrence H. Gipson</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1809194",
+    "titles": {
+      "canonical": "Lawrence_H._Gipson",
+      "normalized": "Lawrence H. Gipson",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lawrence H. Gipson</span></span>"
+    },
+    "pageid": 3392374,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Lawrence_Henry_Gipson_1938.jpg",
+      "width": 282,
+      "height": 375
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Lawrence_Henry_Gipson_1938.jpg",
+      "width": 282,
+      "height": 375
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1348450559",
+    "tid": "bbe2cb1a-36a2-11f1-abf4-d143ec228d5b",
+    "timestamp": "2026-04-12T19:06:39Z",
+    "description": "American historian",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Lawrence_H._Gipson",
+        "revisions": "https://en.wikipedia.org/wiki/Lawrence_H._Gipson?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Lawrence_H._Gipson?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lawrence_H._Gipson"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Lawrence_H._Gipson",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Lawrence_H._Gipson",
+        "edit": "https://en.wikipedia.org/wiki/Lawrence_H._Gipson?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lawrence_H._Gipson"
+      }
+    },
+    "extract": "Lawrence Henry Gipson was an American historian, who won the 1950 Bancroft Prize and the 1962 Pulitzer Prize for History for volumes of his magnum opus, the fifteen-volume history of \"The British Empire Before the American Revolution\", published 1936–70. He was a leader of the \"Imperial school\" of historians who studied the British Empire from the perspective of London, and generally praised the administrative efficiency and political fairness of the Empire.",
+    "extract_html": "<p><b>Lawrence Henry Gipson</b> was an American historian, who won the 1950 Bancroft Prize and the 1962 Pulitzer Prize for History for volumes of his magnum opus, the fifteen-volume history of \"The British Empire Before the American Revolution\", published 1936–70. He was a leader of the \"Imperial school\" of historians who studied the British Empire from the perspective of London, and generally praised the administrative efficiency and political fairness of the Empire.</p>"
   }
 }
