@@ -6,13 +6,27 @@ import { Vector } from "../lib/Vector";
 import { Point } from "../lib/Point";
 import { useCanvas } from "./CanvasProvider";
 
-const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) => {
+const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, updateList }) => {
     // const numPoints = pointsLength ?? text.length;
     // let sentence = text;//CHANGE
 
+
+    //     export const getClosest = () => {
+    //     let closest = null;
+    //     let minDistance = Infinity;
+    //     for (const ts of textStrings) {
+    //         const tsV = new Vector(ts.x, ts.y);
+    //         const dist = tsV.getDist(new Vector(mouseRef.current.x, mouseRef.current.y))
+
+    //         if (dist < minDistance) {
+    //             minDistance = distance;
+    //             closest = ts;
+    //         }
+    //     }
+    //     return closest;
+    // }
     const mouseRef = useMouse();
     let mouse = mouseRef.current;
-
 
     const makePoints = () => {
         // for (let i = 0; i < numPoints; i++) {
@@ -61,6 +75,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
                 }
             }
         }
+        updateList(arr);
         return arr;
     }
 
@@ -68,7 +83,10 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
 
 
 
-    const pointsRef = useRef(makePoints());
+    const pointsRef = useRef(null);
+    if (pointsRef.current === null) {
+        pointsRef.current = makePoints();
+    }
     let points = pointsRef.current;
 
     const makeConnections = () => {
@@ -79,19 +97,22 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
         return connections;
     }
 
-    const connectionsRef = useRef(makeConnections());
+    const connectionsRef = useRef(null);
+    if (connectionsRef.current === null) {
+        connectionsRef.current = makeConnections();
+    }
     let connections = connectionsRef.current;
 
     //TODO
-    const getClosest = () => {
-        let minP = points[0];
-        points.forEach(p => {
-            if (p.curr.getDist(mouseV) < minP.curr.getDist(mouseV)) {
-                minP = p;
-            }
-        });
-        return minP;
-    }
+    // const getClosest = () => {
+    //     let minP = points[0];
+    //     points.forEach(p => {
+    //         if (p.curr.getDist(mouse) < minP.curr.getDist(mouse)) {
+    //             minP = p;
+    //         }
+    //     });
+    //     return minP;
+    // }
 
     const isInline = () => {
         for (let i = 0; i < points.length - 1; i++) {
@@ -120,12 +141,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
 
 
     //unused
-    // const circle = (x, y, radius) => {
-    //     ctx.beginPath();
-    //     ctx.arc(x, y, radius, 0, 2 * Math.PI);
-    //     ctx.fillStyle = "black";
-    //     ctx.fill();
-    // }
+
 
     useCanvas((ctx) => {
         let mouseV = new Vector(mouse.x, mouse.y);
@@ -135,13 +151,20 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
         ctx.lineWidth = 1;
         ctx.textAlign = "center";
 
+        const circle = (x, y, radius) => {
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, 2 * Math.PI);
+            ctx.fillStyle = "grey";
+            ctx.fill();
+        }
+
         // if (isInline()) {
         //     makeInline();
         // }
 
         //Dragging logic
         // console.log(points[0].curr.getDist(mouseV) < 100);
-        if (mouse.isDown && points[0].curr.getDist(mouseV) < 100) {
+        if (!mouse.isDragging && mouse.isDown && points[0].curr.getDist(mouseV) < 50) {
             points[0].isDragging = true;
             mouse.isDragging = true;
         } else if (!mouse.isDown) {
@@ -189,14 +212,17 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20 }) =>
 
 
 
-        points.forEach((p) => {
-            //   circle(p.getX(), p.getY(), 4);
+        points.forEach((p, index) => {
             ctx.lineWidth = 4;
             ctx.strokeStyle = "white";
             ctx.fillStyle = "black";
             ctx.strokeText(p.getLetter(), p.curr.x, p.curr.y);
             ctx.fillText(p.getLetter(), p.curr.x, p.curr.y);
+            if (index === 0) {
+                circle(p.curr.x, p.curr.y - 15, 3);
+            }
         });
+        updateList(points);
 
         //text styling
 

@@ -2,6 +2,9 @@ import { supabase } from "./supabaseClient";
 
 export async function insertWork(strings) {
     try {
+        if (strings.length === 0) {
+            return null;
+        }
         const work_id = crypto.randomUUID();
         const { error: workError } = await supabase
             .from("works")

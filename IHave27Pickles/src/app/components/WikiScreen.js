@@ -79,6 +79,10 @@ const WikiScreen = ({ textStrings, addTextString }) => {
         }
     }
 
+    const handleMouseLeave = () => {
+        startRef.current = null;
+    }
+
     return (
         <div className='wiki-screen'>
             <button onClick={() => {
@@ -99,7 +103,8 @@ const WikiScreen = ({ textStrings, addTextString }) => {
             <img src={wikiData?.thumbnail?.source}></img>
             <br></br>
             {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
-            <div className='wiki-text' onMouseMove={handleMouseMove}>
+
+            <div className='wiki-text' onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
                 <p className='wiki-text'>{wikiData?.extract}</p>
                 {/* <p>The sea is calm tonight.
                     The tide is full, the moon lies fair

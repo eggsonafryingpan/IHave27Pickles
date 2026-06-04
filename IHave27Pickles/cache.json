@@ -1,0 +1,3513 @@
+{
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Soccer": {
+    "type": "standard",
+    "title": "Association football",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Association football</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2736",
+    "titles": {
+      "canonical": "Association_football",
+      "normalized": "Association football",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Association football</span></span>"
+    },
+    "pageid": 10568,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/330px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "width": 330,
+      "height": 225
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "width": 3420,
+      "height": 2328
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353572059",
+    "tid": "8b13a5d6-4cdd-11f1-b3e4-8ba85d66cad7",
+    "timestamp": "2026-05-11T02:03:03Z",
+    "description": "Team sport played with a ball",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Association_football",
+        "revisions": "https://en.wikipedia.org/wiki/Association_football?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Association_football?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Association_football"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Association_football",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Association_football",
+        "edit": "https://en.wikipedia.org/wiki/Association_football?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Association_football"
+      }
+    },
+    "extract": "Association football, more commonly known as just football or soccer, is a team sport played between two teams of 11 players who almost exclusively use their feet to propel a ball around a pitch.",
+    "extract_html": "<p><b>Association football</b>, more commonly known as just <b>football</b> or <b>soccer</b>, is a team sport played between two teams of 11 players who almost exclusively use their feet to propel a ball around a pitch.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Arcane": {
+    "type": "disambiguation",
+    "title": "Arcane",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arcane</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2859933",
+    "titles": {
+      "canonical": "Arcane",
+      "normalized": "Arcane",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Arcane</span></span>"
+    },
+    "pageid": 11685960,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1293555253",
+    "tid": "5e6bf010-3f9e-11f0-9122-810f2688f34b",
+    "timestamp": "2025-06-02T10:43:07Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Arcane",
+        "revisions": "https://en.wikipedia.org/wiki/Arcane?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Arcane?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Arcane",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Arcane",
+        "edit": "https://en.wikipedia.org/wiki/Arcane?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane"
+      }
+    },
+    "extract": "Arcane may refer to:",
+    "extract_html": "<p><b>Arcane</b> may refer to:</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Arcane_(TV_series)": {
+    "type": "standard",
+    "title": "Arcane (TV series)",
+    "displaytitle": "<i>Arcane</i> (TV series)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q85518571",
+    "titles": {
+      "canonical": "Arcane_(TV_series)",
+      "normalized": "Arcane (TV series)",
+      "display": "<i>Arcane</i> (TV series)"
+    },
+    "pageid": 63376140,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352079310",
+    "tid": "d0cbc33e-45a9-11f1-bb79-fd727136ca6c",
+    "timestamp": "2026-05-01T22:05:08Z",
+    "description": "2021 animated action-adventure series",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Arcane_(TV_series)",
+        "revisions": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane_(TV_series)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Arcane_(TV_series)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Arcane_(TV_series)",
+        "edit": "https://en.wikipedia.org/wiki/Arcane_(TV_series)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Arcane_(TV_series)"
+      }
+    },
+    "extract": "Arcane is an animated steampunk action-adventure television series created by Christian Linke and Alex Yee. It was produced by the French animation studio Fortiche, under the supervision of Riot Games, and distributed by Netflix. Set in Riot's League of Legends universe, it primarily focuses on sisters Violet / \"Vi\" and Powder / Jinx as they become embroiled in a conflict between their native underbelly of Zaun and the city of Piltover. First announced at the League of Legends tenth anniversary celebration in 2019, the series' first season was released in November 2021, and a second and final season was released in November 2024.",
+    "extract_html": "<p><i><b>Arcane</b></i> is an animated steampunk action-adventure television series created by Christian Linke and Alex Yee. It was produced by the French animation studio Fortiche, under the supervision of Riot Games, and distributed by Netflix. Set in Riot's <i>League of Legends</i> universe, it primarily focuses on sisters Violet / \"Vi\" and Powder / Jinx as they become embroiled in a conflict between their native underbelly of Zaun and the city of Piltover. First announced at the <i>League of Legends</i> tenth anniversary celebration in 2019, the series' first season was released in November 2021, and a second and final season was released in November 2024.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Katie": {
+    "type": "standard",
+    "title": "Katie",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katie</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1158388",
+    "titles": {
+      "canonical": "Katie",
+      "normalized": "Katie",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Katie</span></span>"
+    },
+    "pageid": 2052004,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352197188",
+    "tid": "42ad15df-4655-11f1-b844-a808f64b83f4",
+    "timestamp": "2026-05-02T18:32:23Z",
+    "description": "Name list",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Katie",
+        "revisions": "https://en.wikipedia.org/wiki/Katie?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Katie?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Katie"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Katie",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Katie",
+        "edit": "https://en.wikipedia.org/wiki/Katie?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Katie"
+      }
+    },
+    "extract": "Katie is an English feminine name. It is a form of Katherine, Kate, Caitlin, Kathleen, Katey and their related forms. It is frequently used on its own.",
+    "extract_html": "<p><b>Katie</b> is an English feminine name. It is a form of Katherine, Kate, Caitlin, Kathleen, Katey and their related forms. It is frequently used on its own.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Bergen_County_Academies": {
+    "type": "standard",
+    "title": "Bergen County Academies",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4891505",
+    "titles": {
+      "canonical": "Bergen_County_Academies",
+      "normalized": "Bergen County Academies",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>"
+    },
+    "pageid": 1851692,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1338224447",
+    "tid": "145b50bb-092a-11f1-88af-be13973da728",
+    "timestamp": "2026-02-13T22:19:36Z",
+    "description": "Magnet high school in New Jersey, US",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 40.902203,
+      "lon": -74.034742
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bergen_County_Academies",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      }
+    },
+    "extract": "Bergen County Academies (BCA) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.",
+    "extract_html": "<p><b>Bergen County Academies</b> (<b>BCA</b>) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Bergen County Academies": {
+    "type": "standard",
+    "title": "Bergen County Academies",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4891505",
+    "titles": {
+      "canonical": "Bergen_County_Academies",
+      "normalized": "Bergen County Academies",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bergen County Academies</span></span>"
+    },
+    "pageid": 1851692,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bergen_County_Academies_Logo_2021.png",
+      "width": 150,
+      "height": 150
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1338224447",
+    "tid": "145b4d3f-092a-11f1-b905-b7b25123b407",
+    "timestamp": "2026-02-13T22:19:36Z",
+    "description": "Magnet high school in New Jersey, US",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 40.902203,
+      "lon": -74.034742
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bergen_County_Academies",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bergen_County_Academies",
+        "edit": "https://en.wikipedia.org/wiki/Bergen_County_Academies?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bergen_County_Academies"
+      }
+    },
+    "extract": "Bergen County Academies (BCA) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.",
+    "extract_html": "<p><b>Bergen County Academies</b> (<b>BCA</b>) is a tuition-free public magnet high school located in Hackensack, New Jersey, that serves students in the ninth through twelfth grades from all of Bergen County, in the U.S. state of New Jersey. The school was founded in 1991 by John Grieco, who also founded the public magnet high school Academies at Englewood in Englewood, New Jersey.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Girls_Band_Cry": {
+    "type": "standard",
+    "title": "Girls Band Cry",
+    "displaytitle": "<i>Girls Band Cry</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q123937666",
+    "titles": {
+      "canonical": "Girls_Band_Cry",
+      "normalized": "Girls Band Cry",
+      "display": "<i>Girls Band Cry</i>"
+    },
+    "pageid": 75610678,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/db/Girls_Band_Cry_key_visual.jpg",
+      "width": 266,
+      "height": 375
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/db/Girls_Band_Cry_key_visual.jpg",
+      "width": 266,
+      "height": 375
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355970069",
+    "tid": "d09d9e97-57d0-11f1-8de5-303c7d4bab53",
+    "timestamp": "2026-05-25T00:29:39Z",
+    "description": "Japanese anime television series",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Girls_Band_Cry",
+        "revisions": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Girls_Band_Cry"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Girls_Band_Cry",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Girls_Band_Cry",
+        "edit": "https://en.wikipedia.org/wiki/Girls_Band_Cry?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Girls_Band_Cry"
+      }
+    },
+    "extract": "Girls Band Cry , abbreviated as GaruKura (ガルクラ), is an original Japanese anime television series created and produced by Toei Animation. The series is part of a multimedia project that began in 2023 in collaboration with Agehasprings and Universal Music Japan, with music being the focus. It aired from April to June 2024. A mobile game developed by DONUTS GAMES Inc titled Girls Band Cry First Riff  is in development, and an action-platformer Windows game titled Momoka (wo) Wasshoi , inspired by the anime series, was released in September 2025.",
+    "extract_html": "<p><i><b>Girls Band Cry</b></i><span style=\"font-weight:normal\"> </span>, abbreviated as <i><b>GaruKura</b></i><span style=\"font-weight:normal\"> (ガルクラ)</span>, is an original Japanese anime television series created and produced by Toei Animation. The series is part of a multimedia project that began in 2023 in collaboration with Agehasprings and Universal Music Japan, with music being the focus. It aired from April to June 2024. A mobile game developed by DONUTS GAMES Inc titled <i><b>Girls Band Cry First Riff</b></i><span style=\"font-weight:normal\"> </span> is in development, and an action-platformer Windows game titled <i><b>Momoka (wo) Wasshoi</b></i><span style=\"font-weight:normal\"> </span>, inspired by the anime series, was released in September 2025.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Dog": {
+    "type": "standard",
+    "title": "Dog",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dog</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q144",
+    "titles": {
+      "canonical": "Dog",
+      "normalized": "Dog",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dog</span></span>"
+    },
+    "pageid": 4269567,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/330px-Huskiesatrest.jpg",
+      "width": 330,
+      "height": 219
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/3840px-Huskiesatrest.jpg",
+      "width": 4288,
+      "height": 2848
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356554198",
+    "tid": "6c156323-5a9a-11f1-802f-970f33c4c970",
+    "timestamp": "2026-05-28T13:37:51Z",
+    "description": "Domesticated species of canid",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Dog",
+        "revisions": "https://en.wikipedia.org/wiki/Dog?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Dog?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dog"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Dog",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Dog",
+        "edit": "https://en.wikipedia.org/wiki/Dog?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dog"
+      }
+    },
+    "extract": "The dog is a domesticated descendant of wolves. Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago. Due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.",
+    "extract_html": "<p>The <b>dog</b> is a domesticated descendant of wolves. Also called the <b>domestic dog</b>, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago. Due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Cat": {
+    "type": "standard",
+    "title": "Cat",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cat</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q146",
+    "titles": {
+      "canonical": "Cat",
+      "normalized": "Cat",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cat</span></span>"
+    },
+    "pageid": 6678,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/330px-Cat_August_2010-4.jpg",
+      "width": 330,
+      "height": 202
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg",
+      "width": 3640,
+      "height": 2226
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355682580",
+    "tid": "d6826899-567c-11f1-b2a4-77efa67813e3",
+    "timestamp": "2026-05-23T07:56:00Z",
+    "description": "Small domesticated carnivorous mammal",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Cat",
+        "revisions": "https://en.wikipedia.org/wiki/Cat?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Cat?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cat"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Cat",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Cat",
+        "edit": "https://en.wikipedia.org/wiki/Cat?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cat"
+      }
+    },
+    "extract": "The cat, also called domestic cat and house cat, is a small domesticated carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator.\nCat communication includes meowing, purring, trilling, hissing, growling, grunting, and body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones. Cat intelligence is evident in its ability to adapt, learn through observation, and solve problems. \nFemale domestic cats can have kittens from spring to late autumn in temperate zones and throughout the year in equatorial regions, with litter sizes often ranging from two to five kittens.",
+    "extract_html": "<p>The <b>cat</b>, also called <b>domestic cat</b> and <b>house cat</b>, is a small domesticated carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator.\nCat communication includes meowing, purring, trilling, <span class=\"extiw\">hissing</span>, growling, <span class=\"extiw\">grunting</span>, and body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones. Cat intelligence is evident in its ability to adapt, learn through observation, and solve problems. \nFemale domestic cats can have kittens from spring to late autumn in temperate zones and throughout the year in equatorial regions, with litter sizes often ranging from two to five kittens.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/cat": {
+    "type": "standard",
+    "title": "Cat",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cat</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q146",
+    "titles": {
+      "canonical": "Cat",
+      "normalized": "Cat",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cat</span></span>"
+    },
+    "pageid": 6678,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/330px-Cat_August_2010-4.jpg",
+      "width": 330,
+      "height": 202
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Cat_August_2010-4.jpg",
+      "width": 3640,
+      "height": 2226
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355682580",
+    "tid": "d6826989-567c-11f1-945e-89f1b24e728d",
+    "timestamp": "2026-05-23T07:56:00Z",
+    "description": "Small domesticated carnivorous mammal",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Cat",
+        "revisions": "https://en.wikipedia.org/wiki/Cat?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Cat?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cat"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Cat",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Cat",
+        "edit": "https://en.wikipedia.org/wiki/Cat?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cat"
+      }
+    },
+    "extract": "The cat, also called domestic cat and house cat, is a small domesticated carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator.\nCat communication includes meowing, purring, trilling, hissing, growling, grunting, and body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones. Cat intelligence is evident in its ability to adapt, learn through observation, and solve problems. \nFemale domestic cats can have kittens from spring to late autumn in temperate zones and throughout the year in equatorial regions, with litter sizes often ranging from two to five kittens.",
+    "extract_html": "<p>The <b>cat</b>, also called <b>domestic cat</b> and <b>house cat</b>, is a small domesticated carnivorous mammal. It is an obligate carnivore, requiring a predominantly meat-based diet. Its retractable claws are adapted to killing small prey species such as mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator.\nCat communication includes meowing, purring, trilling, <span class=\"extiw\">hissing</span>, growling, <span class=\"extiw\">grunting</span>, and body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones. Cat intelligence is evident in its ability to adapt, learn through observation, and solve problems. \nFemale domestic cats can have kittens from spring to late autumn in temperate zones and throughout the year in equatorial regions, with litter sizes often ranging from two to five kittens.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Youtube": {
+    "type": "standard",
+    "title": "YouTube",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">YouTube</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q866",
+    "titles": {
+      "canonical": "YouTube",
+      "normalized": "YouTube",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">YouTube</span></span>"
+    },
+    "pageid": 3524766,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/330px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png",
+      "width": 330,
+      "height": 187
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png",
+      "width": 1901,
+      "height": 1080
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356090475",
+    "tid": "405c685b-5863-11f1-9525-15bbca8e5ddc",
+    "timestamp": "2026-05-25T17:57:53Z",
+    "description": "Video-sharing platform",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/YouTube",
+        "revisions": "https://en.wikipedia.org/wiki/YouTube?action=history",
+        "edit": "https://en.wikipedia.org/wiki/YouTube?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:YouTube"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/YouTube",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/YouTube",
+        "edit": "https://en.wikipedia.org/wiki/YouTube?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:YouTube"
+      }
+    },
+    "extract": "YouTube is an American online video sharing platform owned by Google. YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal. Headquartered in San Bruno, California, it is the second-most-visited website in the world, after Google itself. In January 2024, YouTube had reached more than 2.7 billion monthly active users, who collectively watched more than one billion hours of video every day. As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of video per minute, and as of mid-2024, there were approximately 14.8 billion videos in total.",
+    "extract_html": "<p><b>YouTube</b> is an American online video sharing platform owned by Google. YouTube was founded on February 14, 2005, by Chad Hurley, Jawed Karim, and Steve Chen who were all former employees at PayPal. Headquartered in San Bruno, California, it is the second-most-visited website in the world, after Google itself. In January 2024, YouTube had reached more than 2.7<span class=\"nowrap\"> </span>billion monthly active users, who collectively watched more than one billion hours of video every day. As of May 2019, videos were being uploaded to the platform at a rate of more than 500 hours of video per minute, and as of mid-2024, there were approximately 14.8<span class=\"nowrap\"> </span>billion videos in total.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Hello_Kitty": {
+    "type": "standard",
+    "title": "Hello Kitty",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello Kitty</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q191794",
+    "titles": {
+      "canonical": "Hello_Kitty",
+      "normalized": "Hello Kitty",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello Kitty</span></span>"
+    },
+    "pageid": 54295,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png",
+      "width": 247,
+      "height": 312
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png",
+      "width": 247,
+      "height": 312
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354917239",
+    "tid": "422da4ab-5312-11f1-85e6-285a8e68f65d",
+    "timestamp": "2026-05-18T23:35:31Z",
+    "description": "Fictional character by Sanrio",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Hello_Kitty",
+        "revisions": "https://en.wikipedia.org/wiki/Hello_Kitty?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Hello_Kitty?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_Kitty"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Hello_Kitty",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Hello_Kitty",
+        "edit": "https://en.wikipedia.org/wiki/Hello_Kitty?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_Kitty"
+      }
+    },
+    "extract": "Hello Kitty, also known by her real name Kitty White, is a fictional character created by Yuko Shimizu, designed by Yuko Yamaguchi, and owned by the Japanese company Sanrio. Sanrio depicts Hello Kitty as a British anthropomorphic white cat with a red bow and no visible mouth. According to her backstory, she lives in a London suburb with her family, and is close to her twin sister Mimmy, who is depicted with a yellow bow.",
+    "extract_html": "<p><b>Hello Kitty</b>, also known by her real name <b>Kitty White</b>, is a fictional character created by Yuko Shimizu, designed by Yuko Yamaguchi, and owned by the Japanese company Sanrio. Sanrio depicts Hello Kitty as a British anthropomorphic white cat with a red bow and no visible mouth. According to her backstory, she lives in a London suburb with her family, and is close to her twin sister Mimmy, who is depicted with a yellow bow.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/yuri": {
+    "type": "disambiguation",
+    "title": "Yuri",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yuri</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4995000",
+    "titles": {
+      "canonical": "Yuri",
+      "normalized": "Yuri",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yuri</span></span>"
+    },
+    "pageid": 2219776,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1350066496",
+    "tid": "df3de417-3c63-11f1-afb5-8635ec41db3d",
+    "timestamp": "2026-04-20T02:51:47Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yuri",
+        "revisions": "https://en.wikipedia.org/wiki/Yuri?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yuri?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yuri"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Yuri",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Yuri",
+        "edit": "https://en.wikipedia.org/wiki/Yuri?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yuri"
+      }
+    },
+    "extract": "Yuri may refer to:",
+    "extract_html": "<p><b>Yuri</b> may refer to:</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ado_(singer)": {
+    "type": "standard",
+    "title": "Ado (singer)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ado (singer)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q104012678",
+    "titles": {
+      "canonical": "Ado_(singer)",
+      "normalized": "Ado (singer)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ado (singer)</span></span>"
+    },
+    "pageid": 67285318,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356916792",
+    "tid": "b5a3b15f-5c48-11f1-9c58-00c7168b87a9",
+    "timestamp": "2026-05-30T16:57:58Z",
+    "description": "Japanese singer (born 2002)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ado_(singer)",
+        "revisions": "https://en.wikipedia.org/wiki/Ado_(singer)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ado_(singer)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ado_(singer)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ado_(singer)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ado_(singer)",
+        "edit": "https://en.wikipedia.org/wiki/Ado_(singer)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ado_(singer)"
+      }
+    },
+    "extract": "Ado is a Japanese singer. In 2020, at the age of 17, she made her debut with \"Usseewa\", which peaked at number 1 on Billboard Japan Hot 100, Oricon Digital Singles Chart, and the Oricon Streaming Chart. The song reached 100 million plays on Billboard Japan within 17 weeks of charting, which was the sixth fastest in history and made her the youngest to achieve the milestone as a solo singer. In 2022, her song \"New Genesis\" was used as the theme song for the animated film One Piece Film: Red and topped Apple Music's Global Top 100 charts. Her 2025 Hibana World Tour has been credited as the largest global tour by a Japanese artist.",
+    "extract_html": "<p><b>Ado</b> is a Japanese singer. In 2020, at the age of 17, she made her debut with \"Usseewa\", which peaked at number 1 on <span><i>Billboard Japan</i> Hot 100</span>, Oricon Digital Singles Chart, and the Oricon Streaming Chart. The song reached 100 million plays on <i>Billboard Japan</i> within 17 weeks of charting, which was the sixth fastest in history and made her the youngest to achieve the milestone as a solo singer. In 2022, her song \"New Genesis\" was used as the theme song for the animated film <i>One Piece Film: Red</i> and topped Apple Music's Global Top 100 charts. Her 2025 Hibana World Tour has been credited as the largest global tour by a Japanese artist.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Hello_World": {
+    "type": "disambiguation",
+    "title": "Hello World",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello World</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2524537",
+    "titles": {
+      "canonical": "Hello_World",
+      "normalized": "Hello World",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Hello World</span></span>"
+    },
+    "pageid": 37802793,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1349443600",
+    "tid": "2486ca97-3a4a-11f1-a5f5-85a427d554ca",
+    "timestamp": "2026-04-17T10:42:34Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Hello_World",
+        "revisions": "https://en.wikipedia.org/wiki/Hello_World?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Hello_World?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_World"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Hello_World",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Hello_World",
+        "edit": "https://en.wikipedia.org/wiki/Hello_World?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Hello_World"
+      }
+    },
+    "extract": "Hello World may refer to:\"Hello, World!\" program, a computer program that outputs or displays the message \"Hello, World!\" ",
+    "extract_html": "<p><b>Hello World</b> may refer to:</p><ul><li>\"Hello, World!\" program, a computer program that outputs or displays the message \"Hello, World!\" </li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Wisconsin Circuit Court Access": {
+    "type": "standard",
+    "title": "Wisconsin Circuit Court Access",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wisconsin Circuit Court Access</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q17156447",
+    "titles": {
+      "canonical": "Wisconsin_Circuit_Court_Access",
+      "normalized": "Wisconsin Circuit Court Access",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wisconsin Circuit Court Access</span></span>"
+    },
+    "pageid": 11790560,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1277854919",
+    "tid": "03b18dc7-f4b5-11ef-a2dc-8f3c9d06517d",
+    "timestamp": "2025-02-27T02:46:16Z",
+    "description": "Website",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Wisconsin_Circuit_Court_Access",
+        "revisions": "https://en.wikipedia.org/wiki/Wisconsin_Circuit_Court_Access?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Wisconsin_Circuit_Court_Access?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Wisconsin_Circuit_Court_Access"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Wisconsin_Circuit_Court_Access",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Wisconsin_Circuit_Court_Access",
+        "edit": "https://en.wikipedia.org/wiki/Wisconsin_Circuit_Court_Access?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Wisconsin_Circuit_Court_Access"
+      }
+    },
+    "extract": "Wisconsin Circuit Court Access is a website that provides access to some circuit courts records of Wisconsin. The website displays the case information entered into the Consolidated Court Automation Programs (CCAP) case management system by court staff in the counties where the case files are located. The court record summaries provided by the system are all public records under Wisconsin open records law sections 19.31-19.39 of the Wisconsin Statutes.",
+    "extract_html": "<p><b>Wisconsin Circuit Court Access</b> is a website that provides access to some circuit courts records of Wisconsin. The website displays the case information entered into the <b>Consolidated Court Automation Programs</b> (CCAP) case management system by court staff in the counties where the case files are located. The court record summaries provided by the system are all public records under Wisconsin open records law sections 19.31-19.39 of the Wisconsin Statutes.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/1969 Munster Senior Club Hurling Championship": {
+    "type": "standard",
+    "title": "1969 Munster Senior Club Hurling Championship",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1969 Munster Senior Club Hurling Championship</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q60526418",
+    "titles": {
+      "canonical": "1969_Munster_Senior_Club_Hurling_Championship",
+      "normalized": "1969 Munster Senior Club Hurling Championship",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1969 Munster Senior Club Hurling Championship</span></span>"
+    },
+    "pageid": 59104651,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1336356391",
+    "tid": "e468aac3-00de-11f1-a169-c03bea0e3487",
+    "timestamp": "2026-02-03T09:01:14Z",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/1969_Munster_Senior_Club_Hurling_Championship",
+        "revisions": "https://en.wikipedia.org/wiki/1969_Munster_Senior_Club_Hurling_Championship?action=history",
+        "edit": "https://en.wikipedia.org/wiki/1969_Munster_Senior_Club_Hurling_Championship?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1969_Munster_Senior_Club_Hurling_Championship"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/1969_Munster_Senior_Club_Hurling_Championship",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/1969_Munster_Senior_Club_Hurling_Championship",
+        "edit": "https://en.wikipedia.org/wiki/1969_Munster_Senior_Club_Hurling_Championship?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1969_Munster_Senior_Club_Hurling_Championship"
+      }
+    },
+    "extract": "The 1969 Munster Senior Club Hurling Championship was the sixth staging of the Munster Senior Club Hurling Championship since its establishment by the Munster Council in 1964. The championship ran from 22 February 1970 to 11 April 1971.",
+    "extract_html": "<p>The <b>1969 Munster Senior Club Hurling Championship</b> was the sixth staging of the Munster Senior Club Hurling Championship since its establishment by the Munster Council in 1964. The championship ran from 22 February 1970 to 11 April 1971.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/List of number-one country albums of 2002 (Australia)": {
+    "type": "standard",
+    "title": "List of number-one country albums of 2002 (Australia)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of number-one country albums of 2002 (Australia)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q21068415",
+    "titles": {
+      "canonical": "List_of_number-one_country_albums_of_2002_(Australia)",
+      "normalized": "List of number-one country albums of 2002 (Australia)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of number-one country albums of 2002 (Australia)</span></span>"
+    },
+    "pageid": 47477065,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353016220",
+    "tid": "a90cae4b-4a38-11f1-a159-545c8d3d26fe",
+    "timestamp": "2026-05-07T17:17:44Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/List_of_number-one_country_albums_of_2002_(Australia)",
+        "revisions": "https://en.wikipedia.org/wiki/List_of_number-one_country_albums_of_2002_(Australia)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/List_of_number-one_country_albums_of_2002_(Australia)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_number-one_country_albums_of_2002_(Australia)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/List_of_number-one_country_albums_of_2002_(Australia)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/List_of_number-one_country_albums_of_2002_(Australia)",
+        "edit": "https://en.wikipedia.org/wiki/List_of_number-one_country_albums_of_2002_(Australia)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_number-one_country_albums_of_2002_(Australia)"
+      }
+    },
+    "extract": "These are the Australian Country number-one albums of 2002, per the ARIA Charts.\n\n",
+    "extract_html": "<p>These are the <b>Australian Country number-one albums of 2002</b>, per the ARIA Charts.\n\n</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Vrh pri Boštanju": {
+    "type": "standard",
+    "title": "Vrh pri Boštanju",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Vrh pri Boštanju</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2413238",
+    "titles": {
+      "canonical": "Vrh_pri_Boštanju",
+      "normalized": "Vrh pri Boštanju",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Vrh pri Boštanju</span></span>"
+    },
+    "pageid": 33484051,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1252969742",
+    "tid": "0e10f406-9174-11ef-996b-87a90f03010d",
+    "timestamp": "2024-10-23T19:21:51Z",
+    "description": "Place in Lower Carniola, Slovenia",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 46.00545833,
+      "lon": 15.25901111
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Vrh_pri_Bo%C5%A1tanju",
+        "revisions": "https://en.wikipedia.org/wiki/Vrh_pri_Bo%C5%A1tanju?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Vrh_pri_Bo%C5%A1tanju?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Vrh_pri_Bo%C5%A1tanju"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Vrh_pri_Bo%C5%A1tanju",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Vrh_pri_Bo%C5%A1tanju",
+        "edit": "https://en.wikipedia.org/wiki/Vrh_pri_Bo%C5%A1tanju?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Vrh_pri_Bo%C5%A1tanju"
+      }
+    },
+    "extract": "Vrh pri Boštanju is a settlement in the hills southwest of Boštanj in the Municipality of Sevnica in east-central Slovenia. The area is part of the historical region of Lower Carniola. The municipality is now included in the Lower Sava Statistical Region. The settlement includes the hamlets of Dule, Pleček, Gabrnik, Ravne, Topolovec, Grič, Hrib, Dobje, Reviše, Volčje Jame, Drče, Okič, Sleme, Drenovec, Straški Hrib, and Lipoglav.",
+    "extract_html": "<p><b>Vrh pri Boštanju</b> is a settlement in the hills southwest of Boštanj in the Municipality of Sevnica in east-central Slovenia. The area is part of the historical region of Lower Carniola. The municipality is now included in the Lower Sava Statistical Region. The settlement includes the hamlets of Dule, Pleček, Gabrnik, Ravne, Topolovec, Grič, Hrib, Dobje, Reviše, Volčje Jame, Drče, Okič, Sleme, Drenovec, Straški Hrib, and Lipoglav.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/ATM Alamgir": {
+    "type": "standard",
+    "title": "ATM Alamgir",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">ATM Alamgir</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q91110677",
+    "titles": {
+      "canonical": "ATM_Alamgir",
+      "normalized": "ATM Alamgir",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">ATM Alamgir</span></span>"
+    },
+    "pageid": 63704095,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1342255088",
+    "tid": "68b3a4f0-1a7e-11f1-adb5-a41761e6aa26",
+    "timestamp": "2026-03-07T23:36:05Z",
+    "description": "Bangladeshi politician (1950–2020)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/ATM_Alamgir",
+        "revisions": "https://en.wikipedia.org/wiki/ATM_Alamgir?action=history",
+        "edit": "https://en.wikipedia.org/wiki/ATM_Alamgir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:ATM_Alamgir"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/ATM_Alamgir",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/ATM_Alamgir",
+        "edit": "https://en.wikipedia.org/wiki/ATM_Alamgir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:ATM_Alamgir"
+      }
+    },
+    "extract": "ATM Alamgir was a Bangladeshi Jatiya Party (Ershad) politician and a Jatiya Sangsad member representing the Comilla-10 constituency as a Bangladesh Nationalist Party member.",
+    "extract_html": "<p><b>ATM Alamgir</b> was a Bangladeshi Jatiya Party (Ershad) politician and a Jatiya Sangsad member representing the Comilla-10 constituency as a Bangladesh Nationalist Party member.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Mackenzie-class destroyer": {
+    "type": "standard",
+    "title": "Mackenzie-class destroyer",
+    "displaytitle": "<i>Mackenzie</i>-class destroyer",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6724345",
+    "titles": {
+      "canonical": "Mackenzie-class_destroyer",
+      "normalized": "Mackenzie-class destroyer",
+      "display": "<i>Mackenzie</i>-class destroyer"
+    },
+    "pageid": 13494369,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/HMCS_Mackenzie_%28DDE_261%29_off_San_Diego_1992.JPEG/330px-HMCS_Mackenzie_%28DDE_261%29_off_San_Diego_1992.JPEG",
+      "width": 330,
+      "height": 212
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/bb/HMCS_Mackenzie_%28DDE_261%29_off_San_Diego_1992.JPEG",
+      "width": 2193,
+      "height": 1409
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356030245",
+    "tid": "b6d7765f-581f-11f1-8f13-ed7c9222bab0",
+    "timestamp": "2026-05-25T09:54:26Z",
+    "description": "Canadian warship class (1965–1992)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Mackenzie-class_destroyer",
+        "revisions": "https://en.wikipedia.org/wiki/Mackenzie-class_destroyer?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Mackenzie-class_destroyer?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mackenzie-class_destroyer"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Mackenzie-class_destroyer",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Mackenzie-class_destroyer",
+        "edit": "https://en.wikipedia.org/wiki/Mackenzie-class_destroyer?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mackenzie-class_destroyer"
+      }
+    },
+    "extract": "The Mackenzie-class destroyer was a class of warship used by the Royal Canadian Navy and Canadian Forces from the 1960s–1990s. Six such ships were envisioned, of which four were completed to this specification. The last two hulls were completed to the post DDH conversion St. Laurent-class design ; they were designated as the Annapolis class instead. The four Mackenzie-class destroyers spent most of their service in the Pacific Ocean, used primarily in a training role. Their only significant update was the DELEX program, which was completed between 1982 and 1985 and updated their navigational radar and their sonar.",
+    "extract_html": "<p>The <b><i>Mackenzie</i>-class destroyer</b> was a class of warship used by the Royal Canadian Navy and Canadian Forces from the 1960s–1990s. Six such ships were envisioned, of which four were completed to this specification. The last two hulls were completed to the post DDH conversion <span><i>St. Laurent</i>-class</span> design ; they were designated as the <span><i>Annapolis</i> class</span> instead. The four <i>Mackenzie</i>-class destroyers spent most of their service in the Pacific Ocean, used primarily in a training role. Their only significant update was the DELEX program, which was completed between 1982 and 1985 and updated their navigational radar and their sonar.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Dan Patrick (ice hockey)": {
+    "type": "standard",
+    "title": "Dan Patrick (ice hockey)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dan Patrick (ice hockey)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q19517991",
+    "titles": {
+      "canonical": "Dan_Patrick_(ice_hockey)",
+      "normalized": "Dan Patrick (ice hockey)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dan Patrick (ice hockey)</span></span>"
+    },
+    "pageid": 44755715,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1270341487",
+    "tid": "9802183e-d60c-11ef-ac2a-2632e6499f57",
+    "timestamp": "2025-01-19T02:25:05Z",
+    "description": "Canadian ice hockey player",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Dan_Patrick_(ice_hockey)",
+        "revisions": "https://en.wikipedia.org/wiki/Dan_Patrick_(ice_hockey)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Dan_Patrick_(ice_hockey)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dan_Patrick_(ice_hockey)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Dan_Patrick_(ice_hockey)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Dan_Patrick_(ice_hockey)",
+        "edit": "https://en.wikipedia.org/wiki/Dan_Patrick_(ice_hockey)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dan_Patrick_(ice_hockey)"
+      }
+    },
+    "extract": "Daniel Patrick is a Canadian retired professional hockey player who played 591 games in the Eastern Hockey League with the Washington Presidents, Johnstown Jets and Salem Rebels.",
+    "extract_html": "<p><b>Daniel Patrick</b> is a Canadian retired professional hockey player who played 591 games in the Eastern Hockey League with the Washington Presidents, Johnstown Jets and Salem Rebels.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Sob Rock": {
+    "type": "standard",
+    "title": "Sob Rock",
+    "displaytitle": "<i>Sob Rock</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q107260819",
+    "titles": {
+      "canonical": "Sob_Rock",
+      "normalized": "Sob Rock",
+      "display": "<i>Sob Rock</i>"
+    },
+    "pageid": 67824342,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/1/16/John_Mayer_-_Sob_Rock.png",
+      "width": 300,
+      "height": 300
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/1/16/John_Mayer_-_Sob_Rock.png",
+      "width": 300,
+      "height": 300
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1334537735",
+    "tid": "b7481a6c-f8da-11f0-9117-c7f07e81593e",
+    "timestamp": "2026-01-24T04:11:11Z",
+    "description": "2021 studio album by John Mayer",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Sob_Rock",
+        "revisions": "https://en.wikipedia.org/wiki/Sob_Rock?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Sob_Rock?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sob_Rock"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Sob_Rock",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Sob_Rock",
+        "edit": "https://en.wikipedia.org/wiki/Sob_Rock?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sob_Rock"
+      }
+    },
+    "extract": "Sob Rock is the eighth studio album by American singer-songwriter John Mayer, released on July 16, 2021, by Columbia Records. The single \"New Light\", released in May 2018, is included on the album, as are Mayer's two singles from 2019, \"I Guess I Just Feel Like\" and \"Carry Me Away\". The lead single \"Last Train Home\" was released on June 4, 2021, and features guest vocals from Maren Morris. Mayer toured the United States with Dead & Company from August through October 2021 and embarked on a solo tour in support of the album in 2022.",
+    "extract_html": "<p><i><b>Sob Rock</b></i> is the eighth studio album by American singer-songwriter John Mayer, released on July 16, 2021, by Columbia Records. The single \"New Light\", released in May 2018, is included on the album, as are Mayer's two singles from 2019, \"I Guess I Just Feel Like\" and \"Carry Me Away\". The lead single \"Last Train Home\" was released on June 4, 2021, and features guest vocals from Maren Morris. Mayer toured the United States with Dead &amp; Company from August through October 2021 and embarked on a solo tour in support of the album in 2022.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Sofia Rodríguez": {
+    "type": "standard",
+    "title": "Sofia Rodríguez",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sofia Rodríguez</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q24005874",
+    "titles": {
+      "canonical": "Sofia_Rodríguez",
+      "normalized": "Sofia Rodríguez",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sofia Rodríguez</span></span>"
+    },
+    "pageid": 60329249,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1347298976",
+    "tid": "c0a4005a-313b-11f1-a9d7-7e84721f7fa5",
+    "timestamp": "2026-04-05T22:06:53Z",
+    "description": "Spanish cyclist",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Sofia_Rodr%C3%ADguez",
+        "revisions": "https://en.wikipedia.org/wiki/Sofia_Rodr%C3%ADguez?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Sofia_Rodr%C3%ADguez?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sofia_Rodr%C3%ADguez"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Sofia_Rodr%C3%ADguez",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Sofia_Rodr%C3%ADguez",
+        "edit": "https://en.wikipedia.org/wiki/Sofia_Rodr%C3%ADguez?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sofia_Rodr%C3%ADguez"
+      }
+    },
+    "extract": "Sofia Rodríguez Revert is a Spanish professional racing cyclist, who rode for UCI Women's Continental Team Sopela Women's Team.",
+    "extract_html": "<p><b>Sofia Rodríguez Revert</b> is a Spanish professional racing cyclist, who rode for UCI Women's Continental Team Sopela Women's Team.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tagaya": {
+    "type": "standard",
+    "title": "Tagaya",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tagaya</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q26216160",
+    "titles": {
+      "canonical": "Tagaya",
+      "normalized": "Tagaya",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tagaya</span></span>"
+    },
+    "pageid": 61543053,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "930817092",
+    "tid": "1107623d-1eed-11ea-ac5a-ff7a0956d618",
+    "timestamp": "2019-12-15T03:43:33Z",
+    "description": "Surname list",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tagaya",
+        "revisions": "https://en.wikipedia.org/wiki/Tagaya?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tagaya?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tagaya"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tagaya",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tagaya",
+        "edit": "https://en.wikipedia.org/wiki/Tagaya?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tagaya"
+      }
+    },
+    "extract": "Tagaya is a Japanese surname. Notable people with the surname include:Shinnen Tagaya , Japanese politician\nTagaya clan (結城氏)",
+    "extract_html": "<p><b>Tagaya</b> is a Japanese surname. Notable people with the surname include:</p><ul><li>Shinnen Tagaya<span style=\"font-weight:normal\"> </span>, Japanese politician</li>\n<li>Tagaya clan<span style=\"font-weight:normal\"> (結城氏)</span></li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Western lowland gorilla": {
+    "type": "standard",
+    "title": "Western lowland gorilla",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Western lowland gorilla</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q876500",
+    "titles": {
+      "canonical": "Western_lowland_gorilla",
+      "normalized": "Western lowland gorilla",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Western lowland gorilla</span></span>"
+    },
+    "pageid": 1718041,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/WesternLowlandGorilla03.jpg/330px-WesternLowlandGorilla03.jpg",
+      "width": 330,
+      "height": 379
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/07/WesternLowlandGorilla03.jpg",
+      "width": 2360,
+      "height": 2712
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1357427565",
+    "tid": "aae05c51-5e9a-11f1-95f3-46812efb1baf",
+    "timestamp": "2026-06-02T15:49:41Z",
+    "description": "Subspecies of ape",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "revisions": "https://en.wikipedia.org/wiki/Western_lowland_gorilla?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Western_lowland_gorilla?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Western_lowland_gorilla"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Western_lowland_gorilla",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Western_lowland_gorilla",
+        "edit": "https://en.wikipedia.org/wiki/Western_lowland_gorilla?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Western_lowland_gorilla"
+      }
+    },
+    "extract": "The western lowland gorilla is one of two critically endangered subspecies of the western gorilla that lives in montane, primary and secondary forest and lowland swampland in central Africa in Angola, Cameroon, Central African Republic, Republic of the Congo, Democratic Republic of the Congo, Equatorial Guinea and Gabon. It is the nominate subspecies of the western gorilla, and the smallest of the four gorilla subspecies.",
+    "extract_html": "<p>The <b>western lowland gorilla</b> is one of two critically endangered subspecies of the western gorilla that lives in montane, primary and secondary forest and lowland swampland in central Africa in Angola, Cameroon, Central African Republic, Republic of the Congo, Democratic Republic of the Congo, Equatorial Guinea and Gabon. It is the nominate subspecies of the western gorilla, and the smallest of the four gorilla subspecies.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Michael Haugen Jr.": {
+    "type": "standard",
+    "title": "Michael Haugen Jr.",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Michael Haugen Jr.</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6831006",
+    "titles": {
+      "canonical": "Michael_Haugen_Jr.",
+      "normalized": "Michael Haugen Jr.",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Michael Haugen Jr.</span></span>"
+    },
+    "pageid": 22233672,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/20160821-Mike-Jakubowski-Michael-Haugen-Jr.jpg/330px-20160821-Mike-Jakubowski-Michael-Haugen-Jr.jpg",
+      "width": 330,
+      "height": 284
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/20160821-Mike-Jakubowski-Michael-Haugen-Jr.jpg",
+      "width": 804,
+      "height": 692
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1351912268",
+    "tid": "b1b52e37-44e0-11f1-bc98-cdba6db0cd42",
+    "timestamp": "2026-04-30T22:05:27Z",
+    "description": "American ten-pin bowler",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Michael_Haugen_Jr.",
+        "revisions": "https://en.wikipedia.org/wiki/Michael_Haugen_Jr.?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Michael_Haugen_Jr.?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Michael_Haugen_Jr."
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Michael_Haugen_Jr.",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Michael_Haugen_Jr.",
+        "edit": "https://en.wikipedia.org/wiki/Michael_Haugen_Jr.?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Michael_Haugen_Jr."
+      }
+    },
+    "extract": "Michael Haugen Jr. is a right-handed professional ten-pin bowler residing in Carefree, Arizona. He is a member of the Professional Bowlers Association (PBA), having joined in 1994. He has won five PBA Tour titles overall, including a major title at the 2008 PBA Tournament of Champions. He owns a major title on the PBA50 Tour, having won the 2017 PBA Senior U.S. Open among his three PBA50 titles. Haugen has also earned 23 PBA Regional Tour titles and 6 PBA50 Regional Tour titles.",
+    "extract_html": "<p><b>Michael Haugen Jr.</b> is a right-handed professional ten-pin bowler residing in Carefree, Arizona. He is a member of the Professional Bowlers Association (PBA), having joined in 1994. He has won five PBA Tour titles overall, including a major title at the 2008 PBA Tournament of Champions. He owns a major title on the PBA50 Tour, having won the 2017 PBA Senior U.S. Open among his three PBA50 titles. Haugen has also earned 23 PBA Regional Tour titles and 6 PBA50 Regional Tour titles.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Athletics at the 2000 Summer Paralympics – Men's 100 metres T36": {
+    "type": "standard",
+    "title": "Athletics at the 2000 Summer Paralympics – Men's 100 metres T36",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Athletics at the 2000 Summer Paralympics – Men&#039;s 100 metres T36</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q61999849",
+    "titles": {
+      "canonical": "Athletics_at_the_2000_Summer_Paralympics_–_Men's_100_metres_T36",
+      "normalized": "Athletics at the 2000 Summer Paralympics – Men's 100 metres T36",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Athletics at the 2000 Summer Paralympics – Men&#039;s 100 metres T36</span></span>"
+    },
+    "pageid": 59749717,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1343112361",
+    "tid": "f8e345cc-1df6-11f1-8f69-241cb464dade",
+    "timestamp": "2026-03-12T09:36:40Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36",
+        "revisions": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36",
+        "edit": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Athletics_at_the_2000_Summer_Paralympics_%E2%80%93_Men's_100_metres_T36"
+      }
+    },
+    "extract": "The men's 100 metres T36 took place in Stadium Australia.",
+    "extract_html": "<p>The <b>men's 100 metres T36</b> took place in Stadium Australia.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/William Lynch speech": {
+    "type": "standard",
+    "title": "William Lynch speech",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">William Lynch speech</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q8014813",
+    "titles": {
+      "canonical": "William_Lynch_speech",
+      "normalized": "William Lynch speech",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">William Lynch speech</span></span>"
+    },
+    "pageid": 1766611,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353800256",
+    "tid": "5f3d10d8-4e00-11f1-ab0c-87f6dbbc03a2",
+    "timestamp": "2026-05-12T12:44:53Z",
+    "description": "Purported 1712 speech, a hoax",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/William_Lynch_speech",
+        "revisions": "https://en.wikipedia.org/wiki/William_Lynch_speech?action=history",
+        "edit": "https://en.wikipedia.org/wiki/William_Lynch_speech?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:William_Lynch_speech"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/William_Lynch_speech",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/William_Lynch_speech",
+        "edit": "https://en.wikipedia.org/wiki/William_Lynch_speech?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:William_Lynch_speech"
+      }
+    },
+    "extract": "The William Lynch speech, also known as the Willie Lynch letter, is an address purportedly delivered by a William Lynch to an audience on the bank of the James River in Virginia in 1712 regarding control of slaves within the colony. Since the late 20th century, it has been widely exposed as a hoax.",
+    "extract_html": "<p>The <b>William Lynch speech</b>, also known as the <b>Willie Lynch letter</b>, is an address purportedly delivered by a William Lynch to an audience on the bank of the James River in Virginia in 1712 regarding control of slaves within the colony. Since the late 20th century, it has been widely exposed as a hoax.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Annouchka Gravel Galouchko": {
+    "type": "standard",
+    "title": "Annouchka Gravel Galouchko",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Annouchka Gravel Galouchko</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q46842698",
+    "titles": {
+      "canonical": "Annouchka_Gravel_Galouchko",
+      "normalized": "Annouchka Gravel Galouchko",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Annouchka Gravel Galouchko</span></span>"
+    },
+    "pageid": 56132825,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1254981393",
+    "tid": "b6237a56-9931-11ef-902b-746f27c8bdff",
+    "timestamp": "2024-11-02T15:47:06Z",
+    "description": "Canadian visual artist and illustrator",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Annouchka_Gravel_Galouchko",
+        "revisions": "https://en.wikipedia.org/wiki/Annouchka_Gravel_Galouchko?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Annouchka_Gravel_Galouchko?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Annouchka_Gravel_Galouchko"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Annouchka_Gravel_Galouchko",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Annouchka_Gravel_Galouchko",
+        "edit": "https://en.wikipedia.org/wiki/Annouchka_Gravel_Galouchko?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Annouchka_Gravel_Galouchko"
+      }
+    },
+    "extract": "Annouchka Gravel Galouchko is a Canadian visual artist and award-winning illustrator of children's books.",
+    "extract_html": "<p><b>Annouchka Gravel Galouchko</b> is a Canadian visual artist and award-winning illustrator of children's books.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Oleksandr Usyk vs. Marco Huck": {
+    "type": "standard",
+    "title": "Oleksandr Usyk vs. Marco Huck",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Oleksandr Usyk vs. Marco Huck</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q127772086",
+    "titles": {
+      "canonical": "Oleksandr_Usyk_vs._Marco_Huck",
+      "normalized": "Oleksandr Usyk vs. Marco Huck",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Oleksandr Usyk vs. Marco Huck</span></span>"
+    },
+    "pageid": 56242602,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/0/0b/Oleksandr_Usyk_vs._Marco_Huck.jpg",
+      "width": 316,
+      "height": 316
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/0/0b/Oleksandr_Usyk_vs._Marco_Huck.jpg",
+      "width": 316,
+      "height": 316
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1333878968",
+    "tid": "9e81f06a-f5ca-11f0-89a3-f5fff5e84ea3",
+    "timestamp": "2026-01-20T06:38:24Z",
+    "description": "Boxing match",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Oleksandr_Usyk_vs._Marco_Huck",
+        "revisions": "https://en.wikipedia.org/wiki/Oleksandr_Usyk_vs._Marco_Huck?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Oleksandr_Usyk_vs._Marco_Huck?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Oleksandr_Usyk_vs._Marco_Huck"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Oleksandr_Usyk_vs._Marco_Huck",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Oleksandr_Usyk_vs._Marco_Huck",
+        "edit": "https://en.wikipedia.org/wiki/Oleksandr_Usyk_vs._Marco_Huck?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Oleksandr_Usyk_vs._Marco_Huck"
+      }
+    },
+    "extract": "Oleksandr Usyk vs. Marco Huck was a professional boxing match contested on 9 September 2017, for the WBO Cruiserweight championship.",
+    "extract_html": "<p><b>Oleksandr Usyk vs. Marco Huck</b> was a professional boxing match contested on 9 September 2017, for the WBO Cruiserweight championship.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Symphony of Enchanted Lands II – The Dark Secret": {
+    "type": "standard",
+    "title": "Symphony of Enchanted Lands II – The Dark Secret",
+    "displaytitle": "<i>Symphony of Enchanted Lands II – The Dark Secret</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2069709",
+    "titles": {
+      "canonical": "Symphony_of_Enchanted_Lands_II_–_The_Dark_Secret",
+      "normalized": "Symphony of Enchanted Lands II – The Dark Secret",
+      "display": "<i>Symphony of Enchanted Lands II – The Dark Secret</i>"
+    },
+    "pageid": 2050134,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/2/2d/Rhapsody_symphony_of_enchanted_lands_II.jpg",
+      "width": 250,
+      "height": 250
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/2/2d/Rhapsody_symphony_of_enchanted_lands_II.jpg",
+      "width": 250,
+      "height": 250
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1351351892",
+    "tid": "0a12d612-4232-11f1-aa6c-3252cea12ba9",
+    "timestamp": "2026-04-27T12:10:11Z",
+    "description": "2004 studio album by Rhapsody",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret",
+        "revisions": "https://en.wikipedia.org/wiki/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret",
+        "edit": "https://en.wikipedia.org/wiki/Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Symphony_of_Enchanted_Lands_II_%E2%80%93_The_Dark_Secret"
+      }
+    },
+    "extract": "Symphony of Enchanted Lands II – The Dark Secret is the sixth studio album by the Italian symphonic power metal band Rhapsody, released in 2004. A concept album like all previous albums of the band, it is not a sequel to Symphony of Enchanted Lands but the first chapter of the band's new saga, The Dark Secret Saga, which would conclude with their ninth album From Chaos to Eternity.",
+    "extract_html": "<p><i><b>Symphony of Enchanted Lands II – The Dark Secret</b></i> is the sixth studio album by the Italian symphonic power metal band Rhapsody, released in 2004. A concept album like all previous albums of the band, it is not a sequel to <i>Symphony of Enchanted Lands</i> but the first chapter of the band's new saga, <i>The Dark Secret Saga</i>, which would conclude with their ninth album <i>From Chaos to Eternity</i>.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/London Life": {
+    "type": "disambiguation",
+    "title": "London Life",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">London Life</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q134879621",
+    "titles": {
+      "canonical": "London_Life",
+      "normalized": "London Life",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">London Life</span></span>"
+    },
+    "pageid": 80188602,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1346186652",
+    "tid": "3cc8ae5c-2c31-11f1-91c6-e003c19d66c1",
+    "timestamp": "2026-03-30T12:09:01Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/London_Life",
+        "revisions": "https://en.wikipedia.org/wiki/London_Life?action=history",
+        "edit": "https://en.wikipedia.org/wiki/London_Life?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:London_Life"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/London_Life",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/London_Life",
+        "edit": "https://en.wikipedia.org/wiki/London_Life?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:London_Life"
+      }
+    },
+    "extract": "London Life may refer to:London Life (play), 1924 work by Arnold Bennett and Edward Knoblock that was shown at the Drury Lane Theatre, London\nLondon Life , a 1960s British magazine edited by Marc Boxer as a revival of Tatler magazine\nLondon Life , a fetish magazine published in the early 20th century\nLondon Life, an unrelated British spanking magazine published briefly in 1977\nA London Life, 1888 novella by Henry James\nLondon Life Insurance, Canadian insurance company founded in 1874 and merged into Canada Life in 2020\nLondon Life Association, part of Henderson Group, an investment management company\nProfessor Layton's London Life, a 2009 role-playing video game\nLife in London (disambiguation)",
+    "extract_html": "<p><b>London Life</b> may refer to:</p><ul><li><span><i>London Life</i> (play)</span>, 1924 work by Arnold Bennett and Edward Knoblock that was shown at the Drury Lane Theatre, London</li>\n<li><i>London Life </i>, a 1960s British magazine edited by Marc Boxer as a revival of <i>Tatler</i> magazine</li>\n<li><i>London Life </i>, a fetish magazine published in the early 20th century</li>\n<li><i>London Life</i>, an unrelated British spanking magazine published briefly in 1977</li>\n<li><i>A London Life</i>, 1888 novella by Henry James</li>\n<li>London Life Insurance, Canadian insurance company founded in 1874 and merged into Canada Life in 2020</li>\n<li>London Life Association, part of Henderson Group, an investment management company</li>\n<li><i>Professor Layton's London Life</i>, a 2009 role-playing video game</li>\n<li><span class=\"mw-disambig\">Life in London (disambiguation)</span></li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Institute of Education (Dublin)": {
+    "type": "standard",
+    "title": "Institute of Education (Dublin)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Institute of Education (Dublin)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6040249",
+    "titles": {
+      "canonical": "Institute_of_Education_(Dublin)",
+      "normalized": "Institute of Education (Dublin)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Institute of Education (Dublin)</span></span>"
+    },
+    "pageid": 2016092,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2018-04-23_The_Institute_of_Education_--_85_Leeson_Street_Lower_Dublin_%28Ireland%29_April_2018.jpg/330px-2018-04-23_The_Institute_of_Education_--_85_Leeson_Street_Lower_Dublin_%28Ireland%29_April_2018.jpg",
+      "width": 330,
+      "height": 220
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2018-04-23_The_Institute_of_Education_--_85_Leeson_Street_Lower_Dublin_%28Ireland%29_April_2018.jpg/3840px-2018-04-23_The_Institute_of_Education_--_85_Leeson_Street_Lower_Dublin_%28Ireland%29_April_2018.jpg",
+      "width": 6000,
+      "height": 4000
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1348041868",
+    "tid": "0c043784-34c5-11f1-aa0a-4f4ff1b7e662",
+    "timestamp": "2026-04-10T10:07:14Z",
+    "description": "Irish private senior school founded 1969",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 53.33502222,
+      "lon": -6.25566944
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Institute_of_Education_(Dublin)",
+        "revisions": "https://en.wikipedia.org/wiki/Institute_of_Education_(Dublin)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Institute_of_Education_(Dublin)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Institute_of_Education_(Dublin)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Institute_of_Education_(Dublin)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Institute_of_Education_(Dublin)",
+        "edit": "https://en.wikipedia.org/wiki/Institute_of_Education_(Dublin)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Institute_of_Education_(Dublin)"
+      }
+    },
+    "extract": "The Institute of Education (IOE), is one of the largest private secondary schools in Ireland, teaching 4th, 5th and 6th year pupils. As well as preparing for the Leaving Certificate, fourth-year pupils at the Institute have the option to study a selection of subjects from the Cambridge International GCSE programme (IGCSE) as well as CEFR Language exams.",
+    "extract_html": "<p>The <b>Institute of Education</b> (<b>IOE</b>), is one of the largest private secondary schools in Ireland, teaching 4th, 5th and 6th year pupils. As well as preparing for the Leaving Certificate, fourth-year pupils at the Institute have the option to study a selection of subjects from the Cambridge International GCSE programme (IGCSE) as well as CEFR Language exams.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Space-filling tree": {
+    "type": "standard",
+    "title": "Space-filling tree",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Space-filling tree</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7572177",
+    "titles": {
+      "canonical": "Space-filling_tree",
+      "normalized": "Space-filling tree",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Space-filling tree</span></span>"
+    },
+    "pageid": 26173821,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1313472054",
+    "tid": "6f072199-9ad3-11f0-842f-beaa0e4c26cb",
+    "timestamp": "2025-09-26T12:22:14Z",
+    "description": "Geometric construction",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Space-filling_tree",
+        "revisions": "https://en.wikipedia.org/wiki/Space-filling_tree?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Space-filling_tree?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Space-filling_tree"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Space-filling_tree",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Space-filling_tree",
+        "edit": "https://en.wikipedia.org/wiki/Space-filling_tree?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Space-filling_tree"
+      }
+    },
+    "extract": "Space-filling trees are geometric constructions that are analogous to space-filling curves, but have a branching, tree-like structure and are rooted. A space-filling tree is defined by an incremental process that results in a tree for which every point in the space has a finite-length path that converges to it. In contrast to space-filling curves, individual paths in the tree are short, allowing any part of the space to be quickly reached from the root. The simplest examples of space-filling trees have a regular, self-similar, fractal structure, but can be generalized to non-regular and even randomized/Monte-Carlo variants. Space-filling trees have interesting parallels in nature, including fluid distribution systems, vascular networks, and fractal plant growth, and many interesting connections to L-systems in computer science.",
+    "extract_html": "<p><b>Space-filling trees</b> are geometric constructions that are analogous to space-filling curves, but have a branching, tree-like structure and are rooted. A space-filling tree is defined by an incremental process that results in a tree for which every point in the space has a finite-length path that converges to it. In contrast to space-filling curves, individual paths in the tree are short, allowing any part of the space to be quickly reached from the root. The simplest examples of space-filling trees have a regular, self-similar, fractal structure, but can be generalized to non-regular and even randomized/Monte-Carlo variants. Space-filling trees have interesting parallels in nature, including fluid distribution systems, vascular networks, and fractal plant growth, and many interesting connections to L-systems in computer science.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tupu (pin)": {
+    "type": "standard",
+    "title": "Tupu (pin)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tupu (pin)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q117771478",
+    "titles": {
+      "canonical": "Tupu_(pin)",
+      "normalized": "Tupu (pin)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tupu (pin)</span></span>"
+    },
+    "pageid": 73459648,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1346564464",
+    "tid": "9375e9c5-2de3-11f1-a91f-ee35d1012f32",
+    "timestamp": "2026-04-01T15:58:08Z",
+    "description": "Traditional garment fastener of the Andes",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tupu_(pin)",
+        "revisions": "https://en.wikipedia.org/wiki/Tupu_(pin)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tupu_(pin)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tupu_(pin)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tupu_(pin)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tupu_(pin)",
+        "edit": "https://en.wikipedia.org/wiki/Tupu_(pin)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tupu_(pin)"
+      }
+    },
+    "extract": "Worn for over 1700 years throughout the Andean regions of South America, tupu pins were worn primarily by women.",
+    "extract_html": "<p>Worn for over 1700 years throughout the Andean regions of South America, <b>tupu pins</b> were worn primarily by women.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tamara Davis": {
+    "type": "standard",
+    "title": "Tamara Davis",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tamara Davis</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q23696661",
+    "titles": {
+      "canonical": "Tamara_Davis",
+      "normalized": "Tamara Davis",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tamara Davis</span></span>"
+    },
+    "pageid": 5159782,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tamara_Davis%2C_2015.jpg/330px-Tamara_Davis%2C_2015.jpg",
+      "width": 330,
+      "height": 397
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/84/Tamara_Davis%2C_2015.jpg",
+      "width": 783,
+      "height": 941
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1341164640",
+    "tid": "7bc2012a-15ae-11f1-afc0-7571ef8a27db",
+    "timestamp": "2026-03-01T20:37:37Z",
+    "description": "Australian astrophysicist",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tamara_Davis",
+        "revisions": "https://en.wikipedia.org/wiki/Tamara_Davis?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tamara_Davis?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tamara_Davis"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tamara_Davis",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tamara_Davis",
+        "edit": "https://en.wikipedia.org/wiki/Tamara_Davis?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tamara_Davis"
+      }
+    },
+    "extract": "Tamara Maree Davis is an Australian astrophysicist that studies cosmology and specialises in the dark energy that is accelerating our universe. Davis is a professor and laureate fellow in the School of Mathematics and Physics at the University of Queensland.",
+    "extract_html": "<p><b>Tamara Maree Davis</b> is an Australian astrophysicist that studies cosmology and specialises in the dark energy that is accelerating our universe. Davis is a professor and laureate fellow in the School of Mathematics and Physics at the University of Queensland.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Stobierna, Rzeszów County": {
+    "type": "standard",
+    "title": "Stobierna, Rzeszów County",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Stobierna, Rzeszów County</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7617784",
+    "titles": {
+      "canonical": "Stobierna,_Rzeszów_County",
+      "normalized": "Stobierna, Rzeszów County",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Stobierna, Rzeszów County</span></span>"
+    },
+    "pageid": 19684282,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1351705887",
+    "tid": "530e87b9-43ec-11f1-8a07-9245064045d5",
+    "timestamp": "2026-04-29T16:56:11Z",
+    "description": "Village in Subcarpathian Voivodeship, Poland",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 50.13333333,
+      "lon": 22.06666667
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Stobierna%2C_Rzesz%C3%B3w_County",
+        "revisions": "https://en.wikipedia.org/wiki/Stobierna%2C_Rzesz%C3%B3w_County?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Stobierna%2C_Rzesz%C3%B3w_County?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Stobierna%2C_Rzesz%C3%B3w_County"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Stobierna%2C_Rzesz%C3%B3w_County",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Stobierna%2C_Rzesz%C3%B3w_County",
+        "edit": "https://en.wikipedia.org/wiki/Stobierna%2C_Rzesz%C3%B3w_County?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Stobierna%2C_Rzesz%C3%B3w_County"
+      }
+    },
+    "extract": "Stobierna is a village in the administrative district of Gmina Trzebownisko, within Rzeszów County, Subcarpathian Voivodeship, in south-eastern Poland.",
+    "extract_html": "<p><b>Stobierna</b> is a village in the administrative district of Gmina Trzebownisko, within Rzeszów County, Subcarpathian Voivodeship, in south-eastern Poland.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Iwaki-Moriyama Station": {
+    "type": "standard",
+    "title": "Iwaki-Moriyama Station",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Iwaki-Moriyama Station</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q11587868",
+    "titles": {
+      "canonical": "Iwaki-Moriyama_Station",
+      "normalized": "Iwaki-Moriyama Station",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Iwaki-Moriyama Station</span></span>"
+    },
+    "pageid": 23486593,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SuigunLine-IwakiMoriyamaStation.jpg/330px-SuigunLine-IwakiMoriyamaStation.jpg",
+      "width": 330,
+      "height": 248
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/SuigunLine-IwakiMoriyamaStation.jpg",
+      "width": 640,
+      "height": 480
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1317034991",
+    "tid": "c9820775-aa1d-11f0-9b9f-a02a116bab88",
+    "timestamp": "2025-10-15T23:22:16Z",
+    "description": "Railway station in Kōriyama, Fukushima Prefecture, Japan",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 37.3309,
+      "lon": 140.4063
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Iwaki-Moriyama_Station",
+        "revisions": "https://en.wikipedia.org/wiki/Iwaki-Moriyama_Station?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Iwaki-Moriyama_Station?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Iwaki-Moriyama_Station"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Iwaki-Moriyama_Station",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Iwaki-Moriyama_Station",
+        "edit": "https://en.wikipedia.org/wiki/Iwaki-Moriyama_Station?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Iwaki-Moriyama_Station"
+      }
+    },
+    "extract": "Iwaki-Moriyama Station  is a railway station in the city of Kōriyama, Fukushima, Japan operated by East Japan Railway Company.",
+    "extract_html": "<p><b>Iwaki-Moriyama Station</b><span style=\"font-weight:normal\"> </span> is a railway station in the city of Kōriyama, Fukushima, Japan operated by East Japan Railway Company.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/The Ocean Walker": {
+    "type": "standard",
+    "title": "The Ocean Walker",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">The Ocean Walker</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q48466406",
+    "titles": {
+      "canonical": "The_Ocean_Walker",
+      "normalized": "The Ocean Walker",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">The Ocean Walker</span></span>"
+    },
+    "pageid": 4235375,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1339941741",
+    "tid": "0363ba11-105f-11f1-b4c8-c1e54ca001ff",
+    "timestamp": "2026-02-23T02:26:09Z",
+    "description": "6th episode of the 3rd season of Arrested Development",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/The_Ocean_Walker",
+        "revisions": "https://en.wikipedia.org/wiki/The_Ocean_Walker?action=history",
+        "edit": "https://en.wikipedia.org/wiki/The_Ocean_Walker?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:The_Ocean_Walker"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/The_Ocean_Walker",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/The_Ocean_Walker",
+        "edit": "https://en.wikipedia.org/wiki/The_Ocean_Walker?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:The_Ocean_Walker"
+      }
+    },
+    "extract": "\"The Ocean Walker\" is the sixth episode of the third season of the American television satirical sitcom Arrested Development. It is the 46th overall episode of the series, and was written by Jake Farrow and Sam Laybourne, and directed by Paul Feig. It originally aired on Fox on December 5, 2005. The episode is series creator Mitchell Hurwitz's second favorite episode.",
+    "extract_html": "<p>\"<b>The Ocean Walker</b>\" is the sixth episode of the third season of the American television satirical sitcom <i>Arrested Development</i>. It is the 46th overall episode of the series, and was written by Jake Farrow and Sam Laybourne, and directed by Paul Feig. It originally aired on Fox on December 5, 2005. The episode is series creator Mitchell Hurwitz's second favorite episode.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Cold Therapy": {
+    "type": "standard",
+    "title": "Cold Therapy",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cold Therapy</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q26209505",
+    "titles": {
+      "canonical": "Cold_Therapy",
+      "normalized": "Cold Therapy",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Cold Therapy</span></span>"
+    },
+    "pageid": 51177898,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1344420890",
+    "tid": "fd39de8f-2444-11f1-80a3-8fec43214594",
+    "timestamp": "2026-03-20T10:10:15Z",
+    "description": "Polish electronic music project",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Cold_Therapy",
+        "revisions": "https://en.wikipedia.org/wiki/Cold_Therapy?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Cold_Therapy?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cold_Therapy"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Cold_Therapy",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Cold_Therapy",
+        "edit": "https://en.wikipedia.org/wiki/Cold_Therapy?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Cold_Therapy"
+      }
+    },
+    "extract": "Cold Therapy is a dark-industrial/dark electronic music project from Poland, founded by Jacek Wolański on October 8, 2012. Music of Cold Therapy is known for its dark and atmospheric sound.",
+    "extract_html": "<p><b>Cold Therapy</b> is a dark-industrial/dark electronic music project from Poland, founded by Jacek Wolański on October 8, 2012. Music of Cold Therapy is known for its dark and atmospheric sound.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Discovery (Electric Light Orchestra album)": {
+    "type": "standard",
+    "title": "Discovery (Electric Light Orchestra album)",
+    "displaytitle": "<i>Discovery</i> (Electric Light Orchestra album)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2731518",
+    "titles": {
+      "canonical": "Discovery_(Electric_Light_Orchestra_album)",
+      "normalized": "Discovery (Electric Light Orchestra album)",
+      "display": "<i>Discovery</i> (Electric Light Orchestra album)"
+    },
+    "pageid": 566676,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/c/c9/ELODiscoveryalbumcover.jpg",
+      "width": 300,
+      "height": 300
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/c/c9/ELODiscoveryalbumcover.jpg",
+      "width": 300,
+      "height": 300
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1357168481",
+    "tid": "ea5a58a1-5d67-11f1-9e89-cb076ef6bb4a",
+    "timestamp": "2026-06-01T03:13:52Z",
+    "description": "1979 studio album by Electric Light Orchestra",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Discovery_(Electric_Light_Orchestra_album)",
+        "revisions": "https://en.wikipedia.org/wiki/Discovery_(Electric_Light_Orchestra_album)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Discovery_(Electric_Light_Orchestra_album)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Discovery_(Electric_Light_Orchestra_album)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Discovery_(Electric_Light_Orchestra_album)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Discovery_(Electric_Light_Orchestra_album)",
+        "edit": "https://en.wikipedia.org/wiki/Discovery_(Electric_Light_Orchestra_album)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Discovery_(Electric_Light_Orchestra_album)"
+      }
+    },
+    "extract": "Discovery is the eighth studio album by English rock band Electric Light Orchestra (ELO). It was released on 1 June 1979 in the United Kingdom by Jet Records, where it topped record charts, and on 8 June in the United States on Jet through Columbia Records distribution. A music video album featuring all the songs being played by the band was then released on VHS in 1979, then re-released as part of the Out of the Blue: Live at Wembley DVD and VHS in 1998.",
+    "extract_html": "<p><i><b>Discovery</b></i> is the eighth studio album by English rock band Electric Light Orchestra (ELO). It was released on 1 June 1979 in the United Kingdom by Jet Records, where it topped record charts, and on 8 June in the United States on Jet through Columbia Records distribution. A music video album featuring all the songs being played by the band was then released on VHS in 1979, then re-released as part of the <i>Out of the Blue: Live at Wembley</i> DVD and VHS in 1998.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/1876 Christchurch mayoral election": {
+    "type": "standard",
+    "title": "1876 Christchurch mayoral election",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1876 Christchurch mayoral election</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q24971237",
+    "titles": {
+      "canonical": "1876_Christchurch_mayoral_election",
+      "normalized": "1876 Christchurch mayoral election",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1876 Christchurch mayoral election</span></span>"
+    },
+    "pageid": 50462523,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/James_Gapes%2C_1882c.jpg/330px-James_Gapes%2C_1882c.jpg",
+      "width": 330,
+      "height": 468
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/cb/James_Gapes%2C_1882c.jpg",
+      "width": 1139,
+      "height": 1615
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1312880757",
+    "tid": "9e4a3292-9830-11f0-bccd-142140a3f359",
+    "timestamp": "2025-09-23T03:51:43Z",
+    "description": "New Zealand mayoral election",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/1876_Christchurch_mayoral_election",
+        "revisions": "https://en.wikipedia.org/wiki/1876_Christchurch_mayoral_election?action=history",
+        "edit": "https://en.wikipedia.org/wiki/1876_Christchurch_mayoral_election?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1876_Christchurch_mayoral_election"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/1876_Christchurch_mayoral_election",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/1876_Christchurch_mayoral_election",
+        "edit": "https://en.wikipedia.org/wiki/1876_Christchurch_mayoral_election?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1876_Christchurch_mayoral_election"
+      }
+    },
+    "extract": "The 1876 Christchurch City mayoral election was the first election for the Mayor of Christchurch held by public vote. The election, held on 20 December, was won by James Gapes, who beat fellow city councillor Charles Thomas Ick.",
+    "extract_html": "<p>The <b>1876 Christchurch City mayoral election</b> was the first election for the Mayor of Christchurch held by public vote. The election, held on 20 December, was won by James Gapes, who beat fellow city councillor Charles Thomas Ick.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/County of Young": {
+    "type": "standard",
+    "title": "County of Young",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">County of Young</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q28428156",
+    "titles": {
+      "canonical": "County_of_Young",
+      "normalized": "County of Young",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">County of Young</span></span>"
+    },
+    "pageid": 51330122,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/GluePot_Reserve.jpg/330px-GluePot_Reserve.jpg",
+      "width": 330,
+      "height": 440
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/00/GluePot_Reserve.jpg",
+      "width": 1704,
+      "height": 2272
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1320039817",
+    "tid": "fc781804-b7d9-11f0-aecb-74aab6ff9b19",
+    "timestamp": "2025-11-02T10:52:12Z",
+    "description": "Cadastral division in South Australia",
+    "description_source": "local",
+    "coordinates": {
+      "lat": -33.761278,
+      "lon": 140.034621
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/County_of_Young",
+        "revisions": "https://en.wikipedia.org/wiki/County_of_Young?action=history",
+        "edit": "https://en.wikipedia.org/wiki/County_of_Young?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:County_of_Young"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/County_of_Young",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/County_of_Young",
+        "edit": "https://en.wikipedia.org/wiki/County_of_Young?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:County_of_Young"
+      }
+    },
+    "extract": "County of Young is a cadastral unit located in the Australian state of South Australia covers land located in the state’s east on the north side of the Murray River. It was proclaimed in 1860 by Governor MacDonnell and named after his predecessor, Governor Young. It has been partially divided in the following sub-units of hundreds – Markaranka, Parcoola, Pooginook and Stuart.",
+    "extract_html": "<p><b>County of Young</b> is a cadastral unit located in the Australian state of South Australia covers land located in the state’s east on the north side of the Murray River. It was proclaimed in 1860 by Governor MacDonnell and named after his predecessor, Governor Young. It has been partially divided in the following sub-units of hundreds – Markaranka, Parcoola, Pooginook and Stuart.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Yuanjisi Reservoir": {
+    "type": "standard",
+    "title": "Yuanjisi Reservoir",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yuanjisi Reservoir</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q16691304",
+    "titles": {
+      "canonical": "Yuanjisi_Reservoir",
+      "normalized": "Yuanjisi Reservoir",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yuanjisi Reservoir</span></span>"
+    },
+    "pageid": 68436893,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1274077485",
+    "tid": "772c16a6-e3ad-11ef-93f4-1db6517088d6",
+    "timestamp": "2025-02-05T10:39:24Z",
+    "description": "Dam in Huangpi District, Wuhan",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 31.107,
+      "lon": 114.303
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yuanjisi_Reservoir",
+        "revisions": "https://en.wikipedia.org/wiki/Yuanjisi_Reservoir?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yuanjisi_Reservoir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yuanjisi_Reservoir"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Yuanjisi_Reservoir",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Yuanjisi_Reservoir",
+        "edit": "https://en.wikipedia.org/wiki/Yuanjisi_Reservoir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yuanjisi_Reservoir"
+      }
+    },
+    "extract": "Yuanjisi Reservoir, or Yuanji Temple Reservoir, also known as Moon Lake, is a middle-sized reservoir in Huangpi District, Wuhan City, Hubei Province, China, located in the upper reaches of Bomogang River, a tributary of Sheshui River.",
+    "extract_html": "<p><b>Yuanjisi Reservoir</b>, or Yuanji Temple Reservoir, also known as Moon Lake, is a middle-sized reservoir in Huangpi District, Wuhan City, Hubei Province, China, located in the upper reaches of Bomogang River, a tributary of Sheshui River.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ardor": {
+    "type": "disambiguation",
+    "title": "Ardor",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ardor</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4788236",
+    "titles": {
+      "canonical": "Ardor",
+      "normalized": "Ardor",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ardor</span></span>"
+    },
+    "pageid": 2928952,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1300583844",
+    "tid": "32b4614b-613f-11f0-99f4-37ecd0917832",
+    "timestamp": "2025-07-15T05:47:31Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ardor",
+        "revisions": "https://en.wikipedia.org/wiki/Ardor?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ardor?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ardor"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ardor",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ardor",
+        "edit": "https://en.wikipedia.org/wiki/Ardor?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ardor"
+      }
+    },
+    "extract": "Ardor or Ardour may refer to:Ardor (album), a 1994 album by Love Spirals Downwards\nArdour (album), a 2010 album by instrumental hip hop/electronica producer Teebs\nArdor (film), a 2002 South Korean film, also known as Milae\nArdour (software), a hard disk recorder and digital audio workstation application\nArdour (river), a river in southwestern France\nArdore, a town in Calabria, Italy\nArdor: The Book of the Dead Man, Vol. 2, a book of poems by Marvin Bell\nAda or Ardor: A Family Chronicle, a novel by Vladimir Nabokov",
+    "extract_html": "<p><b>Ardor</b> or <b>Ardour</b> may refer to:</p><ul><li><span><i>Ardor</i> (album)</span>, a 1994 album by Love Spirals Downwards</li>\n<li><span><i>Ardour</i> (album)</span>, a 2010 album by instrumental hip hop/electronica producer Teebs</li>\n<li><span><i>Ardor</i> (film)</span>, a 2002 South Korean film, also known as <i>Milae</i></li>\n<li>Ardour (software), a hard disk recorder and digital audio workstation application</li>\n<li>Ardour (river), a river in southwestern France</li>\n<li>Ardore, a town in Calabria, Italy</li>\n<li><i>Ardor: The Book of the Dead Man, Vol. 2</i>, a book of poems by Marvin Bell</li>\n<li><i>Ada or Ardor: A Family Chronicle</i>, a novel by Vladimir Nabokov</li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Microsoft pubCenter": {
+    "type": "standard",
+    "title": "Microsoft pubCenter",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Microsoft pubCenter</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6840275",
+    "titles": {
+      "canonical": "Microsoft_pubCenter",
+      "normalized": "Microsoft pubCenter",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Microsoft pubCenter</span></span>"
+    },
+    "pageid": 30018050,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Microsoft_pubCenter.png",
+      "width": 200,
+      "height": 66
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Microsoft_pubCenter.png",
+      "width": 200,
+      "height": 66
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1343086750",
+    "tid": "033d19f4-1dce-11f1-9e05-404fac6e4417",
+    "timestamp": "2026-03-12T04:43:28Z",
+    "description": "Online advertising application",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Microsoft_pubCenter",
+        "revisions": "https://en.wikipedia.org/wiki/Microsoft_pubCenter?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Microsoft_pubCenter?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Microsoft_pubCenter"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Microsoft_pubCenter",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Microsoft_pubCenter",
+        "edit": "https://en.wikipedia.org/wiki/Microsoft_pubCenter?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Microsoft_pubCenter"
+      }
+    },
+    "extract": "Microsoft pubCenter, formerly Content Ads, is a publisher's ad serving application developed by Microsoft in addition to Microsoft's Bing Ads, which allows advertisers to place ads on search engines as well as select MSN web sites or applications.",
+    "extract_html": "<p><b>Microsoft pubCenter</b>, formerly Content Ads, is a publisher's ad serving application developed by Microsoft in addition to Microsoft's Bing Ads, which allows advertisers to place ads on search engines as well as select MSN web sites or applications.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Visions of Ecstasy": {
+    "type": "standard",
+    "title": "Visions of Ecstasy",
+    "displaytitle": "<i>Visions of Ecstasy</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7936254",
+    "titles": {
+      "canonical": "Visions_of_Ecstasy",
+      "normalized": "Visions of Ecstasy",
+      "display": "<i>Visions of Ecstasy</i>"
+    },
+    "pageid": 4698619,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/da/Visions_of_Ecstasy_UK_DVD_cover.JPG",
+      "width": 198,
+      "height": 272
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/d/da/Visions_of_Ecstasy_UK_DVD_cover.JPG",
+      "width": 198,
+      "height": 272
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1339283931",
+    "tid": "08163c5b-0dd7-11f1-b44f-2dc3a8490b8e",
+    "timestamp": "2026-02-19T21:07:43Z",
+    "description": "1989 British film",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Visions_of_Ecstasy",
+        "revisions": "https://en.wikipedia.org/wiki/Visions_of_Ecstasy?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Visions_of_Ecstasy?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Visions_of_Ecstasy"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Visions_of_Ecstasy",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Visions_of_Ecstasy",
+        "edit": "https://en.wikipedia.org/wiki/Visions_of_Ecstasy?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Visions_of_Ecstasy"
+      }
+    },
+    "extract": "Visions of Ecstasy is a 1989 British short film directed by Nigel Wingrove and starring Louise Downie, Elisha Scott, and Dan Fox. It became the only work to be refused certification by the British Board of Film Classification (BBFC) on the grounds of blasphemy. The film features sexualised scenes of Saint Teresa of Ávila with the body of Jesus on the cross.",
+    "extract_html": "<p><i><b>Visions of Ecstasy</b></i> is a 1989 British short film directed by Nigel Wingrove and starring Louise Downie, Elisha Scott, and Dan Fox. It became the only work to be refused certification by the British Board of Film Classification (BBFC) on the grounds of blasphemy. The film features sexualised scenes of Saint Teresa of Ávila with the body of Jesus on the cross.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Shin Ebihara": {
+    "type": "standard",
+    "title": "Shin Ebihara",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shin Ebihara</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6144730",
+    "titles": {
+      "canonical": "Shin_Ebihara",
+      "normalized": "Shin Ebihara",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shin Ebihara</span></span>"
+    },
+    "pageid": 26736706,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/96/Shin_Ebihara.jpg",
+      "width": 200,
+      "height": 213
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/96/Shin_Ebihara.jpg",
+      "width": 200,
+      "height": 213
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1356207926",
+    "tid": "29f8ee4e-58e9-11f1-a68b-07f94727cfca",
+    "timestamp": "2026-05-26T09:56:28Z",
+    "description": "Japanese diplomat",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Shin_Ebihara",
+        "revisions": "https://en.wikipedia.org/wiki/Shin_Ebihara?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Shin_Ebihara?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shin_Ebihara"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Shin_Ebihara",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Shin_Ebihara",
+        "edit": "https://en.wikipedia.org/wiki/Shin_Ebihara?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shin_Ebihara"
+      }
+    },
+    "extract": "Shin Ebihara  is a Japanese diplomat.",
+    "extract_html": "<p><b>Shin Ebihara</b><span style=\"font-weight:normal\"> </span> is a Japanese diplomat.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/MBCGame StarCraft League": {
+    "type": "standard",
+    "title": "MBCGame StarCraft League",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">MBCGame StarCraft League</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q626233",
+    "titles": {
+      "canonical": "MBCGame_StarCraft_League",
+      "normalized": "MBCGame StarCraft League",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">MBCGame StarCraft League</span></span>"
+    },
+    "pageid": 24001217,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/MBCGame_StarCraft_League_logo.jpg/330px-MBCGame_StarCraft_League_logo.jpg",
+      "width": 330,
+      "height": 114
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/5/51/MBCGame_StarCraft_League_logo.jpg",
+      "width": 500,
+      "height": 172
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1275126515",
+    "tid": "6f50f5bb-e83d-11ef-b419-efcc23153715",
+    "timestamp": "2025-02-11T06:00:03Z",
+    "description": "South Korean e-sports competition",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/MBCGame_StarCraft_League",
+        "revisions": "https://en.wikipedia.org/wiki/MBCGame_StarCraft_League?action=history",
+        "edit": "https://en.wikipedia.org/wiki/MBCGame_StarCraft_League?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:MBCGame_StarCraft_League"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/MBCGame_StarCraft_League",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/MBCGame_StarCraft_League",
+        "edit": "https://en.wikipedia.org/wiki/MBCGame_StarCraft_League?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:MBCGame_StarCraft_League"
+      }
+    },
+    "extract": "The MBCGame StarCraft League, also known as MSL, was a StarCraft tournament hosted by Korean television network MBCGame. The tournament started out in 2002 under the name of KPGA Tour, and in 2003 it was renamed the MSL. On February 1, 2012, MBCGame ceased operations and the MSL was discontinued. Throughout its lifetime, the MSL gave away the equivalent of over US$1.6 million in prize money.",
+    "extract_html": "<p>The <b>MBCGame StarCraft League</b>, also known as <b>MSL</b>, was a <i>StarCraft</i> tournament hosted by Korean television network MBCGame. The tournament started out in 2002 under the name of <b>KPGA Tour</b>, and in 2003 it was renamed the MSL. On February 1, 2012, MBCGame ceased operations and the MSL was discontinued. Throughout its lifetime, the MSL gave away the equivalent of over US$1.6 million in prize money.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Samy Seghir": {
+    "type": "standard",
+    "title": "Samy Seghir",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Samy Seghir</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q3471319",
+    "titles": {
+      "canonical": "Samy_Seghir",
+      "normalized": "Samy Seghir",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Samy Seghir</span></span>"
+    },
+    "pageid": 33774707,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Samy-Seghir-2022.jpg/330px-Samy-Seghir-2022.jpg",
+      "width": 330,
+      "height": 495
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Samy-Seghir-2022.jpg",
+      "width": 1200,
+      "height": 1799
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1305987750",
+    "tid": "8a4a223e-79aa-11f0-84e8-8e344ae92924",
+    "timestamp": "2025-08-15T07:36:22Z",
+    "description": "French actor",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Samy_Seghir",
+        "revisions": "https://en.wikipedia.org/wiki/Samy_Seghir?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Samy_Seghir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Samy_Seghir"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Samy_Seghir",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Samy_Seghir",
+        "edit": "https://en.wikipedia.org/wiki/Samy_Seghir?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Samy_Seghir"
+      }
+    },
+    "extract": "Samy Seghir is a French actor of Algerian descent.",
+    "extract_html": "<p><b>Samy Seghir</b> is a French actor of Algerian descent.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Franz Passow": {
+    "type": "standard",
+    "title": "Franz Passow",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Franz Passow</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q91344",
+    "titles": {
+      "canonical": "Franz_Passow",
+      "normalized": "Franz Passow",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Franz Passow</span></span>"
+    },
+    "pageid": 164267,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1350242541",
+    "tid": "7740db48-3d07-11f1-8050-2080ab0cc9c0",
+    "timestamp": "2026-04-20T22:22:50Z",
+    "description": "German classical scholar and lexicographer (1786–1833)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Franz_Passow",
+        "revisions": "https://en.wikipedia.org/wiki/Franz_Passow?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Franz_Passow?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Franz_Passow"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Franz_Passow",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Franz_Passow",
+        "edit": "https://en.wikipedia.org/wiki/Franz_Passow?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Franz_Passow"
+      }
+    },
+    "extract": "Franz Ludwig Carl Friedrich Passow was a German classical scholar and lexicographer.",
+    "extract_html": "<p><b>Franz Ludwig Carl Friedrich Passow</b> was a German classical scholar and lexicographer.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Steven A. White": {
+    "type": "standard",
+    "title": "Steven A. White",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Steven A. White</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7614432",
+    "titles": {
+      "canonical": "Steven_A._White",
+      "normalized": "Steven A. White",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Steven A. White</span></span>"
+    },
+    "pageid": 27726876,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Steven_A_White.jpg/330px-Steven_A_White.jpg",
+      "width": 330,
+      "height": 413
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Steven_A_White.jpg",
+      "width": 2400,
+      "height": 3000
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352337622",
+    "tid": "a516204f-470e-11f1-8b50-b25b9dd453f9",
+    "timestamp": "2026-05-03T16:39:25Z",
+    "description": "United States Navy admiral (1928–2021)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Steven_A._White",
+        "revisions": "https://en.wikipedia.org/wiki/Steven_A._White?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Steven_A._White?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Steven_A._White"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Steven_A._White",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Steven_A._White",
+        "edit": "https://en.wikipedia.org/wiki/Steven_A._White?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Steven_A._White"
+      }
+    },
+    "extract": "Steven Angelo White was a four-star admiral who served in the United States Navy from 1948 until 1985. He was the 19th and last Chief of Naval Material.",
+    "extract_html": "<p><b>Steven Angelo White</b> was a four-star admiral who served in the United States Navy from 1948 until 1985. He was the 19th and last Chief of Naval Material.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Jaidev (film)": {
+    "type": "standard",
+    "title": "Jaidev (film)",
+    "displaytitle": "<i>Jaidev</i> (film)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q85770529",
+    "titles": {
+      "canonical": "Jaidev_(film)",
+      "normalized": "Jaidev (film)",
+      "display": "<i>Jaidev</i> (film)"
+    },
+    "pageid": 62654631,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1341563733",
+    "tid": "edd04a88-174c-11f1-bdd5-b284c7490377",
+    "timestamp": "2026-03-03T22:04:20Z",
+    "description": "1998 Kannada film directed by H. Vasu",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Jaidev_(film)",
+        "revisions": "https://en.wikipedia.org/wiki/Jaidev_(film)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Jaidev_(film)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jaidev_(film)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Jaidev_(film)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Jaidev_(film)",
+        "edit": "https://en.wikipedia.org/wiki/Jaidev_(film)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jaidev_(film)"
+      }
+    },
+    "extract": "Jaidev is a 1998 Indian Kannada language action drama film directed by H. Vasu who also wrote the screenplay for a story by M. D. Hasham. It film has musical score by Rajesh Ramanath. The film stars Jaggesh in the title role alongside an ensemble cast which includes Charulatha, Srinath, Doddanna, Ashok, Sumithra and Gurudatt. The film was produced by Sa Ra Govindu in the banner of Thanu Chithra.\n",
+    "extract_html": "<p><i><b>Jaidev</b></i> is a 1998 Indian Kannada language action drama film directed by H. Vasu who also wrote the screenplay for a story by M. D. Hasham. It film has musical score by Rajesh Ramanath. The film stars Jaggesh in the title role alongside an ensemble cast which includes Charulatha, Srinath, Doddanna, Ashok, Sumithra and Gurudatt. The film was produced by Sa Ra Govindu in the banner of Thanu Chithra.\n</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Schmickler": {
+    "type": "standard",
+    "title": "Schmickler",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Schmickler</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q21493605",
+    "titles": {
+      "canonical": "Schmickler",
+      "normalized": "Schmickler",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Schmickler</span></span>"
+    },
+    "pageid": 39179769,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1035436976",
+    "tid": "379aa93d-ed6e-11eb-b038-20fa866818d7",
+    "timestamp": "2021-07-25T17:32:00Z",
+    "description": "Surname list",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Schmickler",
+        "revisions": "https://en.wikipedia.org/wiki/Schmickler?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Schmickler?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Schmickler"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Schmickler",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Schmickler",
+        "edit": "https://en.wikipedia.org/wiki/Schmickler?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Schmickler"
+      }
+    },
+    "extract": "Schmickler is a surname. Notable people with the surname include:Marcus Schmickler, German composer\nWilfried Schmickler, German comedian",
+    "extract_html": "<p><b>Schmickler</b> is a surname. Notable people with the surname include:</p><ul><li>Marcus Schmickler, German composer</li>\n<li>Wilfried Schmickler, German comedian</li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Theclopsis murex": {
+    "type": "standard",
+    "title": "Theclopsis murex",
+    "displaytitle": "<i>Theclopsis murex</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q25360783",
+    "titles": {
+      "canonical": "Theclopsis_murex",
+      "normalized": "Theclopsis murex",
+      "display": "<i>Theclopsis murex</i>"
+    },
+    "pageid": 58293014,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/MurexDruce1907OD.jpg/330px-MurexDruce1907OD.jpg",
+      "width": 330,
+      "height": 329
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/MurexDruce1907OD.jpg",
+      "width": 823,
+      "height": 821
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1286067783",
+    "tid": "614f877a-1b9a-11f0-bbdb-318c89de6e1f",
+    "timestamp": "2025-04-17T14:43:52Z",
+    "description": "Species of butterfly",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Theclopsis_murex",
+        "revisions": "https://en.wikipedia.org/wiki/Theclopsis_murex?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Theclopsis_murex?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Theclopsis_murex"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Theclopsis_murex",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Theclopsis_murex",
+        "edit": "https://en.wikipedia.org/wiki/Theclopsis_murex?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Theclopsis_murex"
+      }
+    },
+    "extract": "Theclopsis murex is a Neotropical butterfly in the family Lycaenidae first described by Hamilton Herbert Druce in 1907. It is found in the Brazilian states of Rio Grande do Sul and Rio de Janeiro.",
+    "extract_html": "<p><i><b>Theclopsis murex</b></i> is a Neotropical butterfly in the family Lycaenidae first described by Hamilton Herbert Druce in 1907. It is found in the Brazilian states of Rio Grande do Sul and Rio de Janeiro.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Happy Anniversary (2018 film)": {
+    "type": "standard",
+    "title": "Happy Anniversary (2018 film)",
+    "displaytitle": "<i>Happy Anniversary</i> (2018 film)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q28925870",
+    "titles": {
+      "canonical": "Happy_Anniversary_(2018_film)",
+      "normalized": "Happy Anniversary (2018 film)",
+      "display": "<i>Happy Anniversary</i> (2018 film)"
+    },
+    "pageid": 53329847,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/45/Happy_Anniversary_film_poster.jpg",
+      "width": 220,
+      "height": 326
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/45/Happy_Anniversary_film_poster.jpg",
+      "width": 220,
+      "height": 326
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352987235",
+    "tid": "c92c7450-4a18-11f1-9e26-66a943237dba",
+    "timestamp": "2026-05-07T13:29:34Z",
+    "description": "2018 American film",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Happy_Anniversary_(2018_film)",
+        "revisions": "https://en.wikipedia.org/wiki/Happy_Anniversary_(2018_film)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Happy_Anniversary_(2018_film)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Happy_Anniversary_(2018_film)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Happy_Anniversary_(2018_film)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Happy_Anniversary_(2018_film)",
+        "edit": "https://en.wikipedia.org/wiki/Happy_Anniversary_(2018_film)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Happy_Anniversary_(2018_film)"
+      }
+    },
+    "extract": "Happy Anniversary is a 2018 American romance comedy film, written and directed by Jared Stern in his directorial debut. It stars Noël Wells, Ben Schwartz, Jeff Grace, Rahul Kohli, Kristin Bauer van Straten, Kate Berlant, Leonardo Nam, David Walton, Isidora Goreshter, Annie Potts and Joe Pantoliano. This is a story about a mini crisis that a couple has on the day of their third anniversary being together.",
+    "extract_html": "<p><i><b>Happy Anniversary</b></i> is a 2018 American romance comedy film, written and directed by Jared Stern in his directorial debut. It stars Noël Wells, Ben Schwartz, Jeff Grace, Rahul Kohli, Kristin Bauer van Straten, Kate Berlant, Leonardo Nam, David Walton, Isidora Goreshter, Annie Potts and Joe Pantoliano. This is a story about a mini crisis that a couple has on the day of their third anniversary being together.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Lachlan Bryan & the Wildes": {
+    "type": "standard",
+    "title": "Lachlan Bryan & the Wildes",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lachlan Bryan &amp; the Wildes</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q108692493",
+    "titles": {
+      "canonical": "Lachlan_Bryan_&_the_Wildes",
+      "normalized": "Lachlan Bryan & the Wildes",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lachlan Bryan &amp; the Wildes</span></span>"
+    },
+    "pageid": 68811970,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1321398476",
+    "tid": "63b24e05-be0c-11f0-a2d9-f4d12fb4cf2f",
+    "timestamp": "2025-11-10T08:08:07Z",
+    "description": "Australian music group",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Lachlan_Bryan_%26_the_Wildes",
+        "revisions": "https://en.wikipedia.org/wiki/Lachlan_Bryan_%26_the_Wildes?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Lachlan_Bryan_%26_the_Wildes?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lachlan_Bryan_%26_the_Wildes"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Lachlan_Bryan_%26_the_Wildes",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Lachlan_Bryan_%26_the_Wildes",
+        "edit": "https://en.wikipedia.org/wiki/Lachlan_Bryan_%26_the_Wildes?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lachlan_Bryan_%26_the_Wildes"
+      }
+    },
+    "extract": "Lachlan Bryan and the Wildes are an alt-country music group from Melbourne, Australia. The group received attention in their home country for debut album Ballad of a Young Married Man, released in 2009 through Sydney record label Select Global before briefly disbanding.",
+    "extract_html": "<p><b>Lachlan Bryan and the Wildes</b> are an alt-country music group from Melbourne, Australia. The group received attention in their home country for debut album <i>Ballad of a Young Married Man</i>, released in 2009 through Sydney record label Select Global before briefly disbanding.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Key West International Airport": {
+    "type": "standard",
+    "title": "Key West International Airport",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Key West International Airport</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1321158",
+    "titles": {
+      "canonical": "Key_West_International_Airport",
+      "normalized": "Key West International Airport",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Key West International Airport</span></span>"
+    },
+    "pageid": 287201,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Key_west_international_airport.jpg/330px-Key_west_international_airport.jpg",
+      "width": 330,
+      "height": 186
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Key_west_international_airport.jpg",
+      "width": 961,
+      "height": 541
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355369976",
+    "tid": "36f698ec-5515-11f1-9893-4816ebf296c1",
+    "timestamp": "2026-05-21T13:01:43Z",
+    "description": "International airport in Key West, Florida",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 24.55611111,
+      "lon": -81.75944444
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Key_West_International_Airport",
+        "revisions": "https://en.wikipedia.org/wiki/Key_West_International_Airport?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Key_West_International_Airport?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Key_West_International_Airport"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Key_West_International_Airport",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Key_West_International_Airport",
+        "edit": "https://en.wikipedia.org/wiki/Key_West_International_Airport?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Key_West_International_Airport"
+      }
+    },
+    "extract": "Key West International Airport is an airport located in the City of Key West in Monroe County, Florida, United States, 2 miles east of the main commercial center of Key West.",
+    "extract_html": "<p><b>Key West International Airport</b> is an airport located in the City of Key West in Monroe County, Florida, United States, 2 miles east of the main commercial center of Key West.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Uniting Church in Australia": {
+    "type": "standard",
+    "title": "Uniting Church in Australia",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Uniting Church in Australia</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q523620",
+    "titles": {
+      "canonical": "Uniting_Church_in_Australia",
+      "normalized": "Uniting Church in Australia",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Uniting Church in Australia</span></span>"
+    },
+    "pageid": 253813,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Uniting_Church_in_Australia_%28logo%29.svg/330px-Uniting_Church_in_Australia_%28logo%29.svg.png",
+      "width": 330,
+      "height": 330
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Uniting_Church_in_Australia_%28logo%29.svg/330px-Uniting_Church_in_Australia_%28logo%29.svg.png",
+      "width": 300,
+      "height": 300
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353503133",
+    "tid": "752dc386-4c94-11f1-9753-12d07636bb82",
+    "timestamp": "2026-05-10T17:19:53Z",
+    "description": "Australian Christian denomination",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Uniting_Church_in_Australia",
+        "revisions": "https://en.wikipedia.org/wiki/Uniting_Church_in_Australia?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Uniting_Church_in_Australia?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Uniting_Church_in_Australia"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Uniting_Church_in_Australia",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Uniting_Church_in_Australia",
+        "edit": "https://en.wikipedia.org/wiki/Uniting_Church_in_Australia?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Uniting_Church_in_Australia"
+      }
+    },
+    "extract": "The Uniting Church in Australia (UCA) is a united church in Australia. The church was founded on 22 June 1977 when most congregations of the Methodist Church of Australasia, about two-thirds of the Presbyterian Church of Australia and almost all the churches of the Congregational Union of Australia united under the UCA's Basis of Union. According to the church, it had 243,000 members in 2018. In the 2016 census, 870,183 Australians identified with the church, but that figure fell to 673,260 in the 2021 census. In the 2011 census, that figure was 1,065,796. The UCA is Australia's third-largest Christian denomination, behind the Roman Catholic and Anglican churches. There are around 2,000 UCA congregations, and 2001 National Church Life Survey (NCLS) research indicated that average weekly attendance was about 10 per cent of census figures. The UCA is one of Australia's largest non-government providers of community and health services. Its service network consists of over 400 agencies, institutions, and parish missions, with its areas of service including aged care, hospitals, children, youth and family, disability, employment, emergency relief, drug and alcohol abuse, youth homelessness and suicide. Affiliated agencies include UnitingWorld.",
+    "extract_html": "<p>The <b>Uniting Church in Australia</b> (<b>UCA</b>) is a united church in Australia. The church was founded on 22 June 1977 when most <span class=\"extiw\">congregations</span> of the Methodist Church of Australasia, about two-thirds of the Presbyterian Church of Australia and almost all the churches of the Congregational Union of Australia united under the UCA's <i><b>Basis of Union</b></i>. According to the church, it had 243,000 members in 2018. In the 2016 census, 870,183 Australians identified with the church, but that figure fell to 673,260 in the 2021 census. In the 2011 census, that figure was 1,065,796. The UCA is Australia's third-largest Christian denomination, behind the Roman Catholic and Anglican churches. There are around 2,000 UCA congregations, and 2001 National Church Life Survey (NCLS) research indicated that average weekly attendance was about 10 per cent of census figures. The UCA is one of Australia's largest non-government providers of community and health services. Its service network consists of over 400 agencies, institutions, and parish missions, with its areas of service including aged care, hospitals, children, youth and family, disability, employment, emergency relief, drug and alcohol abuse, youth homelessness and suicide. Affiliated agencies include UnitingWorld.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Idol 2020 (Sweden)": {
+    "type": "standard",
+    "title": "Idol 2020 (Sweden)",
+    "displaytitle": "<i>Idol 2020</i> (Sweden)",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q83801341",
+    "titles": {
+      "canonical": "Idol_2020_(Sweden)",
+      "normalized": "Idol 2020 (Sweden)",
+      "display": "<i>Idol 2020</i> (Sweden)"
+    },
+    "pageid": 62948523,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1336589140",
+    "tid": "166834f1-01ed-11f1-b71b-8b9c86ca01ba",
+    "timestamp": "2026-02-04T17:15:22Z",
+    "description": "Season of television series",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Idol_2020_(Sweden)",
+        "revisions": "https://en.wikipedia.org/wiki/Idol_2020_(Sweden)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Idol_2020_(Sweden)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Idol_2020_(Sweden)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Idol_2020_(Sweden)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Idol_2020_(Sweden)",
+        "edit": "https://en.wikipedia.org/wiki/Idol_2020_(Sweden)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Idol_2020_(Sweden)"
+      }
+    },
+    "extract": "Idol 2020 was the sixteenth season of the Swedish Idol series. Like earlier seasons, the season was broadcast on TV4. New for this year is that one person got to audition for this season already during the final of Idol 2019 in Globen, Rebecka Assio made it through to the final audition in Stockholm.",
+    "extract_html": "<p><b>Idol 2020</b> was the sixteenth season of the Swedish Idol series. Like earlier seasons, the season was broadcast on TV4. New for this year is that one person got to audition for this season already during the final of Idol 2019 in Globen, Rebecka Assio made it through to the final audition in Stockholm.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Philippa Nikulinsky": {
+    "type": "standard",
+    "title": "Philippa Nikulinsky",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Philippa Nikulinsky</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7184729",
+    "titles": {
+      "canonical": "Philippa_Nikulinsky",
+      "normalized": "Philippa Nikulinsky",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Philippa Nikulinsky</span></span>"
+    },
+    "pageid": 19661806,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354649881",
+    "tid": "15429a25-520b-11f1-bcb5-2583582058ee",
+    "timestamp": "2026-05-17T16:11:38Z",
+    "description": "Australian botanical illustrator",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Philippa_Nikulinsky",
+        "revisions": "https://en.wikipedia.org/wiki/Philippa_Nikulinsky?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Philippa_Nikulinsky?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Philippa_Nikulinsky"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Philippa_Nikulinsky",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Philippa_Nikulinsky",
+        "edit": "https://en.wikipedia.org/wiki/Philippa_Nikulinsky?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Philippa_Nikulinsky"
+      }
+    },
+    "extract": "Philippa Mary Nikulinsky is an Australian artist and botanical illustrator based in Western Australia.",
+    "extract_html": "<p><b>Philippa Mary Nikulinsky</b> is an Australian artist and botanical illustrator based in Western Australia.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Save the Queen": {
+    "type": "disambiguation",
+    "title": "Save the Queen",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Save the Queen</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7428121",
+    "titles": {
+      "canonical": "Save_the_Queen",
+      "normalized": "Save the Queen",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Save the Queen</span></span>"
+    },
+    "pageid": 1316097,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1056618788",
+    "tid": "944e8900-4bd3-11ec-ba92-0d15e412c585",
+    "timestamp": "2021-11-22T20:34:24Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Save_the_Queen",
+        "revisions": "https://en.wikipedia.org/wiki/Save_the_Queen?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Save_the_Queen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Save_the_Queen"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Save_the_Queen",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Save_the_Queen",
+        "edit": "https://en.wikipedia.org/wiki/Save_the_Queen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Save_the_Queen"
+      }
+    },
+    "extract": "Save the Queen may refer to:God Save the Queen, the British and Commonwealth National Anthem\nThe name of a powerful sword, whip, or bow in Final Fantasy\nThe name of Raphael's ultimate weapon in Soulcalibur II",
+    "extract_html": "<p><b>Save the Queen</b> may refer to:</p><ul><li>God Save the Queen, the British and Commonwealth National Anthem</li>\n<li>The name of a powerful <span>sword, whip, or bow in <i>Final Fantasy</i></span></li>\n<li>The name of Raphael's ultimate weapon in <i>Soulcalibur II</i></li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/El Ain, Baalbek": {
+    "type": "standard",
+    "title": "El Ain, Baalbek",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">El Ain, Baalbek</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5350708",
+    "titles": {
+      "canonical": "El_Ain,_Baalbek",
+      "normalized": "El Ain, Baalbek",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">El Ain, Baalbek</span></span>"
+    },
+    "pageid": 6162428,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1348339353",
+    "tid": "c0fd36b1-361c-11f1-824f-caf50559ce38",
+    "timestamp": "2026-04-12T03:07:35Z",
+    "description": "Place in Baalbek-Hermel, Lebanon",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/El_Ain%2C_Baalbek",
+        "revisions": "https://en.wikipedia.org/wiki/El_Ain%2C_Baalbek?action=history",
+        "edit": "https://en.wikipedia.org/wiki/El_Ain%2C_Baalbek?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:El_Ain%2C_Baalbek"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/El_Ain%2C_Baalbek",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/El_Ain%2C_Baalbek",
+        "edit": "https://en.wikipedia.org/wiki/El_Ain%2C_Baalbek?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:El_Ain%2C_Baalbek"
+      }
+    },
+    "extract": "El Ain, Al Ain, or Ain is a village at an elevation of 1,000 metres (3,300 ft) on a foothill of the Anti-Lebanon Mountains in the Baalbek District of the Baalbek-Hermel Governorate, Lebanon. It is famous for agriculture and trade, located on the highway connecting Syrian borders and the Hermel area with Chtaura and Beirut.",
+    "extract_html": "<p><b>El Ain</b>, <b>Al Ain</b>, or <b>Ain</b> is a village at an elevation of 1,000 metres (3,300 ft) on a foothill of the Anti-Lebanon Mountains in the Baalbek District of the Baalbek-Hermel Governorate, Lebanon. It is famous for agriculture and trade, located on the highway connecting Syrian borders and the Hermel area with Chtaura and Beirut.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Suur-Kauklahti": {
+    "type": "standard",
+    "title": "Suur-Kauklahti",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Suur-Kauklahti</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q195749",
+    "titles": {
+      "canonical": "Suur-Kauklahti",
+      "normalized": "Suur-Kauklahti",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Suur-Kauklahti</span></span>"
+    },
+    "pageid": 16947658,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Espoo_districts_Suur-Kauklahti.png/330px-Espoo_districts_Suur-Kauklahti.png",
+      "width": 330,
+      "height": 482
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Espoo_districts_Suur-Kauklahti.png",
+      "width": 603,
+      "height": 881
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1323752114",
+    "tid": "ce3da248-c880-11f0-bdeb-b6ba928e8b9e",
+    "timestamp": "2025-11-23T15:26:39Z",
+    "description": "District of Espoo in Finland",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 60.2,
+      "lon": 24.59
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Suur-Kauklahti",
+        "revisions": "https://en.wikipedia.org/wiki/Suur-Kauklahti?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Suur-Kauklahti?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Suur-Kauklahti"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Suur-Kauklahti",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Suur-Kauklahti",
+        "edit": "https://en.wikipedia.org/wiki/Suur-Kauklahti?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Suur-Kauklahti"
+      }
+    },
+    "extract": "Suur-Kauklahti (Finnish) or Stor-Köklax (Swedish) is a western main district of Espoo, a city in Finland.",
+    "extract_html": "<p><b>Suur-Kauklahti</b> (Finnish) or <b>Stor-Köklax</b> (Swedish) is a western main district of Espoo, a city in Finland.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Village Creek": {
+    "type": "disambiguation",
+    "title": "Village Creek",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Village Creek</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7930632",
+    "titles": {
+      "canonical": "Village_Creek",
+      "normalized": "Village Creek",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Village Creek</span></span>"
+    },
+    "pageid": 10490415,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1100939448",
+    "tid": "da02d54b-0e73-11ed-a5f8-2a7286d6edbb",
+    "timestamp": "2022-07-28T12:50:26Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Village_Creek",
+        "revisions": "https://en.wikipedia.org/wiki/Village_Creek?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Village_Creek?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Village_Creek"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Village_Creek",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Village_Creek",
+        "edit": "https://en.wikipedia.org/wiki/Village_Creek?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Village_Creek"
+      }
+    },
+    "extract": "Village Creek may refer to:",
+    "extract_html": "<p><b>Village Creek</b> may refer to:</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Diamond Spring (Wilsey, Kansas)": {
+    "type": "standard",
+    "title": "Diamond Spring (Wilsey, Kansas)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Diamond Spring (Wilsey, Kansas)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q112136431",
+    "titles": {
+      "canonical": "Diamond_Spring_(Wilsey,_Kansas)",
+      "normalized": "Diamond Spring (Wilsey, Kansas)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Diamond Spring (Wilsey, Kansas)</span></span>"
+    },
+    "pageid": 70770422,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1349075058",
+    "tid": "394d4ac4-38ec-11f1-949b-7b97112ac1f5",
+    "timestamp": "2026-04-15T16:57:45Z",
+    "description": "Spring in Kansas, U.S.",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 38.61611111,
+      "lon": -96.76222222
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Diamond_Spring_(Wilsey%2C_Kansas)",
+        "revisions": "https://en.wikipedia.org/wiki/Diamond_Spring_(Wilsey%2C_Kansas)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Diamond_Spring_(Wilsey%2C_Kansas)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Diamond_Spring_(Wilsey%2C_Kansas)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Diamond_Spring_(Wilsey%2C_Kansas)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Diamond_Spring_(Wilsey%2C_Kansas)",
+        "edit": "https://en.wikipedia.org/wiki/Diamond_Spring_(Wilsey%2C_Kansas)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Diamond_Spring_(Wilsey%2C_Kansas)"
+      }
+    },
+    "extract": "Diamond Spring is a natural spring in western Morris County, Kansas, which served as a stopping point on the Santa Fe Trail. A hunter named Old Ben Jones found the spring during the U.S. government's survey of the trail route in 1825. The survey commissioners named the site \"The Diamond of the Plain\" after a similarly named oasis in the Arabian Desert, though the name was typically shortened to Diamond Spring by travelers. In addition to water, the site had plentiful grass and shade trees, making it a popular campground; all recorded trail guides from the era included the spring, and it was frequently described in journals kept by travelers on the trail. A stagecoach station and a store, both of which are no longer standing, were built at the site later in the nineteenth century. An irrigation system linking the spring to a nearby ranch still remains at the site, though it is no longer usable.",
+    "extract_html": "<p><b>Diamond Spring</b> is a natural spring in western Morris County, Kansas, which served as a stopping point on the Santa Fe Trail. A hunter named Old Ben Jones found the spring during the U.S. government's survey of the trail route in 1825. The survey commissioners named the site \"The Diamond of the Plain\" after a similarly named oasis in the Arabian Desert, though the name was typically shortened to Diamond Spring by travelers. In addition to water, the site had plentiful grass and shade trees, making it a popular campground; all recorded trail guides from the era included the spring, and it was frequently described in journals kept by travelers on the trail. A stagecoach station and a store, both of which are no longer standing, were built at the site later in the nineteenth century. An irrigation system linking the spring to a nearby ranch still remains at the site, though it is no longer usable.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Al-Walid ibn Utba ibn Abi Sufyan": {
+    "type": "standard",
+    "title": "Al-Walid ibn Utba ibn Abi Sufyan",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Al-Walid ibn Utba ibn Abi Sufyan</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q59049927",
+    "titles": {
+      "canonical": "Al-Walid_ibn_Utba_ibn_Abi_Sufyan",
+      "normalized": "Al-Walid ibn Utba ibn Abi Sufyan",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Al-Walid ibn Utba ibn Abi Sufyan</span></span>"
+    },
+    "pageid": 60718849,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1319385700",
+    "tid": "3b9f24b3-b4cf-11f0-be6b-5927b37786a0",
+    "timestamp": "2025-10-29T13:57:40Z",
+    "description": "Governor of Medina (677/78–680) and (681–682)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Al-Walid_ibn_Utba_ibn_Abi_Sufyan",
+        "revisions": "https://en.wikipedia.org/wiki/Al-Walid_ibn_Utba_ibn_Abi_Sufyan?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Al-Walid_ibn_Utba_ibn_Abi_Sufyan?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Al-Walid_ibn_Utba_ibn_Abi_Sufyan"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Al-Walid_ibn_Utba_ibn_Abi_Sufyan",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Al-Walid_ibn_Utba_ibn_Abi_Sufyan",
+        "edit": "https://en.wikipedia.org/wiki/Al-Walid_ibn_Utba_ibn_Abi_Sufyan?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Al-Walid_ibn_Utba_ibn_Abi_Sufyan"
+      }
+    },
+    "extract": "Al-Walid ibn Utba ibn Abi Sufyan was a statesman and member of the Umayyad ruling family during the reigns of the Umayyad caliphs Mu'awiya I and Yazid I. He served two stints as the governor of Medina in 677/78–680 and 681–682. He was dismissed during his first term for failing to secure oaths of allegiance from Husayn ibn Ali and other senior Muslim figures who opposed Yazid's accession. After his relocation to Damascus during the Second Fitna, he was imprisoned in 684 for proclaiming his support for continued Umayyad rule and condemning the anti-Umayyad caliph Abd Allah ibn al-Zubayr. He was freed shortly after by his kinsman Khalid ibn Yazid and the pro-Umayyad Banu Kalb tribe.",
+    "extract_html": "<p><b>Al-Walid ibn Utba ibn Abi Sufyan</b> was a statesman and member of the Umayyad ruling family during the reigns of the Umayyad caliphs Mu'awiya I and Yazid I. He served two stints as the governor of Medina in 677/78–680 and 681–682. He was dismissed during his first term for failing to secure oaths of allegiance from Husayn ibn Ali and other senior Muslim figures who opposed Yazid's accession. After his relocation to Damascus during the Second Fitna, he was imprisoned in 684 for proclaiming his support for continued Umayyad rule and condemning the anti-Umayyad caliph Abd Allah ibn al-Zubayr. He was freed shortly after by his kinsman Khalid ibn Yazid and the pro-Umayyad Banu Kalb tribe.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Merodon orjensis": {
+    "type": "standard",
+    "title": "Merodon orjensis",
+    "displaytitle": "<i>Merodon orjensis</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q136868309",
+    "titles": {
+      "canonical": "Merodon_orjensis",
+      "normalized": "Merodon orjensis",
+      "display": "<i>Merodon orjensis</i>"
+    },
+    "pageid": 81636691,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1343283181",
+    "tid": "dc174408-1ec8-11f1-b6f7-3dc02e861fc7",
+    "timestamp": "2026-03-13T10:39:06Z",
+    "description": "Species of fly",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Merodon_orjensis",
+        "revisions": "https://en.wikipedia.org/wiki/Merodon_orjensis?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Merodon_orjensis?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Merodon_orjensis"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Merodon_orjensis",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Merodon_orjensis",
+        "edit": "https://en.wikipedia.org/wiki/Merodon_orjensis?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Merodon_orjensis"
+      }
+    },
+    "extract": "Merodon orjensis is a Holarctic species of hoverfly. It is found in Montenegro.",
+    "extract_html": "<p><i><b>Merodon orjensis</b></i> is a Holarctic species of hoverfly. It is found in Montenegro.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/List of museums in Tennessee": {
+    "type": "standard",
+    "title": "List of museums in Tennessee",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of museums in Tennessee</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6629923",
+    "titles": {
+      "canonical": "List_of_museums_in_Tennessee",
+      "normalized": "List of museums in Tennessee",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of museums in Tennessee</span></span>"
+    },
+    "pageid": 15104725,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1324519244",
+    "tid": "063643a6-cbf9-11f0-9143-d7d90bc96771",
+    "timestamp": "2025-11-28T01:24:46Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/List_of_museums_in_Tennessee",
+        "revisions": "https://en.wikipedia.org/wiki/List_of_museums_in_Tennessee?action=history",
+        "edit": "https://en.wikipedia.org/wiki/List_of_museums_in_Tennessee?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_museums_in_Tennessee"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/List_of_museums_in_Tennessee",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/List_of_museums_in_Tennessee",
+        "edit": "https://en.wikipedia.org/wiki/List_of_museums_in_Tennessee?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_museums_in_Tennessee"
+      }
+    },
+    "extract": "\n\n\nThis list of museums in Tennessee encompasses museums defined for this context as institutions that collect and care for objects of cultural, artistic, scientific, or historical interest and make their collections or related exhibits available for public viewing. Museums that exist only in cyberspace are not included.",
+    "extract_html": "<p>\n\n\nThis <b>list of museums in Tennessee</b> encompasses museums defined for this context as institutions that collect and care for objects of cultural, artistic, scientific, or historical interest and make their collections or related exhibits available for public viewing. Museums that exist only in cyberspace are not included.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/William R. Wolf House": {
+    "type": "standard",
+    "title": "William R. Wolf House",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">William R. Wolf House</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q48810336",
+    "titles": {
+      "canonical": "William_R._Wolf_House",
+      "normalized": "William R. Wolf House",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">William R. Wolf House</span></span>"
+    },
+    "pageid": 56181576,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Wolf%2C_William_R.%2C_House.jpg/330px-Wolf%2C_William_R.%2C_House.jpg",
+      "width": 330,
+      "height": 248
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/22/Wolf%2C_William_R.%2C_House.jpg",
+      "width": 640,
+      "height": 480
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1321585773",
+    "tid": "e4e6117a-bef6-11f0-9761-6ebca5fdf77b",
+    "timestamp": "2025-11-11T12:06:46Z",
+    "description": "Historic house in Minnesota, United States",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 44.07819444,
+      "lon": -93.50041667
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/William_R._Wolf_House",
+        "revisions": "https://en.wikipedia.org/wiki/William_R._Wolf_House?action=history",
+        "edit": "https://en.wikipedia.org/wiki/William_R._Wolf_House?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:William_R._Wolf_House"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/William_R._Wolf_House",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/William_R._Wolf_House",
+        "edit": "https://en.wikipedia.org/wiki/William_R._Wolf_House?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:William_R._Wolf_House"
+      }
+    },
+    "extract": "The William R. Wolf House is a historic house in Waseca, Minnesota, United States. It was built around 1895 and served as the family residence of a prominent local merchant and civic leader. It was listed on the National Register of Historic Places in 1982 for its local significance in the theme of architecture and commerce. It was nominated for being Waseca's leading example of the larger residences erected by its prosperous merchant class and of Queen Anne architecture.",
+    "extract_html": "<p>The <b>William R. Wolf House</b> is a historic house in Waseca, Minnesota, United States. It was built around 1895 and served as the family residence of a prominent local merchant and civic leader. It was listed on the National Register of Historic Places in 1982 for its local significance in the theme of architecture and commerce. It was nominated for being Waseca's leading example of the larger residences erected by its prosperous merchant class and of Queen Anne architecture.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Dome Mountain (disambiguation)": {
+    "type": "disambiguation",
+    "title": "Dome Mountain (disambiguation)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dome Mountain (disambiguation)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5290007",
+    "titles": {
+      "canonical": "Dome_Mountain_(disambiguation)",
+      "normalized": "Dome Mountain (disambiguation)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dome Mountain (disambiguation)</span></span>"
+    },
+    "pageid": 27191870,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1252211694",
+    "tid": "5fe22026-8ec9-11ef-938c-8e5bc46e4304",
+    "timestamp": "2024-10-20T09:55:02Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Dome_Mountain_(disambiguation)",
+        "revisions": "https://en.wikipedia.org/wiki/Dome_Mountain_(disambiguation)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Dome_Mountain_(disambiguation)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dome_Mountain_(disambiguation)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Dome_Mountain_(disambiguation)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Dome_Mountain_(disambiguation)",
+        "edit": "https://en.wikipedia.org/wiki/Dome_Mountain_(disambiguation)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dome_Mountain_(disambiguation)"
+      }
+    },
+    "extract": "Dome Mountain may refer to:Dome mountain, a geological term\nDome Mountain, a mountain peak in British Columbia\nDome Mountain (Colorado), high mountain summit\nDome Mountain, a mountain peak in Shoshone National Forest, Wyoming\nDome Mountain (Wyoming), a mountain peak in Yellowstone National Park, Wyoming\nDome Mountain (Toonumbar), one of several mountains in Australia called Dome Mountain\nCastle Dome Mountains, a mountain range in Arizona\nBlack Dome Mountain, a mountain peak in British Columbia\nPuy de Dôme, is a large lava dome in France\nCarter Dome, a mountain peak in New Hampshire\nDome Rock Mountains, a mountain range in Arizona\nDome Mountain, near Pyramid Lake",
+    "extract_html": "<p><b>Dome Mountain</b> may refer to:</p><ul><li>Dome mountain, a geological term</li>\n<li>Dome Mountain, a mountain peak in British Columbia</li>\n<li>Dome Mountain (Colorado), high mountain summit</li>\n<li>Dome Mountain, a mountain peak in Shoshone National Forest, Wyoming</li>\n<li>Dome Mountain (Wyoming), a mountain peak in Yellowstone National Park, Wyoming</li>\n<li>Dome Mountain (Toonumbar), one of several mountains in Australia called Dome Mountain</li>\n<li>Castle Dome Mountains, a mountain range in Arizona</li>\n<li>Black Dome Mountain, a mountain peak in British Columbia</li>\n<li>Puy de Dôme, is a large lava dome in France</li>\n<li>Carter Dome, a mountain peak in New Hampshire</li>\n<li>Dome Rock Mountains, a mountain range in Arizona</li>\n<li>Dome Mountain, near Pyramid Lake</li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Charles Luther (soldier)": {
+    "type": "standard",
+    "title": "Charles Luther (soldier)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Charles Luther (soldier)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q15999620",
+    "titles": {
+      "canonical": "Charles_Luther_(soldier)",
+      "normalized": "Charles Luther (soldier)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Charles Luther (soldier)</span></span>"
+    },
+    "pageid": 41353780,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1340771509",
+    "tid": "84220bcf-13f3-11f1-bab3-f685be5d87f9",
+    "timestamp": "2026-02-27T15:46:44Z",
+    "description": "English cricketer and soldier (1880–1961)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Charles_Luther_(soldier)",
+        "revisions": "https://en.wikipedia.org/wiki/Charles_Luther_(soldier)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Charles_Luther_(soldier)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Charles_Luther_(soldier)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Charles_Luther_(soldier)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Charles_Luther_(soldier)",
+        "edit": "https://en.wikipedia.org/wiki/Charles_Luther_(soldier)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Charles_Luther_(soldier)"
+      }
+    },
+    "extract": "Alan Charles Grenville Luther MC was an English soldier and cricketer.",
+    "extract_html": "<p><b>Alan Charles Grenville Luther</b> MC was an English soldier and cricketer.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Sally Bagshaw": {
+    "type": "standard",
+    "title": "Sally Bagshaw",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sally Bagshaw</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7405059",
+    "titles": {
+      "canonical": "Sally_Bagshaw",
+      "normalized": "Sally Bagshaw",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sally Bagshaw</span></span>"
+    },
+    "pageid": 26109156,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sally_Bagshaw_Portrait.jpg/330px-Sally_Bagshaw_Portrait.jpg",
+      "width": 330,
+      "height": 399
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sally_Bagshaw_Portrait.jpg",
+      "width": 785,
+      "height": 950
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1350287860",
+    "tid": "41175142-3d2f-11f1-803c-ecd081bb273f",
+    "timestamp": "2026-04-21T03:07:39Z",
+    "description": "American politician (born 1951)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Sally_Bagshaw",
+        "revisions": "https://en.wikipedia.org/wiki/Sally_Bagshaw?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Sally_Bagshaw?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sally_Bagshaw"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Sally_Bagshaw",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Sally_Bagshaw",
+        "edit": "https://en.wikipedia.org/wiki/Sally_Bagshaw?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sally_Bagshaw"
+      }
+    },
+    "extract": "Sally G. Bagshaw is an American politician. She was a member of the Seattle City Council from 2016 to 2019. Before being elected to city council, she had been chief civil deputy prosecutor in the King County Prosecuting Attorney's Office for eight years under Norm Maleng.",
+    "extract_html": "<p><b>Sally G. Bagshaw</b> is an American politician. She was a member of the Seattle City Council from 2016 to 2019. Before being elected to city council, she had been chief civil deputy prosecutor in the King County Prosecuting Attorney's Office for eight years under Norm Maleng.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tironensian Order": {
+    "type": "standard",
+    "title": "Tironensian Order",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tironensian Order</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q33645010",
+    "titles": {
+      "canonical": "Tironensian_Order",
+      "normalized": "Tironensian Order",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tironensian Order</span></span>"
+    },
+    "pageid": 1617678,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Abbaye_de_Tiron.JPG/330px-Abbaye_de_Tiron.JPG",
+      "width": 330,
+      "height": 440
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Abbaye_de_Tiron.JPG",
+      "width": 3000,
+      "height": 4000
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1276987007",
+    "tid": "48e84fe8-f0ac-11ef-b252-a514c4d741f0",
+    "timestamp": "2025-02-21T23:33:42Z",
+    "description": "Medieval monastic order",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 48.31194444,
+      "lon": 0.99361111
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tironensian_Order",
+        "revisions": "https://en.wikipedia.org/wiki/Tironensian_Order?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tironensian_Order?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tironensian_Order"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tironensian_Order",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tironensian_Order",
+        "edit": "https://en.wikipedia.org/wiki/Tironensian_Order?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tironensian_Order"
+      }
+    },
+    "extract": "The Tironensian Order or the Order of Tiron was a medieval monastic order named after the location of the mother abbey in the woods of Thiron-Gardais in Perche, some 35 miles west of Chartres in France). They were popularly called \"Grey Monks\" because of their grey robes, which their spiritual cousins, the monks of Savigny, also wore.",
+    "extract_html": "<p>The <b>Tironensian Order</b> or the <b>Order of Tiron</b> was a medieval monastic order named after the location of the mother abbey in the woods of Thiron-Gardais in Perche, some 35 miles west of Chartres in France). They were popularly called \"Grey Monks\" because of their grey robes, which their spiritual cousins, the monks of Savigny, also wore.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Julian Baggini": {
+    "type": "standard",
+    "title": "Julian Baggini",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Julian Baggini</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q737519",
+    "titles": {
+      "canonical": "Julian_Baggini",
+      "normalized": "Julian Baggini",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Julian Baggini</span></span>"
+    },
+    "pageid": 17742997,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Julian_Baggini-1.jpg/330px-Julian_Baggini-1.jpg",
+      "width": 330,
+      "height": 434
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Julian_Baggini-1.jpg",
+      "width": 2298,
+      "height": 3024
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1351821440",
+    "tid": "a29c950d-447c-11f1-a989-ae4539aa8085",
+    "timestamp": "2026-04-30T10:09:12Z",
+    "description": "British philosopher, author and journalist",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Julian_Baggini",
+        "revisions": "https://en.wikipedia.org/wiki/Julian_Baggini?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Julian_Baggini?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Julian_Baggini"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Julian_Baggini",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Julian_Baggini",
+        "edit": "https://en.wikipedia.org/wiki/Julian_Baggini?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Julian_Baggini"
+      }
+    },
+    "extract": "Julian Baggini is an English philosopher, journalist and the author of over 20 books about philosophy written for a general audience. He is co-founder of The Philosophers' Magazine, and has written for some newspapers and magazines. In addition to writing on the subject of philosophy he has also written books on atheism, secularism and the nature of national identity. He is a patron of Humanists UK, an organization promoting secular humanism.",
+    "extract_html": "<p><b>Julian Baggini</b> is an English philosopher, journalist and the author of over 20 books about philosophy written for a general audience. He is co-founder of <i>The Philosophers' Magazine</i>, and has written for some newspapers and magazines. In addition to writing on the subject of philosophy he has also written books on atheism, secularism and the nature of national identity. He is a patron of Humanists UK, an organization promoting secular humanism.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Aleksandr Okulov": {
+    "type": "standard",
+    "title": "Aleksandr Okulov",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Aleksandr Okulov</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q18175819",
+    "titles": {
+      "canonical": "Aleksandr_Okulov",
+      "normalized": "Aleksandr Okulov",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Aleksandr Okulov</span></span>"
+    },
+    "pageid": 50571762,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1256469595",
+    "tid": "a0e9b671-9f08-11ef-9a3c-5484c3bdf51e",
+    "timestamp": "2024-11-10T02:08:08Z",
+    "description": "Soviet scientist (1908–1993)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Aleksandr_Okulov",
+        "revisions": "https://en.wikipedia.org/wiki/Aleksandr_Okulov?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Aleksandr_Okulov?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Aleksandr_Okulov"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Aleksandr_Okulov",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Aleksandr_Okulov",
+        "edit": "https://en.wikipedia.org/wiki/Aleksandr_Okulov?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Aleksandr_Okulov"
+      }
+    },
+    "extract": "Alexandr Fedorovich Okulov was a Soviet and Russian philosopher, specialist in the history of Marxist philosophy, atheism and social philosophy. Doctor of Philosophy, professor. One of the authors of the \"Atheist Dictionary\".",
+    "extract_html": "<p><b>Alexandr Fedorovich Okulov</b> was a Soviet and Russian philosopher, specialist in the history of Marxist philosophy, atheism and social philosophy. Doctor of Philosophy, professor. One of the authors of the \"<i>Atheist Dictionary</i>\".</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ephestia": {
+    "type": "standard",
+    "title": "Ephestia",
+    "displaytitle": "<i>Ephestia</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2742956",
+    "titles": {
+      "canonical": "Ephestia",
+      "normalized": "Ephestia",
+      "display": "<i>Ephestia</i>"
+    },
+    "pageid": 20658095,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ephestia_elutella01.jpg/330px-Ephestia_elutella01.jpg",
+      "width": 330,
+      "height": 199
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ephestia_elutella01.jpg",
+      "width": 768,
+      "height": 464
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354841641",
+    "tid": "ef2ffe8e-52c9-11f1-ae00-df751c1fe6a1",
+    "timestamp": "2026-05-18T14:57:48Z",
+    "description": "Genus of moths",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ephestia",
+        "revisions": "https://en.wikipedia.org/wiki/Ephestia?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ephestia?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ephestia"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ephestia",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ephestia",
+        "edit": "https://en.wikipedia.org/wiki/Ephestia?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ephestia"
+      }
+    },
+    "extract": "Ephestia is a genus of small moths belonging to the family Pyralidae. Some species are significant pests of dry plant produce, such as seeds and cereals. Best known among these are probably the cacao moth and the Mediterranean flour moth.",
+    "extract_html": "<p><i><b>Ephestia</b></i> is a genus of small moths belonging to the family Pyralidae. Some species are significant pests of dry plant produce, such as seeds and cereals. Best known among these are probably the cacao moth and the Mediterranean flour moth.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Julia Mühlbacher": {
+    "type": "standard",
+    "title": "Julia Mühlbacher",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Julia Mühlbacher</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q78466423",
+    "titles": {
+      "canonical": "Julia_Mühlbacher",
+      "normalized": "Julia Mühlbacher",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Julia Mühlbacher</span></span>"
+    },
+    "pageid": 82085362,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Julia_M%C3%BChlbacher_%28AUT%29_2023.jpg/330px-Julia_M%C3%BChlbacher_%28AUT%29_2023.jpg",
+      "width": 330,
+      "height": 393
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Julia_M%C3%BChlbacher_%28AUT%29_2023.jpg",
+      "width": 2657,
+      "height": 3165
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1340872765",
+    "tid": "ae5fe44b-1464-11f1-8793-e4dbc161b14a",
+    "timestamp": "2026-02-28T05:16:48Z",
+    "description": "Austrian ski jumper (born 2004)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Julia_M%C3%BChlbacher",
+        "revisions": "https://en.wikipedia.org/wiki/Julia_M%C3%BChlbacher?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Julia_M%C3%BChlbacher?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Julia_M%C3%BChlbacher"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Julia_M%C3%BChlbacher",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Julia_M%C3%BChlbacher",
+        "edit": "https://en.wikipedia.org/wiki/Julia_M%C3%BChlbacher?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Julia_M%C3%BChlbacher"
+      }
+    },
+    "extract": "Julia Mühlbacher is an Austrian ski jumper.",
+    "extract_html": "<p><b>Julia Mühlbacher</b> is an Austrian ski jumper.</p>"
+  }
+}

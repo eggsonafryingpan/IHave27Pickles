@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import styles from "./page.module.css";
-
 import TextString from "./components/TextString";
 import {
   useEffect, useRef, useState, createContext,
@@ -15,6 +14,8 @@ import axios from "axios";
 import { initalizeUser } from "./lib/db/initializeUser";
 import { insertWork } from "./lib/db/works";
 import { getRandomWork } from "./lib/db/getRandomWork";
+import { Vector } from "./lib/Vector";
+import Draw from "./components/Draw";
 
 
 
@@ -22,11 +23,25 @@ export default function Home() {
 
 
   const [textStrings, setTextStrings] = useState([]);
+  const mouseRef = useMouse();
 
   const addTextString = (x = 100, y = 100, text = [], fontSize = 20) => {
     setTextStrings(prev => [...prev, { x: x, y: y, text: text, fontSize: fontSize, id: crypto.randomUUID() }]);
   }
 
+  //saving for export
+  const textListRef = useRef([]);
+
+  const updateList = (arr) => {
+    textListRef.current = [
+      ...textListRef.current,
+      arr.map(a => ({
+        x: a.curr.x,
+        y: a.curr.y,
+        letter: a.letter
+      }))
+    ];
+  };
 
   useEffect(() => {
     addTextString(100, 100, [".selkcip", "72      "]);
@@ -34,6 +49,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    updateList
     initalizeUser();
     // insertWork([
     //   [
@@ -57,16 +73,17 @@ export default function Home() {
 
 
   return (
+
     <div className="screen">
-      {textStrings.map(ts => <TextString key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
+      {textStrings.map(ts => <TextString updateList={updateList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} ></TextString>)}
 
       <div className="container">
         <div className="fax">
           Fax
         </div>
-        <div className="draw">
+        <Draw textListRef={textListRef}>
           Draw
-        </div>
+        </Draw>
         <WikiScreen textStrings={textStrings} addTextString={addTextString} />
       </div>
     </div>

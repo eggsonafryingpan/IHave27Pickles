@@ -139,8 +139,18 @@ function blockSelect(mouseRef, currRef, startRef) {
                     selectionEnd,
                     el
                 );
+                if (!selected) return null;
                 selected = selected.filter(s => s.length !== 0);
                 if (selected.length === 0) return null;
+
+                // //remove leading blank lines
+                // for (let i = 0; i < selected.length; i++) {
+                //     if (selected[i].trim().length !== 0) {
+                //         break;
+                //     } else {
+                //         selected.splice(i, 1);
+                //     }
+                // }
                 console.log(selected);
                 return selected;
             }

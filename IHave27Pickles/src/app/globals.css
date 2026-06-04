@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+
+
+}
+
+#canvas-test {
+    border: 5px solid black;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    white-space: pre-wrap;
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    pointer-events: none;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.wiki-text {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    line-height: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    color: black;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fax {
+    width: 25vw;
+    height: 80vh;
+    background-color: grey;
+}
+
+.wiki-screen {
+    width: 25vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border: solid 2px #41403E;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    /* border-radius: 20px 70px 200px 255px/100px 100px 15px 20px; */
+    /* border-radius: 150px 15px 205px 20px/15px 200px 20px 245px; */
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.draw {
+    display: block;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border: solid 2px #41403E;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-top-right-radius: 255px 15px;
+    border-top-left-radius: 15px 225px;
+    border-bottom-left-radius: 225px 15px;
+    border-bottom-right-radius: 15px 255px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+    filter: contrast(3) saturate(2) blur(0.5px);
+    text-shadow: 0 0 2px rgba(25, 0, 255, 0.4);
+}
+
+
+.crt::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    /* animation: flicker 0.4s infinite; */
+}
+
+.crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+.crt {}

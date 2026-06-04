@@ -8,9 +8,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <MouseProvider>
-          <CanvasProvider>
-            {children}
-          </CanvasProvider>
+          <div className="crt">
+            <CanvasProvider>
+              {children}
+            </CanvasProvider>
+          </div>
         </MouseProvider></body>
     </html>
   );
