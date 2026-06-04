@@ -16,6 +16,7 @@ import { insertWork } from "./lib/db/works";
 import { getRandomWork } from "./lib/db/getRandomWork";
 import { Vector } from "./lib/Vector";
 import Draw from "./components/Draw";
+import Work from "./components/Work";
 
 
 
@@ -28,6 +29,8 @@ export default function Home() {
 
   const [textStrings, setTextStrings] = useState([]);
   const mouseRef = useMouse();
+
+  const [works, setWorks] = useState([]);
 
   const addTextString = (x = 100, y = 100, text = [], fontSize = 20) => {
     setTextStrings(prev => [...prev, { x: x, y: y, text: text, fontSize: fontSize, id: crypto.randomUUID() }]);
@@ -86,9 +89,18 @@ export default function Home() {
     //     }
     //   ]
     // ])
-    getRandomWork().then(res => { console.log(res) });
+    let data;
+    getRandomWork().then(res => {
+
+      //ADD THE WORK TO A USEREF ARRAY WITH ID PLZPLZPZLPZL
+      //MAKE A NEW COMPONENT TOO
+      createWork(res);
+    })
   }, []);
 
+  function createWork(data) {
+    setWorks([...works, { x: 0, y: 0, workId: data.workId, letterList: data.letterList }])
+  }
 
 
 
@@ -97,10 +109,9 @@ export default function Home() {
 
     <div className="screen">
       {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
-
+      {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList}></Work>)}
       <div className="container">
         <div className="fax">
-          Fax
         </div>
         <Draw textListRef={textListRef} clearTextString={clearTextString}>
           Draw

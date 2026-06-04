@@ -7,5 +7,6 @@ export async function getRandomWikiTitle() {
 
     const article = await axios.get("/api/wiki?url=" + "https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(title))
 
+
     return { data: article.data, title };
 }

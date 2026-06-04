@@ -101,24 +101,37 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     return (
         <div className='wiki-screen'>
-            <button onClick={getRandom}>PLEEK</button>
-            <form onSubmit={(e) => {
+            <button className='next-button' onClick={getRandom}>Next</button>
+            {/* <form onSubmit={(e) => {
                 e.preventDefault();
                 setTitle(newTitle);
             }}>
                 <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
                 <button type="submit">Submit</button>
-            </form>
+            </form> */}
             {loading && (
                 <div>Loading...</div>
             )}
-            <img src={wikiData?.thumbnail?.source}></img>
-            <br></br>
-            {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}
 
-            <div className='wiki-text' onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
-                <p className='wiki-text'>{wikiData?.extract}</p>
-                {/* <p>The sea is calm tonight.
+            {wikiData &&
+                <div>
+                    <h2>{wikiData?.title}</h2>
+                    <img src={wikiData?.thumbnail?.source}></img>
+                    <br></br>
+                    {/* <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>} */}
+
+                    <div className='wiki-text' onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+                        <p className='wiki-text'>{wikiData?.extract}</p>
+                    </div >
+                </div>}
+        </div >
+    )
+}
+
+export default WikiScreen
+
+
+/* <p>The sea is calm tonight.
                     The tide is full, the moon lies fair
                     Upon the straits; on the French coast the light
                     Gleams and is gone; the cliffs of England stand,
@@ -161,10 +174,4 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                     And we are here as on a darkling plain
                     Swept with confused alarms of struggle and flight,
                     Where ignorant armies clash by night.
-                </p> */}
-            </div >
-        </div>
-    )
-}
-
-export default WikiScreen
+                </p> */

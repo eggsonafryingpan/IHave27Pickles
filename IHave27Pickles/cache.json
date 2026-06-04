@@ -9941,5 +9941,488 @@
     },
     "extract": "Marion Lorraine Ranyak was an American painter who lived and worked in Rye, New York, and was a founding member of SOHO20.",
     "extract_html": "<p><b>Marion Lorraine Ranyak</b> was an American painter who lived and worked in Rye, New York, and was a founding member of SOHO20.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Chaube, Hazaribagh": {
+    "type": "standard",
+    "title": "Chaube, Hazaribagh",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Chaube, Hazaribagh</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q48728613",
+    "titles": {
+      "canonical": "Chaube,_Hazaribagh",
+      "normalized": "Chaube, Hazaribagh",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Chaube, Hazaribagh</span></span>"
+    },
+    "pageid": 55770365,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1064648872",
+    "tid": "27775aaa-7153-11ec-899e-04f1c2534ff4",
+    "timestamp": "2022-01-09T13:50:50Z",
+    "description": "Village in Jharkhand, India",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 24.237039,
+      "lon": 85.816392
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Chaube%2C_Hazaribagh",
+        "revisions": "https://en.wikipedia.org/wiki/Chaube%2C_Hazaribagh?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Chaube%2C_Hazaribagh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Chaube%2C_Hazaribagh"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Chaube%2C_Hazaribagh",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Chaube%2C_Hazaribagh",
+        "edit": "https://en.wikipedia.org/wiki/Chaube%2C_Hazaribagh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Chaube%2C_Hazaribagh"
+      }
+    },
+    "extract": "Chaube is a village in the Chalkusha CD block in the Barhi subdivision of the Hazaribagh district in the Indian state of Jharkhand.",
+    "extract_html": "<p><b>Chaube</b> is a village in the Chalkusha CD block in the Barhi subdivision of the Hazaribagh district in the Indian state of Jharkhand.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Palin–Couric interviews": {
+    "type": "standard",
+    "title": "Palin–Couric interviews",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Palin–Couric interviews</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7422674",
+    "titles": {
+      "canonical": "Palin–Couric_interviews",
+      "normalized": "Palin–Couric interviews",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Palin–Couric interviews</span></span>"
+    },
+    "pageid": 21025981,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Katie_Couric_VF_2012_Shankbone_2.JPG/330px-Katie_Couric_VF_2012_Shankbone_2.JPG",
+      "width": 330,
+      "height": 413
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/36/Katie_Couric_VF_2012_Shankbone_2.JPG",
+      "width": 2039,
+      "height": 2549
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354773073",
+    "tid": "bdd915f3-5274-11f1-9a9f-869397e00dbf",
+    "timestamp": "2026-05-18T04:47:58Z",
+    "description": "Series of interviews during 2008 American presidential election",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Palin%E2%80%93Couric_interviews",
+        "revisions": "https://en.wikipedia.org/wiki/Palin%E2%80%93Couric_interviews?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Palin%E2%80%93Couric_interviews?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Palin%E2%80%93Couric_interviews"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Palin%E2%80%93Couric_interviews",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Palin%E2%80%93Couric_interviews",
+        "edit": "https://en.wikipedia.org/wiki/Palin%E2%80%93Couric_interviews?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Palin%E2%80%93Couric_interviews"
+      }
+    },
+    "extract": "In the run-up to the 2008 United States presidential election, Republican vice presidential nominee Sarah Palin was interviewed multiple times by CBS Evening News anchor Katie Couric. The interviews were broadcast on September 24 and 25, 2008. Couric received the Alfred I. duPont–Columbia University Award and the Walter Cronkite Award for Journalism Excellence for the interview.",
+    "extract_html": "<p>In the run-up to the 2008 United States presidential election, Republican vice presidential nominee Sarah Palin was interviewed multiple times by <i>CBS Evening News</i> anchor Katie Couric. The interviews were broadcast on September 24 and 25, 2008. Couric received the Alfred I. duPont–Columbia University Award and the Walter Cronkite Award for Journalism Excellence for the interview.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Tenderness (Soviet song)": {
+    "type": "standard",
+    "title": "Tenderness (Soviet song)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tenderness (Soviet song)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4316221",
+    "titles": {
+      "canonical": "Tenderness_(Soviet_song)",
+      "normalized": "Tenderness (Soviet song)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tenderness (Soviet song)</span></span>"
+    },
+    "pageid": 22553471,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345473409",
+    "tid": "07972744-28ea-11f1-ab80-7e1b0d7e290b",
+    "timestamp": "2026-03-26T08:01:44Z",
+    "description": "1965 song composed by Aleksandra Pakhmutova",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tenderness_(Soviet_song)",
+        "revisions": "https://en.wikipedia.org/wiki/Tenderness_(Soviet_song)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tenderness_(Soviet_song)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tenderness_(Soviet_song)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tenderness_(Soviet_song)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tenderness_(Soviet_song)",
+        "edit": "https://en.wikipedia.org/wiki/Tenderness_(Soviet_song)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tenderness_(Soviet_song)"
+      }
+    },
+    "extract": "\"Tenderness\" is a Soviet Russian song, composed in 1965. The music was written by Aleksandra Pakhmutova, with lyrics by Nikolai Dobronravov and Sergey Grebennikov.",
+    "extract_html": "<p>\"<b>Tenderness</b>\" is a Soviet Russian song, composed in 1965. The music was written by Aleksandra Pakhmutova, with lyrics by Nikolai Dobronravov and <span class=\"extiw\">Sergey Grebennikov</span>.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/1990 East Texas State Lions football team": {
+    "type": "standard",
+    "title": "1990 East Texas State Lions football team",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1990 East Texas State Lions football team</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q73920276",
+    "titles": {
+      "canonical": "1990_East_Texas_State_Lions_football_team",
+      "normalized": "1990 East Texas State Lions football team",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">1990 East Texas State Lions football team</span></span>"
+    },
+    "pageid": 61303890,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1340728777",
+    "tid": "bf064e52-13b7-11f1-801f-48dc40cba219",
+    "timestamp": "2026-02-27T08:38:53Z",
+    "description": "American college football season",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/1990_East_Texas_State_Lions_football_team",
+        "revisions": "https://en.wikipedia.org/wiki/1990_East_Texas_State_Lions_football_team?action=history",
+        "edit": "https://en.wikipedia.org/wiki/1990_East_Texas_State_Lions_football_team?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1990_East_Texas_State_Lions_football_team"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/1990_East_Texas_State_Lions_football_team",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/1990_East_Texas_State_Lions_football_team",
+        "edit": "https://en.wikipedia.org/wiki/1990_East_Texas_State_Lions_football_team?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:1990_East_Texas_State_Lions_football_team"
+      }
+    },
+    "extract": "The 1990 East Texas State Lions football team represented East Texas State University—now known as Texas A&M University–Commerce—as a member of the Lone Star Conference (LSC) during the 1990 NCAA Division II football season. Led by fifth-year head coach Eddie Vowell, the Lions compiled an overall record of 10–3 with a mark of 7–0 in conference play, winning the LSC title for the first time since 1983. East Texas advanced to the NCAA Division II Football Championship playoffs, where they beat Grand Valley State in the first round before falling to Pittsburg State in the quarterfinals. The team played its home games at Memorial Stadium in Commerce, Texas. Wide receiver Gary Compton was a Harlon Hill Trophy nominee.",
+    "extract_html": "<p>The <b>1990 East Texas State Lions football team</b> represented East Texas State University—now known as Texas A&amp;M University–Commerce—as a member of the Lone Star Conference (LSC) during the 1990 NCAA Division II football season. Led by fifth-year head coach Eddie Vowell, the Lions compiled an overall record of 10–3 with a mark of 7–0 in conference play, winning the LSC title for the first time since 1983. East Texas advanced to the NCAA Division II Football Championship playoffs, where they beat Grand Valley State in the first round before falling to Pittsburg State in the quarterfinals. The team played its home games at Memorial Stadium in Commerce, Texas. Wide receiver Gary Compton was a Harlon Hill Trophy nominee.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/List of Pete Buttigieg 2020 presidential campaign endorsements": {
+    "type": "standard",
+    "title": "List of Pete Buttigieg 2020 presidential campaign endorsements",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of Pete Buttigieg 2020 presidential campaign endorsements</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q77729377",
+    "titles": {
+      "canonical": "List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements",
+      "normalized": "List of Pete Buttigieg 2020 presidential campaign endorsements",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">List of Pete Buttigieg 2020 presidential campaign endorsements</span></span>"
+    },
+    "pageid": 62521812,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pete_Buttigieg_signature_%281%29.png/330px-Pete_Buttigieg_signature_%281%29.png",
+      "width": 330,
+      "height": 118
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pete_Buttigieg_signature_%281%29.png",
+      "width": 482,
+      "height": 172
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355114411",
+    "tid": "4d9ecedb-53e7-11f1-b8b8-7df8c5650ae3",
+    "timestamp": "2026-05-20T01:00:33Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements",
+        "revisions": "https://en.wikipedia.org/wiki/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements?action=history",
+        "edit": "https://en.wikipedia.org/wiki/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements",
+        "edit": "https://en.wikipedia.org/wiki/List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:List_of_Pete_Buttigieg_2020_presidential_campaign_endorsements"
+      }
+    },
+    "extract": "This is a list of notable individuals and organizations who have voiced their endorsement of Pete Buttigieg's campaign for the Democratic Party's nomination for the 2020 U.S. presidential election.",
+    "extract_html": "<p>This is a list of notable individuals and organizations who have voiced their endorsement of Pete Buttigieg's campaign for the Democratic Party's nomination for the 2020 U.S. presidential election.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Althea Gibson": {
+    "type": "standard",
+    "title": "Althea Gibson",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Althea Gibson</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q53550",
+    "titles": {
+      "canonical": "Althea_Gibson",
+      "normalized": "Althea Gibson",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Althea Gibson</span></span>"
+    },
+    "pageid": 330436,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Althea_Gibson_in_1956_by_Fred_Palumbo_%28NYWTS%29.jpg/330px-Althea_Gibson_in_1956_by_Fred_Palumbo_%28NYWTS%29.jpg",
+      "width": 330,
+      "height": 455
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/Althea_Gibson_in_1956_by_Fred_Palumbo_%28NYWTS%29.jpg",
+      "width": 2722,
+      "height": 3749
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1357152538",
+    "tid": "aeb8931b-5d59-11f1-9086-8aa15f49f6e6",
+    "timestamp": "2026-06-01T01:31:59Z",
+    "description": "American tennis player (1927–2003)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Althea_Gibson",
+        "revisions": "https://en.wikipedia.org/wiki/Althea_Gibson?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Althea_Gibson?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Althea_Gibson"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Althea_Gibson",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Althea_Gibson",
+        "edit": "https://en.wikipedia.org/wiki/Althea_Gibson?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Althea_Gibson"
+      }
+    },
+    "extract": "Althea Neale Gibson was an American tennis player and professional golfer, and one of the first Black athletes to cross the color line of international tennis. In 1956, she became the first Black player to win a Grand Slam event. The following year she won both Wimbledon and the US Nationals, then won both again in 1958 and was voted Female Athlete of the Year by the Associated Press in both years. In all, she won 11 Grand Slam titles: five singles titles, five doubles titles, and one mixed doubles title. \"She is one of the greatest players who ever lived,\" said Bob Ryland, a tennis contemporary and former coach of Venus and Serena Williams. \"Martina [Navratilova] couldn't touch her. I think she'd beat the Williams sisters.\" Gibson was inducted into the International Tennis Hall of Fame in 1971 and the International Women's Sports Hall of Fame in 1980. In the early 1960s, she also became the first Black player to compete in the Ladies Professional Golf Association.",
+    "extract_html": "<p><b>Althea Neale Gibson</b> was an American tennis player and professional golfer, and one of the first Black athletes to cross the color line of international tennis. In 1956, she became the first Black player to win a Grand Slam event. The following year she won both Wimbledon and the US Nationals, then won both again in 1958 and was voted Female Athlete of the Year by the Associated Press in both years. In all, she won 11 Grand Slam titles: five singles titles, five doubles titles, and one mixed doubles title. \"She is one of the greatest players who ever lived,\" said Bob Ryland, a tennis contemporary and former coach of Venus and Serena Williams. \"Martina [Navratilova] couldn't touch her. I think she'd beat the Williams sisters.\" Gibson was inducted into the International Tennis Hall of Fame in 1971 and the International Women's Sports Hall of Fame in 1980. In the early 1960s, she also became the first Black player to compete in the Ladies Professional Golf Association.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Molecular oncology": {
+    "type": "standard",
+    "title": "Molecular oncology",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Molecular oncology</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q10881532",
+    "titles": {
+      "canonical": "Molecular_oncology",
+      "normalized": "Molecular oncology",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Molecular oncology</span></span>"
+    },
+    "pageid": 32762863,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1309859285",
+    "tid": "55de05b0-8b0b-11f0-84f2-ccb4e3d92c04",
+    "timestamp": "2025-09-06T10:22:05Z",
+    "description": "Interdisciplinary medical specialty",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Molecular_oncology",
+        "revisions": "https://en.wikipedia.org/wiki/Molecular_oncology?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Molecular_oncology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Molecular_oncology"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Molecular_oncology",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Molecular_oncology",
+        "edit": "https://en.wikipedia.org/wiki/Molecular_oncology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Molecular_oncology"
+      }
+    },
+    "extract": "Molecular oncology is an interdisciplinary medical specialty at the interface of medicinal chemistry and oncology that refers to the investigation of the chemistry of cancer and tumors at the molecular scale. Also the development and application of molecularly targeted therapies.",
+    "extract_html": "<p><b>Molecular oncology</b> is an interdisciplinary medical specialty at the interface of medicinal chemistry and oncology that refers to the investigation of the chemistry of cancer and tumors at the molecular scale. Also the development and application of molecularly targeted therapies.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Miko Alley": {
+    "type": "standard",
+    "title": "Miko Alley",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Miko Alley</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q21004795",
+    "titles": {
+      "canonical": "Miko_Alley",
+      "normalized": "Miko Alley",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Miko Alley</span></span>"
+    },
+    "pageid": 47639272,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353931562",
+    "tid": "c44346da-4e96-11f1-a540-a64acff54d42",
+    "timestamp": "2026-05-13T06:41:27Z",
+    "description": "Filipino footballer",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Miko_Alley",
+        "revisions": "https://en.wikipedia.org/wiki/Miko_Alley?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Miko_Alley?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Miko_Alley"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Miko_Alley",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Miko_Alley",
+        "edit": "https://en.wikipedia.org/wiki/Miko_Alley?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Miko_Alley"
+      }
+    },
+    "extract": "Mariko Elizabeth Montero Alley is a footballer who played as a midfielder. Born in the United States, she represented the Philippines national team.",
+    "extract_html": "<p><b>Mariko Elizabeth Montero Alley</b> is a footballer who played as a midfielder. Born in the United States, she represented the Philippines national team.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Giovanni Antonio Serbelloni": {
+    "type": "standard",
+    "title": "Giovanni Antonio Serbelloni",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Giovanni Antonio Serbelloni</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2707655",
+    "titles": {
+      "canonical": "Giovanni_Antonio_Serbelloni",
+      "normalized": "Giovanni Antonio Serbelloni",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Giovanni Antonio Serbelloni</span></span>"
+    },
+    "pageid": 14365598,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Giovanni_Antonio_Cardinal_Serbelloni.jpg/330px-Giovanni_Antonio_Cardinal_Serbelloni.jpg",
+      "width": 330,
+      "height": 472
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Giovanni_Antonio_Cardinal_Serbelloni.jpg",
+      "width": 1589,
+      "height": 2271
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1357459690",
+    "tid": "5222b886-5ebe-11f1-b8cc-697092a06059",
+    "timestamp": "2026-06-02T20:04:54Z",
+    "description": "Italian Cardinal",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Serbelloni",
+        "revisions": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Serbelloni?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Serbelloni?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Giovanni_Antonio_Serbelloni"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Serbelloni",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Giovanni_Antonio_Serbelloni",
+        "edit": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Serbelloni?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Giovanni_Antonio_Serbelloni"
+      }
+    },
+    "extract": "Giovanni Antonio Serbelloni was an Italian Cardinal.",
+    "extract_html": "<p><b>Giovanni Antonio Serbelloni</b> was an Italian Cardinal.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Doug Dagger": {
+    "type": "standard",
+    "title": "Doug Dagger",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Doug Dagger</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5300399",
+    "titles": {
+      "canonical": "Doug_Dagger",
+      "normalized": "Doug Dagger",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Doug Dagger</span></span>"
+    },
+    "pageid": 33992033,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Doug_Dagger_%28The_Generators%29_IMGP4556_smial_wp.jpg/330px-Doug_Dagger_%28The_Generators%29_IMGP4556_smial_wp.jpg",
+      "width": 330,
+      "height": 434
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/7/75/Doug_Dagger_%28The_Generators%29_IMGP4556_smial_wp.jpg",
+      "width": 3264,
+      "height": 4296
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1316695537",
+    "tid": "6960597e-a895-11f0-9704-c8c2ab42eaf8",
+    "timestamp": "2025-10-14T00:33:32Z",
+    "description": "American singer (1967–2024)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Doug_Dagger",
+        "revisions": "https://en.wikipedia.org/wiki/Doug_Dagger?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Doug_Dagger?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Doug_Dagger"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Doug_Dagger",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Doug_Dagger",
+        "edit": "https://en.wikipedia.org/wiki/Doug_Dagger?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Doug_Dagger"
+      }
+    },
+    "extract": "Douglas Scott Kane, known professionally as Doug Dagger, was an American vocalist. He was the lead singer for the Los Angeles punk rock band The Generators, which formed in 1997, and was lead singer for Schleprock and other punk bands.",
+    "extract_html": "<p><b>Douglas Scott Kane</b>, known professionally as <b>Doug Dagger</b>, was an American vocalist. He was the lead singer for the Los Angeles punk rock band The Generators, which formed in 1997, and was lead singer for Schleprock and other punk bands.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Asuero": {
+    "type": "standard",
+    "title": "Asuero",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Asuero</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q106595486",
+    "titles": {
+      "canonical": "Asuero",
+      "normalized": "Asuero",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Asuero</span></span>"
+    },
+    "pageid": 79744757,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1340806972",
+    "tid": "649ed993-141b-11f1-a697-910017dbe1ca",
+    "timestamp": "2026-02-27T20:32:11Z",
+    "description": "Surname list",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Asuero",
+        "revisions": "https://en.wikipedia.org/wiki/Asuero?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Asuero?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Asuero"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Asuero",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Asuero",
+        "edit": "https://en.wikipedia.org/wiki/Asuero?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Asuero"
+      }
+    },
+    "extract": "Asuero is a Spanish surname. Notable people with the surname include:Fernando Asuero (1887–1942), Spanish footballer\nPablo Martín Asuero, Spanish scholar from the Basque Country\nVicente Asuero y Cortázar (1806–1873), Spanish physician and professor at the Central University",
+    "extract_html": "<p><b>Asuero</b> is a Spanish surname. Notable people with the surname include:</p><ul><li>Fernando Asuero (1887–1942), Spanish footballer</li>\n<li>Pablo Martín Asuero, Spanish scholar from the Basque Country</li>\n<li>Vicente Asuero y Cortázar (1806–1873), Spanish physician and professor at the Central University</li></ul>"
   }
 }

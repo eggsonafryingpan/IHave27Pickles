@@ -7,5 +7,18 @@ export async function getRandomWork() {
         console.log(error);
         return null;
     }
-    return data;
+
+    let letterList = [];
+
+    data.strings.forEach(s => {
+        s.string_text.forEach(st => {
+            letterList.push({
+                x: st.x,
+                y: st.y,
+                letter: st.letter
+            })
+        })
+    });
+
+    return { workId: data.work_id, letterList };
 }
