@@ -3,6 +3,8 @@ import { Vector } from '../lib/Vector';
 import { useMouse } from './MouseProvider';
 import { insertWork } from '../lib/db/works';
 import { useRef, useEffect, useState } from 'react';
+import bin from '../assets/bin.png';
+import Image from "next/image";
 
 const Draw = ({ textListRef, clearTextString }) => {
     const ref = useRef(null);
@@ -28,19 +30,11 @@ const Draw = ({ textListRef, clearTextString }) => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    // const flattenTextStrings = () => {
-    //     const flatten = textStrings.map((ts => {
-
-    //     }))
-    // }
     const isBetween = (num, bound1, bound2) => {
         return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2)
     };
 
-
-
     const confirmWork = () => {
-
         const filteredList = textListRef.current
             .map(ts =>
             (
@@ -55,7 +49,6 @@ const Draw = ({ textListRef, clearTextString }) => {
 
             )
             .filter(ts => ts.points.length > 0);
-        console.log(filteredList)
 
         const relTextList = filteredList.map(ts =>
             ts.points.map(p => ({
@@ -75,6 +68,7 @@ const Draw = ({ textListRef, clearTextString }) => {
     return (
         <div>
             <button onClick={confirmWork}>Insert Work</button>
+            <Image src={bin} alt='bin' id='bin'></Image>
             <div ref={ref} className="draw"></div>
         </div>
     )

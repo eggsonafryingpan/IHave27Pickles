@@ -1,9 +1,14 @@
 import axios from "axios";
 import fs from "fs";
 
+let lastCall = 0;
 export async function GET(req) {
+    const now = Date.now();
     const { searchParams } = new URL(req.url);
     const url = searchParams.get("url");
+
+    if (now - lastCall < 100) return;
+    lastCall = now;
 
     let cache;
     try {

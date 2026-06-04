@@ -49,7 +49,17 @@ img {
 .fax {
     width: 25vw;
     height: 80vh;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 225px 15px;
+    border-top-right-radius: 25px 205px;
+    border-bottom-right-radius: 150px 15px;
+    border-bottom-left-radius: 30px 205px;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
+    border: solid 2px #41403E;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
 }
 
 .wiki-screen {
@@ -147,4 +157,19 @@ img {
 
 .crt {
     box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+
+#bin {
+    width: 40px;
+    height: 40px;
+    transition: all 0.2s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+}
+
+#bin:hover {
+    transform: scale(1.05);
 }

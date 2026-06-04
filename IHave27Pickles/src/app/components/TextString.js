@@ -6,7 +6,7 @@ import { Vector } from "../lib/Vector";
 import { Point } from "../lib/Point";
 import { useCanvas } from "./CanvasProvider";
 
-const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, updateList }) => {
+const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, updateList, removeFromList }) => {
     // const numPoints = pointsLength ?? text.length;
     // let sentence = text;//CHANGE
     const stringId = id;
@@ -165,6 +165,10 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, 
 
         //Dragging logic
         // console.log(points[0].curr.getDist(mouseV) < 100);
+        const el = document.elementFromPoint(points[0].curr.x, points[0].curr.y);
+        if (el.id === 'bin' && !mouse.isDown) {
+            removeFromList(stringId);
+        }
         if (!mouse.isDragging && mouse.isDown && points[0].curr.getDist(mouseV) < 50) {
             points[0].isDragging = true;
             mouse.isDragging = true;
@@ -172,6 +176,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, 
             points[0].isDragging = false;
             mouse.isDragging = false;
         }
+
 
         //first point
         points.forEach(p => {
@@ -217,7 +222,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, 
             ctx.lineWidth = 4;
             ctx.strokeStyle = "white";
             ctx.fillStyle = "black";
-            ctx.strokeText(p.getLetter(), p.curr.x, p.curr.y);
+            // ctx.strokeText(p.getLetter(), p.curr.x, p.curr.y);
             ctx.fillText(p.getLetter(), p.curr.x, p.curr.y);
             if (index === 0) {
                 circle(p.curr.x, p.curr.y - 15, 3);

@@ -12,6 +12,7 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     const [title, setTitle] = useState("");
     const [newTitle, setNewTitle] = useState("");
+    const [loading, setLoading] = useState(false);
 
     const FONT_WIDTH = 12;
     const FONT_HEIGHT = 20;
@@ -22,13 +23,28 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     useEffect(() => {
         if (title) {
+            setLoading(true);
+            setWikiData(null);
             axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
                 .then(res => {
                     setWikiData(res.data);
                     console.log("Data: ", res.data);
+                    setLoading(false);
                 });
+
         }
     }, [title]);
+
+    const getRandom = () => {
+        setLoading(true);
+        setWikiData(null);
+        getRandomWikiTitle().then((res) => {
+            const { data, title } = res.data
+            setWikiData(data)
+            setTitle(title);
+            setLoading(false);
+        })
+    }
 
 
     useCanvas((ctx) => {
@@ -85,14 +101,7 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     return (
         <div className='wiki-screen'>
-            <button onClick={() => {
-                getRandomWikiTitle().then((res) => {
-                    const { data, title } = res.data
-
-                    setWikiData(data)
-                    setTitle(title);
-                })
-            }}>PLEEK</button>
+            <button onClick={getRandom}>PLEEK</button>
             <form onSubmit={(e) => {
                 e.preventDefault();
                 setTitle(newTitle);
@@ -100,6 +109,9 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                 <input value={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
                 <button type="submit">Submit</button>
             </form>
+            {loading && (
+                <div>Loading...</div>
+            )}
             <img src={wikiData?.thumbnail?.source}></img>
             <br></br>
             {wikiData && <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>}

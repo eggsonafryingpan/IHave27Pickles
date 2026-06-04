@@ -21,6 +21,10 @@ import Draw from "./components/Draw";
 
 export default function Home() {
 
+  //link overflow -overflow in general
+  //empty textstring fix
+  //text moving around fix
+
 
   const [textStrings, setTextStrings] = useState([]);
   const mouseRef = useMouse();
@@ -34,6 +38,11 @@ export default function Home() {
 
   const clearTextString = (clearIdList) => {
     setTextStrings(textStrings.filter(ts => !clearIdList.includes(ts.id)))
+  }
+
+  const removeFromList = (id) => {
+    textListRef.current = textListRef.current.filter((ts) => ts.id !== id);
+    setTextStrings(textStrings.filter(ts => ts.id !== id));
   }
 
   const updateList = (arr, id) => {
@@ -87,7 +96,7 @@ export default function Home() {
   return (
 
     <div className="screen">
-      {textStrings.map(ts => <TextString updateList={updateList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
+      {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
 
       <div className="container">
         <div className="fax">
