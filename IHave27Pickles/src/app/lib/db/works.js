@@ -1,6 +1,6 @@
 import { supabase } from "./supabaseClient";
 
-export async function insertWork(strings) {
+export async function insertWork(strings, questionId) {
     try {
         if (strings.length === 0) {
             return null;
@@ -8,7 +8,7 @@ export async function insertWork(strings) {
         const work_id = crypto.randomUUID();
         const { error: workError } = await supabase
             .from("works")
-            .insert([{ work_id: work_id }])
+            .insert([{ work_id: work_id, question_id: questionId }])
         if (workError) {
             console.log(workError);
             return null;

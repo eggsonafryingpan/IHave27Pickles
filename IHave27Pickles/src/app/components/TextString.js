@@ -6,10 +6,13 @@ import { Vector } from "../lib/Vector";
 import { Point } from "../lib/Point";
 import { useCanvas } from "./CanvasProvider";
 
-const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, updateList, removeFromList }) => {
+const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, updateList, removeFromList, id }) => {
     // const numPoints = pointsLength ?? text.length;
     // let sentence = text;//CHANGE
     const stringId = id;
+
+
+
 
 
     //     export const getClosest = () => {
@@ -88,8 +91,12 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, 
     if (pointsRef.current === null) {
         pointsRef.current = makePoints();
     }
-    let points = pointsRef.current;
 
+
+    let points = pointsRef.current;
+    if (points.length === 0) {
+        return;
+    }
     const makeConnections = () => {
         let connections = [];
         for (let i = 0; i < points.length - 1; i++) {
@@ -168,6 +175,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, id, 
         const el = document.elementFromPoint(points[0].curr.x, points[0].curr.y);
         if (el.id === 'bin' && !mouse.isDown) {
             removeFromList(stringId);
+            return;
         }
         if (!mouse.isDragging && mouse.isDown && points[0].curr.getDist(mouseV) < 50) {
             points[0].isDragging = true;

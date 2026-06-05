@@ -5,11 +5,23 @@ import { insertWork } from '../lib/db/works';
 import { useRef, useEffect, useState } from 'react';
 import bin from '../assets/bin.png';
 import Image from "next/image";
+import { getRandomQuestion } from '../lib/db/getRandomQuestion';
+import { load } from 'cheerio';
 
 const Draw = ({ textListRef, clearTextString }) => {
     const ref = useRef(null);
     const [pos, setPos] = useState({ left: 0, top: 0, right: 0, bottom: 0 });
     const mouseRef = useMouse();
+    const [question, setQuestion] = useState({ question: "", id: null });
+    const [loadingStep, setLoadingStep] = useState(false);
+    const timerRef = useRef(null);
+
+
+    useEffect(() => {
+        getRandomQuestion().then(res => {
+            setQuestion(res);
+        })
+    }, [])
 
 
     useEffect(() => {
@@ -35,6 +47,13 @@ const Draw = ({ textListRef, clearTextString }) => {
     };
 
     const confirmWork = () => {
+
+        setLoadingStep(1);
+
+        if (timerRef.current) {
+            clearTimeout(timerRef.current);
+        }
+
         const filteredList = textListRef.current
             .map(ts =>
             (
@@ -58,22 +77,50 @@ const Draw = ({ textListRef, clearTextString }) => {
             }))
         );
 
-        insertWork(relTextList);
+
 
         const clearIdList = filteredList.map(ts => ts.id);
         clearTextString(clearIdList);
+
+        insertWork(relTextList, question.id);
+        getRandomQuestion().then(res => {
+            setQuestion(res);
+        })
+
+
+
+
+
+
+        timerRef.current = setTimeout(() => {
+            setLoadingStep(2);
+
+            timerRef.current = setTimeout(() => {
+                setLoadingStep(null);
+            }, 800);
+
+        }, 2000);
     };
 
 
     return (
         <div>
             <div className='top-bar'>
-                <button onClick={confirmWork}>Insert Work</button>
+
                 <Image src={bin} alt='bin' id='bin'></Image>
             </div>
+            <div ref={ref} className="draw">
+                {loadingStep === 1 && <h3>Evaluating...</h3>}
+                {loadingStep === 2 && <h3>Incorrect</h3>}
+                {!loadingStep && question && <>
+                    <h3>{question.question}</h3>
+                    <div className='lines'></div>
+                </>
+                }
+            </div>
 
+            <div className='bottom-bar'><button className='insert' onClick={confirmWork}>Submit</button></div>
 
-            <div ref={ref} className="draw"></div>
         </div>
     )
 }

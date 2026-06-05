@@ -1,16 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useCanvas } from './CanvasProvider'
+import { useRef } from 'react';
+const SCALE = 0.7;
 
-const Work = ({ x, y, letterList }) => {
-    const SCALE = 0.7;
+
+const Work = ({ x, y, letterList, question }) => {
+    const divRef = useRef(null);
+    const [pos, setPos] = useState({ x: x, y: y });
+
     useCanvas(ctx => {
-        ctx.fillStyle = "grey";
+        // const rect = divRef.current.getBoundingClientRect();
+        // if (!rect) return;
 
         const offsetX = x;
         const offsetY = y;
 
-        // Draw filled rectangle
-        ctx.fillRect(x, y, 600 * SCALE, 500 * SCALE);
+        ctx.fillStyle = "white";
+        // ctx.fillRect(offsetX, offsetY, 600 * SCALE, 500 * SCALE);
         letterList.forEach(p => {
             ctx.lineWidth = 4;
             ctx.strokeStyle = "white";
@@ -22,7 +28,19 @@ const Work = ({ x, y, letterList }) => {
     })
 
     return (
-        <></>
+        <>
+            <div className="work" ref={divRef} style={{
+                position: "absolute",
+                left: pos.x,
+                top: pos.y,
+                width: 600 * SCALE,
+                height: 500 * SCALE
+            }}>
+                {question && <h3>{question}</h3>}
+                <div className='lines'>
+                </div>
+            </div>
+        </>
     )
 }
 

@@ -101,7 +101,8 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
     return (
         <div className='wiki-screen'>
-            <button className='next-button' onClick={getRandom}>Next</button>
+            <div className='top-bar'><button className='next-button' onClick={getRandom}>Next</button></div>
+
             {/* <form onSubmit={(e) => {
                 e.preventDefault();
                 setTitle(newTitle);

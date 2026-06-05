@@ -55,11 +55,6 @@ function blockSelect(mouseRef, currRef, startRef) {
     }
 
     const isBetween = (num, bound1, bound2) => {
-        // if (Math.abs(bound1 - bound2) < 1) {
-        //     console.log(bound1, bound2)
-        //     return num >= Math.min(bound1, bound2) && num < Math.max(bound1, bound2);
-
-        // }
         return num >= Math.min(bound1, bound2) && num <= Math.max(bound1, bound2)
     };
     const isBetweenExclude = (num, bound1, bound2) => {
@@ -126,12 +121,10 @@ function blockSelect(mouseRef, currRef, startRef) {
                 if (Math.abs(startRef.current.y - currRef.current.y) < (2 * HEIGHT)) {
                     selectionEnd = getCell(currRef.current.x, currRef.current.y, rect);
                     selectionEnd = { ...selectionEnd, y: selectionEnd.y - 1 };
-                    console.log(selectionEnd)
                 } else {
                     selectionEnd = getCell(currRef.current.x, currRef.current.y, rect);
                 }
                 let selectionStart = getCell(startRef.current.x, startRef.current.y, rect);
-
 
                 selected = getSelection(
                     getTextLines(el),
@@ -151,7 +144,6 @@ function blockSelect(mouseRef, currRef, startRef) {
                 //         selected.splice(i, 1);
                 //     }
                 // }
-                console.log(selected);
                 return selected;
             }
 

@@ -17,14 +17,15 @@ import { getRandomWork } from "./lib/db/getRandomWork";
 import { Vector } from "./lib/Vector";
 import Draw from "./components/Draw";
 import Work from "./components/Work";
-
+import Scroll from "./components/Scroll";
 
 
 export default function Home() {
 
-  //link overflow -overflow in general
+  //axios failure fix?
   //empty textstring fix
   //text moving around fix
+  //may refer to fix
 
 
   const [textStrings, setTextStrings] = useState([]);
@@ -41,10 +42,14 @@ export default function Home() {
 
   const clearTextString = (clearIdList) => {
     setTextStrings(textStrings.filter(ts => !clearIdList.includes(ts.id)))
+    textListRef.current = (textListRef.current.filter(ts => !clearIdList.includes(ts.id)))
   }
 
+  console.log(textListRef.current)
+
+
   const removeFromList = (id) => {
-    textListRef.current = textListRef.current.filter((ts) => ts.id !== id);
+    textListRef.current = textListRef.current.filter(ts => ts.id !== id);
     setTextStrings(textStrings.filter(ts => ts.id !== id));
   }
 
@@ -52,7 +57,7 @@ export default function Home() {
     const mapped = arr.map(a => ({
       x: a.curr.x,
       y: a.curr.y,
-      letter: a.letter
+      letter: a.letter,
     }));
 
     const index = textListRef.current.findIndex(item => item.id === id);
@@ -68,7 +73,6 @@ export default function Home() {
   };
 
   useEffect(() => {
-    addTextString(100, 100, [".selkcip", "72      "]);
     // addTextString(300, 300, "RAHAHHAHAH", 20);
   }, []);
 
@@ -89,14 +93,14 @@ export default function Home() {
     //     }
     //   ]
     // ])
-    let data;
     getRandomWork().then(res => {
       createWork(res);
+      console.log(res);
     })
   }, []);
 
   function createWork(data) {
-    setWorks([...works, { x: 0, y: 0, workId: data.workId, letterList: data.letterList }])
+    setWorks([...works, { x: 0, y: 0, workId: data.workId, letterList: data.letterList, question: data.question }])
   }
 
 
@@ -105,13 +109,13 @@ export default function Home() {
   return (
 
     <div className="screen">
+      <Scroll />
       {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
-      {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList}></Work>)}
+      {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question}></Work>)}
       <div className="container">
         <div className="fax">
         </div>
         <Draw textListRef={textListRef} clearTextString={clearTextString}>
-          Draw
         </Draw>
         <WikiScreen textStrings={textStrings} addTextString={addTextString} />
       </div>

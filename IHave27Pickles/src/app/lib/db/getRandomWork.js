@@ -20,5 +20,5 @@ export async function getRandomWork() {
         })
     });
 
-    return { workId: data.work_id, letterList };
+    return { workId: data.work_id, letterList, question: data.question };
 }
