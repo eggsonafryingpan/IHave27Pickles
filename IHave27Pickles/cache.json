@@ -35636,5 +35636,347 @@
     },
     "extract": "The Type 645 oceanographic research ship is an oceanographic ship developed by China for the People's Liberation Army Navy (PLAN) and other Chinese civilian establishments.\nType 645 was an experimental program of the Fourth five-year plan of China and designed by the 2nd Directorate of 708th Institute of China State Shipbuilding Corporation, which is also more commonly known as China Shipbuilding and Oceanic Engineering Design Academy (中国船舶及海洋工程设计研究) Archived 2019-07-06 at the Wayback Machine nowadays. Construction begun in October 1977 and the ship was launched in October 1978, entering service with PLAN in December 1978. There are a total of twelve laboratories on board totaling 257 square meters. Deployment proved that the design was successful, and three more units were built for civilian use, named as Xiangyanghong 9, Xiangyanghong 14 and Xiangyanghong 16 respectively. However, on May 2, 1993, Xiangyanghong 16 was rammed and sunk by a Cypriot LNG carrier more than nine time of its size in the East China Sea near Jeju Island, with the loss of three crew members. The sister ships in civilian service are often tasked with military and paramilitary missions and thus frequently come under PLAN and Chinese Coast Guard control.",
     "extract_html": "<p>The <b>Type 645 oceanographic research ship</b> is an oceanographic ship developed by China for the People's Liberation Army Navy (PLAN) and other Chinese civilian establishments.\nType 645 was an experimental program of the Fourth five-year plan of China and designed by the 2nd Directorate of 708th Institute of China State Shipbuilding Corporation, which is also more commonly known as <span class=\"external text\">China Shipbuilding and Oceanic Engineering Design Academy (中国船舶及海洋工程设计研究)</span> <span class=\"external text\">Archived</span> 2019-07-06 at the Wayback Machine nowadays. Construction begun in October 1977 and the ship was launched in October 1978, entering service with PLAN in December 1978. There are a total of twelve laboratories on board totaling 257 square meters. Deployment proved that the design was successful, and three more units were built for civilian use, named as Xiangyanghong 9, Xiangyanghong 14 and Xiangyanghong 16 respectively. However, on May 2, 1993, Xiangyanghong 16 was rammed and sunk by a Cypriot LNG carrier more than nine time of its size in the East China Sea near Jeju Island, with the loss of three crew members. The sister ships in civilian service are often tasked with military and paramilitary missions and thus frequently come under PLAN and Chinese Coast Guard control.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Graeme Richmond": {
+    "type": "standard",
+    "title": "Graeme Richmond",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Graeme Richmond</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5592376",
+    "titles": {
+      "canonical": "Graeme_Richmond",
+      "normalized": "Graeme Richmond",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Graeme Richmond</span></span>"
+    },
+    "pageid": 10136648,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/3/39/GraemeRichmond.jpg",
+      "width": 290,
+      "height": 300
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/3/39/GraemeRichmond.jpg",
+      "width": 290,
+      "height": 300
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1343348122",
+    "tid": "c841feca-1f0d-11f1-985a-ac01f9ff72be",
+    "timestamp": "2026-03-13T18:52:28Z",
+    "description": "Australian sports administrator",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Graeme_Richmond",
+        "revisions": "https://en.wikipedia.org/wiki/Graeme_Richmond?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Graeme_Richmond?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Graeme_Richmond"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Graeme_Richmond",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Graeme_Richmond",
+        "edit": "https://en.wikipedia.org/wiki/Graeme_Richmond?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Graeme_Richmond"
+      }
+    },
+    "extract": "Graeme Richmond was a long time administrator of the Richmond Football Club.",
+    "extract_html": "<p><b>Graeme Richmond</b> was a long time administrator of the Richmond Football Club.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Frank Fox (rugby league)": {
+    "type": "standard",
+    "title": "Frank Fox (rugby league)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Frank Fox (rugby league)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q65935407",
+    "titles": {
+      "canonical": "Frank_Fox_(rugby_league)",
+      "normalized": "Frank Fox (rugby league)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Frank Fox (rugby league)</span></span>"
+    },
+    "pageid": 61344190,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1301907050",
+    "tid": "8f35f00a-66dc-11f0-bb2a-e945d5156b97",
+    "timestamp": "2025-07-22T09:16:33Z",
+    "description": "English rugby league footballer",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Frank_Fox_(rugby_league)",
+        "revisions": "https://en.wikipedia.org/wiki/Frank_Fox_(rugby_league)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Frank_Fox_(rugby_league)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Frank_Fox_(rugby_league)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Frank_Fox_(rugby_league)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Frank_Fox_(rugby_league)",
+        "edit": "https://en.wikipedia.org/wiki/Frank_Fox_(rugby_league)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Frank_Fox_(rugby_league)"
+      }
+    },
+    "extract": "Frank Fox is a former professional rugby league footballer who played in the 1960s and 1970s. He played at representative level for Yorkshire, and at club level for Halifax, Hull Kingston Rovers and Castleford, as a prop.",
+    "extract_html": "<p><b>Frank Fox</b> is a former professional rugby league footballer who played in the 1960s and 1970s. He played at representative level for Yorkshire, and at club level for Halifax, Hull Kingston Rovers and Castleford, as a prop.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Ryan Collins": {
+    "type": "standard",
+    "title": "Ryan Collins",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ryan Collins</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q108051641",
+    "titles": {
+      "canonical": "Ryan_Collins",
+      "normalized": "Ryan Collins",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ryan Collins</span></span>"
+    },
+    "pageid": 70282733,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1351153676",
+    "tid": "26cce21e-413c-11f1-a168-8ce849b18d9e",
+    "timestamp": "2026-04-26T06:50:03Z",
+    "description": "American football player (born 1975)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ryan_Collins",
+        "revisions": "https://en.wikipedia.org/wiki/Ryan_Collins?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ryan_Collins?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ryan_Collins"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ryan_Collins",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ryan_Collins",
+        "edit": "https://en.wikipedia.org/wiki/Ryan_Collins?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ryan_Collins"
+      }
+    },
+    "extract": "Ryan Albert Collins is an American former professional football player who was a tight end for the Baltimore Ravens of the National Football League (NFL), the Amsterdam Admirals of NFL Europe, and the New York/New Jersey Hitmen of the XFL. He played college football for the St. Thomas Tommies.",
+    "extract_html": "<p><b>Ryan Albert Collins</b> is an American former professional football player who was a tight end for the Baltimore Ravens of the National Football League (NFL), the Amsterdam Admirals of NFL Europe, and the New York/New Jersey Hitmen of the XFL. He played college football for the St. Thomas Tommies.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Wooden Canal Boat Society": {
+    "type": "standard",
+    "title": "Wooden Canal Boat Society",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wooden Canal Boat Society</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q8032564",
+    "titles": {
+      "canonical": "Wooden_Canal_Boat_Society",
+      "normalized": "Wooden Canal Boat Society",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Wooden Canal Boat Society</span></span>"
+    },
+    "pageid": 18506833,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1283840975",
+    "tid": "c7da9d26-10e6-11f0-bedb-15aa26374e57",
+    "timestamp": "2025-04-03T23:53:03Z",
+    "description": "English charity",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Wooden_Canal_Boat_Society",
+        "revisions": "https://en.wikipedia.org/wiki/Wooden_Canal_Boat_Society?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Wooden_Canal_Boat_Society?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Wooden_Canal_Boat_Society"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Wooden_Canal_Boat_Society",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Wooden_Canal_Boat_Society",
+        "edit": "https://en.wikipedia.org/wiki/Wooden_Canal_Boat_Society?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Wooden_Canal_Boat_Society"
+      }
+    },
+    "extract": "\n\nThe Wooden Canal Boat Society (WCBS) is a waterway society and a registered charity in England, UK, based at Ashton-under-Lyne, Greater Manchester. The society started as the Wooden Canal Craft Trust in 1987, and by 1995 the trust owned six boats; it was wound up in 1997, and its assets were handed over to the WCBS.",
+    "extract_html": "<p>\n\nThe <b>Wooden Canal Boat Society</b> (<b>WCBS</b>) is a waterway society and a registered charity in England, UK, based at Ashton-under-Lyne, Greater Manchester. The society started as the Wooden Canal Craft Trust in 1987, and by 1995 the trust owned six boats; it was wound up in 1997, and its assets were handed over to the WCBS.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Phil Stevens (ice hockey)": {
+    "type": "standard",
+    "title": "Phil Stevens (ice hockey)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Phil Stevens (ice hockey)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7182452",
+    "titles": {
+      "canonical": "Phil_Stevens_(ice_hockey)",
+      "normalized": "Phil Stevens (ice hockey)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Phil Stevens (ice hockey)</span></span>"
+    },
+    "pageid": 5452374,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Phil_Stevens%2C_Saskatoon_Crescents%2C_1923%E2%80%9324.jpg/330px-Phil_Stevens%2C_Saskatoon_Crescents%2C_1923%E2%80%9324.jpg",
+      "width": 330,
+      "height": 519
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Phil_Stevens%2C_Saskatoon_Crescents%2C_1923%E2%80%9324.jpg",
+      "width": 350,
+      "height": 550
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1336166284",
+    "tid": "6b4955e4-0005-11f1-8468-b4f28fe7003b",
+    "timestamp": "2026-02-02T07:04:30Z",
+    "description": "Canadian ice hockey player",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Phil_Stevens_(ice_hockey)",
+        "revisions": "https://en.wikipedia.org/wiki/Phil_Stevens_(ice_hockey)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Phil_Stevens_(ice_hockey)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Phil_Stevens_(ice_hockey)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Phil_Stevens_(ice_hockey)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Phil_Stevens_(ice_hockey)",
+        "edit": "https://en.wikipedia.org/wiki/Phil_Stevens_(ice_hockey)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Phil_Stevens_(ice_hockey)"
+      }
+    },
+    "extract": "Philip Collins Stevens was a Canadian professional ice hockey centre who played hockey from 1911 until 1932.",
+    "extract_html": "<p><b>Philip Collins Stevens</b> was a Canadian professional ice hockey centre who played hockey from 1911 until 1932.</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Shin'ichirō Tomonaga": {
+    "type": "standard",
+    "title": "Shin'ichirō Tomonaga",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shin&#039;ichirō Tomonaga</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q184563",
+    "titles": {
+      "canonical": "Shin'ichirō_Tomonaga",
+      "normalized": "Shin'ichirō Tomonaga",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shin&#039;ichirō Tomonaga</span></span>"
+    },
+    "pageid": 287410,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tomonaga.jpg/330px-Tomonaga.jpg",
+      "width": 330,
+      "height": 495
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Tomonaga.jpg",
+      "width": 496,
+      "height": 744
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1343411037",
+    "tid": "2693d2b3-1f58-11f1-986c-d8fdb9ace1ae",
+    "timestamp": "2026-03-14T03:44:49Z",
+    "description": "Japanese physicist (1906-1979)",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Shin'ichir%C5%8D_Tomonaga",
+        "revisions": "https://en.wikipedia.org/wiki/Shin'ichir%C5%8D_Tomonaga?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Shin'ichir%C5%8D_Tomonaga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shin'ichir%C5%8D_Tomonaga"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Shin'ichir%C5%8D_Tomonaga",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Shin'ichir%C5%8D_Tomonaga",
+        "edit": "https://en.wikipedia.org/wiki/Shin'ichir%C5%8D_Tomonaga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shin'ichir%C5%8D_Tomonaga"
+      }
+    },
+    "extract": "Shinichiro Tomonaga , usually cited as Sin-Itiro Tomonaga in English, was a Japanese physicist. He shared the 1965 Nobel Prize in Physics with Richard Feynman and Julian Schwinger \"for their fundamental work in quantum electrodynamics (QED), with deep-ploughing consequences for the physics of elementary particles\".",
+    "extract_html": "<p><b>Shinichiro Tomonaga</b><span style=\"font-weight:normal\"> </span>, usually cited as <b>Sin-Itiro Tomonaga</b> in English, was a Japanese physicist. He shared the 1965 Nobel Prize in Physics with Richard Feynman and Julian Schwinger \"for their fundamental work in quantum electrodynamics (QED), with deep-ploughing consequences for the physics of elementary particles\".</p>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Gever": {
+    "type": "disambiguation",
+    "title": "Gever",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Gever</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5554909",
+    "titles": {
+      "canonical": "Gever",
+      "normalized": "Gever",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Gever</span></span>"
+    },
+    "pageid": 5198385,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "952083661",
+    "tid": "a6d5510e-830e-11ea-94d2-acb7c8300889",
+    "timestamp": "2020-04-20T13:55:54Z",
+    "description": "Topics referred to by the same term",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Gever",
+        "revisions": "https://en.wikipedia.org/wiki/Gever?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Gever?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Gever"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Gever",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Gever",
+        "edit": "https://en.wikipedia.org/wiki/Gever?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Gever"
+      }
+    },
+    "extract": "Gever may refer to:Yüksekova, a city and district of Hakkari Province, Turkey\nGever, Netherlands, a hamlet in the Dutch province of North Brabant",
+    "extract_html": "<p><b>Gever</b> may refer to:</p><ul><li>Yüksekova, a city and district of Hakkari Province, Turkey</li>\n<li>Gever, Netherlands, a hamlet in the Dutch province of North Brabant</li></ul>"
+  },
+  "https://en.wikipedia.org/api/rest_v1/page/summary/Nanowire battery": {
+    "type": "standard",
+    "title": "Nanowire battery",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Nanowire battery</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2566515",
+    "titles": {
+      "canonical": "Nanowire_battery",
+      "normalized": "Nanowire battery",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Nanowire battery</span></span>"
+    },
+    "pageid": 15439559,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345300066",
+    "tid": "09f0772a-283f-11f1-b9f6-efbd292d42f1",
+    "timestamp": "2026-03-25T11:37:44Z",
+    "description": "Type of battery",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Nanowire_battery",
+        "revisions": "https://en.wikipedia.org/wiki/Nanowire_battery?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Nanowire_battery?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Nanowire_battery"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Nanowire_battery",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Nanowire_battery",
+        "edit": "https://en.wikipedia.org/wiki/Nanowire_battery?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Nanowire_battery"
+      }
+    },
+    "extract": "A nanowire battery uses nanowires to increase the surface area of one or both of its electrodes, which improves the capacity of the battery. Some designs, variations of the lithium-ion battery have been announced, although none are commercially available. All of the concepts replace the traditional graphite anode and could improve battery performance. Each type of nanowire battery has specific advantages and disadvantages, but a challenge common to all of them is their fragility.",
+    "extract_html": "<p>A <b>nanowire battery</b> uses nanowires to increase the surface area of one or both of its electrodes, which improves the capacity of the battery. Some designs, variations of the lithium-ion battery have been announced, although none are commercially available. All of the concepts replace the traditional graphite anode and could improve battery performance. Each type of nanowire battery has specific advantages and disadvantages, but a challenge common to all of them is their fragility.</p>"
   }
 }
