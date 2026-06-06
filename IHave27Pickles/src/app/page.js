@@ -110,7 +110,8 @@ export default function Home() {
   }, []);
 
   function createWork(data) {
-    setWorks([...works, { x: window.innerWidth * 0.08, y: -200, workId: data.workId, letterList: data.letterList, question: data.question }])
+
+    setWorks([...works, { x: window.innerWidth * 0.03, y: -140, workId: data.workId, letterList: data.letterList, question: data.question }])
   }
 
   const printWork = () => {
@@ -137,14 +138,15 @@ export default function Home() {
 
         <CanvasProvider>
           <Scroll />
-          <div className="cover"></div>
           {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
+          <div className="cover">
+            <button className="print" onClick={printWork}>Print</button>
+          </div>
           {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question} trigger={trigger} removeWork={removeWork} id={w.workId} workAnimatingRef={workAnimatingRef}></Work>)}
           <div className="container">
             <div className="fax">
-
             </div>
-            <button onClick={printWork}>HIII</button>
+
             <Draw textListRef={textListRef} clearTextString={clearTextString}>
             </Draw>
             <WikiScreen textStrings={textStrings} addTextString={addTextString} />

@@ -216,6 +216,7 @@ img {
     transition: all 0.2 ease;
     background-color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .insert:hover {
@@ -236,6 +237,7 @@ img {
     font-size: 25px;
     transition: all 0.2 ease;
     background-color: white;
+    cursor: pointer;
 }
 
 .next-button:hover {
@@ -305,12 +307,38 @@ img {
 
 .cover {
     position: absolute;
-    width: 450px;
-    height: 100px;
-    transform: translate(-45px);
-    left: 8vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 420px;
+    height: 180px;
+    transform: translate(-30px);
+    left: 3vw;
     top: 0px;
     background-color: white;
     z-index: 2;
     border-bottom: solid 1px black;
+}
+
+.print {
+    position: relative;
+    z-index: 3;
+    width: 140px;
+    height: 45px;
+    margin-top: 100px;
+    border: solid 3px #646361;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-top-right-radius: 255px 15px;
+    border-top-left-radius: 15px 225px;
+    border-bottom-left-radius: 225px 15px;
+    border-bottom-right-radius: 15px 255px;
+    font-family: 'Courier New', Helvetica;
+    font-size: 25px;
+    transition: all 0.2 ease;
+    background-color: white;
+    cursor: pointer;
+}
+
+.print:hover {
+    transform: rotate(3deg);
 }

@@ -45,6 +45,10 @@ const WikiScreen = ({ textStrings, addTextString }) => {
         }
     }, [title]);
 
+    useEffect(() => {
+        getRandom();
+    }, [])
+
     const getRandom = () => {
         setLoading(true);
         setWikiData(null);
