@@ -96,10 +96,13 @@ const Draw = ({ textListRef, clearTextString }) => {
             setLoadingStep(2);
 
             timerRef.current = setTimeout(() => {
-                setLoadingStep(null);
-            }, 800);
+                setLoadingStep(3);
+                timerRef.current = setTimeout(() => {
+                    setLoadingStep(null);
+                }, 700);
+            }, 700);
 
-        }, 2000);
+        }, 700);
     };
 
 
@@ -111,7 +114,8 @@ const Draw = ({ textListRef, clearTextString }) => {
             </div>
             <div ref={ref} className="draw">
                 {loadingStep === 1 && <h3>Evaluating...</h3>}
-                {loadingStep === 2 && <h3>Incorrect</h3>}
+                {loadingStep === 2 && <h3>Sending...</h3>}
+                {loadingStep === 3 && <h3>Submitted</h3>}
                 {!loadingStep && question && <>
                     <h3>{question.question}</h3>
                     <div className='lines'></div>

@@ -25,12 +25,22 @@ const WikiScreen = ({ textStrings, addTextString }) => {
         if (title) {
             setLoading(true);
             setWikiData(null);
-            axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
-                .then(res => {
-                    setWikiData(res.data);
-                    console.log("Data: ", res.data);
-                    setLoading(false);
-                });
+            const getNewArticle = () => {
+                axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
+                    .then(res => {
+                        setWikiData(res.data);
+                        console.log("Data: ", res.data);
+                        setLoading(false);
+                    }).catch(err => {
+                        const status = err?.response?.status;
+                        if (status === 500) {
+                            setTimeout(() => {
+                                getNewArticle();
+                            }, 1000);
+                        }
+                    });
+            }
+            getNewArticle();
 
         }
     }, [title]);
@@ -38,12 +48,27 @@ const WikiScreen = ({ textStrings, addTextString }) => {
     const getRandom = () => {
         setLoading(true);
         setWikiData(null);
-        getRandomWikiTitle().then((res) => {
-            const { data, title } = res.data
-            setWikiData(data)
-            setTitle(title);
-            setLoading(false);
-        })
+        const wikiFunc = () => {
+            getRandomWikiTitle().then((res) => {
+                if (res.data.extract.toLowerCase().includes("refer to")) {
+                    console.log("may refer to");
+                    getRandom();
+                } else {
+                    const { data, title } = res.data
+                    setWikiData(data)
+                    setTitle(title);
+                    setLoading(false);
+                }
+            }).catch(err => {
+                const status = err?.response?.status;
+                if (status === 500) {
+                    setTimeout(() => {
+                        wikiFunc();
+                    }, 2000);
+                }
+            });
+        }
+        wikiFunc();
     }
 
 

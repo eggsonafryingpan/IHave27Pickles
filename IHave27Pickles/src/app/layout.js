@@ -1,6 +1,5 @@
 import "./globals.css";
 import { MouseProvider } from "./components/MouseProvider";
-import { CanvasProvider } from "./components/CanvasProvider";
 
 
 export default function RootLayout({ children }) {
@@ -8,12 +7,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <MouseProvider>
-          <div className="crt">
-            <CanvasProvider>
-              {children}
-            </CanvasProvider>
-          </div>
+          {children}
         </MouseProvider></body>
-    </html>
+    </html >
   );
 }

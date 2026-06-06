@@ -19,6 +19,7 @@ import Draw from "./components/Draw";
 import Work from "./components/Work";
 import Scroll from "./components/Scroll";
 
+import { CanvasProvider } from "./components/CanvasProvider";
 
 export default function Home() {
 
@@ -27,11 +28,21 @@ export default function Home() {
   //text moving around fix
   //may refer to fix
 
+  const [trigger, setTrigger] = useState(0);
+
+
+
 
   const [textStrings, setTextStrings] = useState([]);
   const mouseRef = useMouse();
 
   const [works, setWorks] = useState([]);
+
+  const workAnimatingRef = useRef(false);
+
+  const removeWork = (workId) => {
+    setWorks(works.filter(w => w.workId !== workId));
+  }
 
   const addTextString = (x = 100, y = 100, text = [], fontSize = 20) => {
     setTextStrings(prev => [...prev, { x: x, y: y, text: text, fontSize: fontSize, id: crypto.randomUUID() }]);
@@ -42,7 +53,7 @@ export default function Home() {
 
   const clearTextString = (clearIdList) => {
     setTextStrings(textStrings.filter(ts => !clearIdList.includes(ts.id)))
-    textListRef.current = (textListRef.current.filter(ts => !clearIdList.includes(ts.id)))
+    textListRef.current = textListRef.current.filter(ts => !clearIdList.includes(ts.id))
   }
 
   console.log(textListRef.current)
@@ -94,30 +105,52 @@ export default function Home() {
     //   ]
     // ])
     getRandomWork().then(res => {
-      createWork(res);
-      console.log(res);
+      printWork()
     })
   }, []);
 
   function createWork(data) {
-    setWorks([...works, { x: 0, y: 0, workId: data.workId, letterList: data.letterList, question: data.question }])
+    setWorks([...works, { x: window.innerWidth * 0.08, y: -200, workId: data.workId, letterList: data.letterList, question: data.question }])
+  }
+
+  const printWork = () => {
+    if (workAnimatingRef.current) {
+      return;
+    }
+    getRandomWork().then(res => {
+      if (works.some(w => w.workId === res.workId)) {
+        printWork();
+        return;
+      }
+      createWork(res);
+      console.log(res);
+      setTrigger(trigger + 1);
+    })
   }
 
 
 
 
   return (
+    <div className="crt">
+      <div className="screen">
 
-    <div className="screen">
-      <Scroll />
-      {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
-      {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question}></Work>)}
-      <div className="container">
-        <div className="fax">
-        </div>
-        <Draw textListRef={textListRef} clearTextString={clearTextString}>
-        </Draw>
-        <WikiScreen textStrings={textStrings} addTextString={addTextString} />
+        <CanvasProvider>
+          <Scroll />
+          <div className="cover"></div>
+          {textStrings.map(ts => <TextString updateList={updateList} removeFromList={removeFromList} key={ts.id} x={ts.x} y={ts.y} text={ts.text} fontSize={ts.fontSize} id={ts.id} ></TextString>)}
+          {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question} trigger={trigger} removeWork={removeWork} id={w.workId} workAnimatingRef={workAnimatingRef}></Work>)}
+          <div className="container">
+            <div className="fax">
+
+            </div>
+            <button onClick={printWork}>HIII</button>
+            <Draw textListRef={textListRef} clearTextString={clearTextString}>
+            </Draw>
+            <WikiScreen textStrings={textStrings} addTextString={addTextString} />
+          </div>
+        </CanvasProvider>
+
       </div>
     </div>
   );

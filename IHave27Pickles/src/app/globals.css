@@ -3,15 +3,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#canvas-test {
-    border: 5px solid black;
-}
-
 #canvas {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 1;
     white-space: pre-wrap;
     user-select: none;
     width: 100vw;
@@ -48,7 +44,7 @@ img {
 .fax {
     width: 25vw;
     height: 80vh;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255);
     border-top-left-radius: 225px 15px;
     border-top-right-radius: 25px 205px;
     border-bottom-right-radius: 150px 15px;
@@ -57,7 +53,7 @@ img {
     transition: all .5s ease;
     box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
     border: solid 2px #41403E;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
 
 }
 
@@ -162,6 +158,9 @@ img {
     top: 0;
     left: 0;
     bottom: 0;
+
+    z-index: 9999;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
     right: 0;
     background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
     z-index: 9999;
@@ -170,8 +169,11 @@ img {
 }
 
 .crt {
-    box-shadow: 0 0 200px rgba(0, 0, 0, 0.9) inset;
+
+    background-color: white;
 }
+
+
 
 
 #bin {
@@ -243,9 +245,11 @@ img {
 .scroll-container {
     overflow: hidden;
     white-space: nowrap;
+    z-index: 9000;
 }
 
 .track {
+    position: relative;
     display: inline-flex;
     gap: 40px;
     width: max-content;
@@ -254,6 +258,7 @@ img {
     color: white;
     font-size: 20px;
     padding: 5px 0 5px 0;
+    z-index: 9000;
 }
 
 @keyframes scroll {
@@ -275,7 +280,10 @@ img {
     justify-content: center;
     padding: 10px;
     box-sizing: border-box;
-    z-index: 5;
+    z-index: -1;
+    border-top: dashed 2px black;
+    -webkit-box-shadow: 5px 3px 19px 7px rgba(135, 135, 135, 0.5);
+    box-shadow: 5px 3px 19px 7px rgba(135, 135, 135, 0.5);
 }
 
 .lines {
@@ -293,4 +301,16 @@ img {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.cover {
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    transform: translate(-45px);
+    left: 8vw;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+    border-bottom: solid 1px black;
 }

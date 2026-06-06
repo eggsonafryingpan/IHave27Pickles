@@ -67,6 +67,11 @@ function blockSelect(mouseRef, currRef, startRef) {
         const text = textNode.textContent;
         if (!text) return;
 
+        if (start.y > end.y) {
+            const temp = start.y - 1;
+            start.y = end.y + 1;
+            end.y = temp;
+        }
         if (Math.abs(start.y - end.y) > 1) {
             end = { ...end, y: end.y - 1 };
         }

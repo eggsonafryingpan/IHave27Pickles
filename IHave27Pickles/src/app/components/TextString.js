@@ -174,6 +174,7 @@ const TextString = ({ x, y, text, pointsLength, spread = 12, fontSize = 20, upda
         // console.log(points[0].curr.getDist(mouseV) < 100);
         const el = document.elementFromPoint(points[0].curr.x, points[0].curr.y);
         if (el.id === 'bin' && !mouse.isDown) {
+            mouse.isDragging = false;
             removeFromList(stringId);
             return;
         }
