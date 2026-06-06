@@ -32,12 +32,13 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                         console.log("Data: ", res.data);
                         setLoading(false);
                     }).catch(err => {
-                        const status = err?.response?.status;
-                        if (status === 500) {
-                            setTimeout(() => {
-                                getNewArticle();
-                            }, 1000);
-                        }
+                        console.log(err);
+                        // const status = err?.response?.status;
+                        // if (status === 500) {
+                        //     setTimeout() => {
+                        //         getNewArticle();
+                        //     }, 1000);
+                        // }
                     });
             }
             getNewArticle();
@@ -64,12 +65,13 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                     setLoading(false);
                 }
             }).catch(err => {
-                const status = err?.response?.status;
-                if (status === 500) {
-                    setTimeout(() => {
-                        wikiFunc();
-                    }, 2000);
-                }
+                console.log(err)
+                // const status = err?.response?.status;
+                // if (status === 500) {
+                //     setTimeout(() => {
+                //         wikiFunc();
+                //     }, 2000);
+                // }
             });
         }
         wikiFunc();
