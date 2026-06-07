@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useCanvas } from './CanvasProvider'
 import { useRef } from 'react';
 
-const SCALE = 0.6;
+const SCALE = 0.65;
 
 
 const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimatingRef }) => {
