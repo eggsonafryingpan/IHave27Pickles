@@ -29,16 +29,15 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                 axios.get("/api/wiki?url=" + encodeURIComponent("https://en.wikipedia.org/api/rest_v1/page/summary/" + title))
                     .then(res => {
                         setWikiData(res.data);
-                        console.log("Data: ", res.data);
+                        // console.log("Data: ", res.data);
                         setLoading(false);
                     }).catch(err => {
-                        console.log(err);
-                        // const status = err?.response?.status;
-                        // if (status === 500) {
-                        //     setTimeout() => {
-                        //         getNewArticle();
-                        //     }, 1000);
-                        // }
+                        const status = err?.response?.status;
+                        if (status === 500) {
+                            setTimeout(() => {
+                                getNewArticle();
+                            }, 1000);
+                        }
                     });
             }
             getNewArticle();
@@ -66,12 +65,12 @@ const WikiScreen = ({ textStrings, addTextString }) => {
                 }
             }).catch(err => {
                 console.log(err)
-                // const status = err?.response?.status;
-                // if (status === 500) {
-                //     setTimeout(() => {
-                //         wikiFunc();
-                //     }, 2000);
-                // }
+                const status = err?.response?.status;
+                if (status === 500) {
+                    setTimeout(() => {
+                        wikiFunc();
+                    }, 2000);
+                }
             });
         }
         wikiFunc();
