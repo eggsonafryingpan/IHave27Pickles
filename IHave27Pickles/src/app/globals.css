@@ -288,6 +288,11 @@ img {
     box-shadow: 5px 3px 19px 7px rgba(135, 135, 135, 0.5);
 }
 
+.work h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .lines {
     width: 85%;
     height: 60%;
