@@ -55,7 +55,7 @@ const WikiScreen = ({ textStrings, addTextString }) => {
         const wikiFunc = () => {
             getRandomWikiTitle().then((res) => {
                 if (res.data.extract.toLowerCase().includes("refer to")) {
-                    console.log("may refer to");
+                    // console.log("may refer to");
                     getRandom();
                 } else {
                     const { data, title } = res.data

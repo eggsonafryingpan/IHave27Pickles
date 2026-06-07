@@ -26,7 +26,6 @@ export default function Home() {
   //axios failure fix?
   //empty textstring fix
   //text moving around fix
-  //may refer to fix
 
   const [trigger, setTrigger] = useState(0);
 
@@ -56,7 +55,7 @@ export default function Home() {
     textListRef.current = textListRef.current.filter(ts => !clearIdList.includes(ts.id))
   }
 
-  console.log(textListRef.current)
+  // console.log(textListRef.current)
 
 
   const removeFromList = (id) => {
@@ -124,7 +123,7 @@ export default function Home() {
         return;
       }
       createWork(res);
-      console.log(res);
+      // console.log(res);
       setTrigger(trigger + 1);
     })
   }
