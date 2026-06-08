@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useCanvas } from './CanvasProvider'
 import { useRef } from 'react';
 
-const SCALE = 0.65;
+const SCALE = 0.62;
 
 
 const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimatingRef }) => {
@@ -24,6 +24,7 @@ const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimati
         function frame() {
 
             setPos(prev => {
+                workAnimatingRef.current = true;
                 const newY = prev.y + 4;
 
                 if (prev.y > window.innerHeight) {

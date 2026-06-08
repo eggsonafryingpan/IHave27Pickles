@@ -110,7 +110,7 @@ export default function Home() {
 
   function createWork(data) {
 
-    setWorks([...works, { x: window.innerWidth * 0.03, y: -140, workId: data.workId, letterList: data.letterList, question: data.question }])
+    setWorks([...works, { x: window.innerWidth * 0.03, y: -130, workId: data.workId, letterList: data.letterList, question: data.question }])
   }
 
   const printWork = () => {
