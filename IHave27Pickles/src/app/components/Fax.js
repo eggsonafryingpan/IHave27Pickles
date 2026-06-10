@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fax = () => {
   return (
-    <div></div>
+    <div className='fax'></div>
   )
 }
 

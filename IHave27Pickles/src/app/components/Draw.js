@@ -113,11 +113,11 @@ const Draw = ({ textListRef, clearTextString }) => {
                 <Image src={bin} alt='bin' id='bin'></Image>
             </div>
             <div ref={ref} className="draw">
-                {loadingStep === 1 && <h3>Evaluating...</h3>}
-                {loadingStep === 2 && <h3>Sending...</h3>}
-                {loadingStep === 3 && <h3>Submitted</h3>}
+                {loadingStep === 1 && <h3 className='draw-loading'>Evaluating...</h3>}
+                {loadingStep === 2 && <h3 className='draw-loading' >Sending...</h3>}
+                {loadingStep === 3 && <h3 className='draw-loading'>Submitted</h3>}
                 {!loadingStep && question && <>
-                    <h3>{question.question}</h3>
+                    <h3 className='draw-question'>{question.question}</h3>
                     <div className='lines'></div>
                 </>
                 }

@@ -39,6 +39,8 @@ export default function Home() {
 
   const workAnimatingRef = useRef(false);
 
+  const faxref = useRef(null);
+
   const removeWork = (workId) => {
     setWorks(works.filter(w => w.workId !== workId));
   }
@@ -141,9 +143,9 @@ export default function Home() {
           <div className="cover">
             <button className="print" onClick={printWork}>Print</button>
           </div>
-          {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question} trigger={trigger} removeWork={removeWork} id={w.workId} workAnimatingRef={workAnimatingRef}></Work>)}
+          {works.map(w => <Work x={w.x} y={w.y} key={w.workId} letterList={w.letterList} question={w.question} trigger={trigger} removeWork={removeWork} id={w.workId} workAnimatingRef={workAnimatingRef} faxref={faxref}></Work>)}
           <div className="container">
-            <div className="fax">
+            <div className="fax" ref={faxref}>
             </div>
 
             <Draw textListRef={textListRef} clearTextString={clearTextString}>

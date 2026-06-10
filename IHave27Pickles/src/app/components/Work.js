@@ -2,10 +2,21 @@ import React, { useEffect, useState } from 'react'
 import { useCanvas } from './CanvasProvider'
 import { useRef } from 'react';
 
-const SCALE = 0.62;
 
 
-const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimatingRef }) => {
+
+const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimatingRef, faxref }) => {
+    let SCALE = 0.62;
+    // let faxWidth = faxref.current.offsetWidth;
+    // SCALE = 0.62 * (faxWidth / 400);
+
+    // useEffect(() => {
+    //     const faxWidth = faxref.current.offsetWidth;
+    //     SCALE = 0.62 * (faxWidth / 400);
+    //     console.log('sdflkj');
+    // }, [faxref])
+
+
     const divRef = useRef(null);
     const [pos, setPos] = useState({ x: x, y: y });
     const animRef = useRef(null);
@@ -80,7 +91,7 @@ const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimati
                 width: 600 * SCALE,
                 height: 500 * SCALE
             }}>
-                {question && <h3>{question}</h3>}
+                {question && <h3 className='work-title'>{question}</h3>}
                 <div className='lines'>
                 </div>
             </div>
