@@ -9,7 +9,7 @@ import axios from 'axios';
 function blockSelect(mouseRef, currRef, startRef) {
     const FONT_SIZE = 15;
     const HEIGHT = 20;
-    const WIDTH = 12; // change...
+    const WIDTH = 12;
     let selected;
 
     const getCell = (x, y, rect) => {

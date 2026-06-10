@@ -56,7 +56,6 @@ export default function Home() {
     textListRef.current = textListRef.current.filter(ts => !clearIdList.includes(ts.id))
   }
 
-  // console.log(textListRef.current)
 
 
   const removeFromList = (id) => {
@@ -84,22 +83,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    updateList
+    updateList();
     initalizeUser();
-    // insertWork([
-    //   [
-    //     {
-    //       x: 100,
-    //       y: 100,
-    //       letter: '2',
-    //     },
-    //     {
-    //       x: 120,
-    //       y: 100,
-    //       letter: '7',
-    //     }
-    //   ]
-    // ])
     getRandomWork().then(res => {
       printWork()
     })
