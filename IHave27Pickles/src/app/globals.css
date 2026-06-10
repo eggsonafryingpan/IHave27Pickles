@@ -55,7 +55,6 @@ img {
     box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, .2);
     border: solid 2px #41403E;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px; */
-
 }
 
 .wiki-screen {
@@ -330,7 +329,7 @@ img {
     width: 425px;
     height: 190px;
     transform: translate(-30px);
-    left: 3vw;
+    left: 3.5vw;
     top: 0px;
     background-color: white;
     z-index: 2;

@@ -3,18 +3,32 @@ import { useCanvas } from './CanvasProvider'
 import { useRef } from 'react';
 
 
-
+let SCALE = 0.63;
 
 const Work = ({ x, y, letterList, question, trigger, removeWork, id, workAnimatingRef, faxref }) => {
-    let SCALE = 0.62;
-    // let faxWidth = faxref.current.offsetWidth;
-    // SCALE = 0.62 * (faxWidth / 400);
+
+
+    // const [width, setWidth] = useState(0);
 
     // useEffect(() => {
-    //     const faxWidth = faxref.current.offsetWidth;
-    //     SCALE = 0.62 * (faxWidth / 400);
-    //     console.log('sdflkj');
-    // }, [faxref])
+    //     const element = faxref.current;
+    //     if (!element) return;
+
+    //     const observer = new ResizeObserver(entries => {
+    //         setWidth(entries[0].contentRect.width);
+    //     });
+
+    //     observer.observe(element);
+
+    //     return () => observer.disconnect();
+    // }, []);
+
+    // useEffect(() => {
+    //     SCALE = 0.62 * (width / 400);
+    //     console.log(width);
+    // }, [width]);
+
+
 
 
     const divRef = useRef(null);

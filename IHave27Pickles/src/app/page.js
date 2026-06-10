@@ -23,7 +23,6 @@ import { CanvasProvider } from "./components/CanvasProvider";
 
 export default function Home() {
 
-  //axios failure fix?
   //empty textstring fix
   //text moving around fix
 
@@ -83,10 +82,6 @@ export default function Home() {
       textListRef.current[index].points = mapped;
     }
   };
-
-  useEffect(() => {
-    // addTextString(300, 300, "RAHAHHAHAH", 20);
-  }, []);
 
   useEffect(() => {
     updateList
