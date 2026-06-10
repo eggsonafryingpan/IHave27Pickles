@@ -321,6 +321,10 @@ img {
     justify-content: center;
 }
 
+a {
+    color: black;
+}
+
 .cover {
     position: absolute;
     display: flex;

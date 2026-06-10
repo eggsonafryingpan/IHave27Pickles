@@ -145,7 +145,7 @@ const WikiScreen = ({ textStrings, addTextString }) => {
 
             {wikiData &&
                 <div>
-                    <h2>{wikiData?.title}</h2>
+                    <h2><a href={wikiData?.content_urls?.desktop?.page} target="_blank">{wikiData?.title}</a></h2>
                     <img src={wikiData?.thumbnail?.source}></img>
                     <br></br>
                     {/* <a href={wikiData?.content_urls?.desktop?.page}>{wikiData?.content_urls?.desktop?.page}</a>} */}

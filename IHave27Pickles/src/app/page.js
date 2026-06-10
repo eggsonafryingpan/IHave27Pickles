@@ -83,7 +83,6 @@ export default function Home() {
   };
 
   useEffect(() => {
-    updateList();
     initalizeUser();
     getRandomWork().then(res => {
       printWork()
