@@ -85,7 +85,7 @@ export default function Home() {
   useEffect(() => {
     initalizeUser();
     getRandomWork().then(res => {
-      printWork()
+      printWork();
     })
   }, []);
 
